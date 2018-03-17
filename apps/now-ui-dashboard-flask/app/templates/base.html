@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>{{ assets.WEBSITE_NAME }}</title>
+    
+    <meta name="description" content="{{ assets.WEBSITE_INFO }}">
+    <meta name="keywords"    content="{{ assets.WEBSITE_KEYWORDS }}">
+
+    {% include 'common/header.html' %}
+
+</head>
+
+<body class="">
+
+    <div class="wrapper ">
+
+        {% include 'common/sidebar.html' %}
+        
+        <div class="main-panel">
+
+            {{ content | safe }}
+
+            {% include 'common/footer.html' %}
+
+        </div>
+
+    </div>
+</body>
+
+    {% include 'common/footer_res.html' %}
+
+    <script>
+        $(document).ready(function() {
+
+            // Javascript method's body can be found in assets/js/demos.js
+            demo.initDashboardPageCharts();
+        
+        });
+    </script>
+    
+</html>
