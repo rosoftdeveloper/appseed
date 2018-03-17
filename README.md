@@ -1,6 +1,5 @@
 ## Free & Hacky content provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
-### Free WebApps, Hacky scripts & Help for bad ass developers  
-
+### WebApps & scripts for bad ass developers  
 
 
 <p align="center">
@@ -8,14 +7,17 @@
 </p>
 
 
-
 ## Free WebApps (sorted by languages & frameworks)
 ### Php   
 
-* Now Ui Dashboard: Designed by [Creative-Tim](https://www.creative-tim.com), Coded in CodeIgniter. Modules: auth, registration, Propel ORM, forms RECAPCHA, helpers
+* [Now Ui Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-dashboard), Coded in [CodeIgniter](https://codeigniter.com/) Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 
-## License Note
-* All projects & content of this repo is released under MIT License
+
+
+
+## License 
+* This project is under MIT License
+
 
 
 Copyright (c) 2018 AppSeed | RoSoftware.ro
