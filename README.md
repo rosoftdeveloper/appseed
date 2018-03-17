@@ -22,11 +22,17 @@
 * Flask - [Light Bootstrap Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/light-bootstrap-dashboard-flask) by [Creative-Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard). Modules: Auth, Registration, [SqlAlchemy ORM](http://flask-sqlalchemy.pocoo.org/2.3/), helpers
 
 
+
+
 ## Note 
 * This content is generated entirely by [AppSeed](https://www.appseed.us/?ref=github). Cool! 
 
+
+
 ## Sponsorship - projects we are involved as a sponsor:
 * [Trumbowyg](https://alex-d.github.io/Trumbowyg/) - A lightweight WYSIWYG editor
+
+
 
 ## License 
 * This project is under MIT License
