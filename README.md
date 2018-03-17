@@ -16,6 +16,7 @@
 
 * CodeIgniter - [Now Ui Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 * CodeIgniter - [Light Bootstrap Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/light-bootstrap-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
+* CodeIgniter - [Material Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/material-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/material-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 
 #### Python   
 
