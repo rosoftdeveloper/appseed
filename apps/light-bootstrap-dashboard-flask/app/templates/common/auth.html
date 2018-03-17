@@ -1,0 +1,28 @@
+
+
+    {% if current_user.is_authenticated %}
+
+        <li class="nav-item">
+            <a class="nav-link" href="/logout">
+                <span class="no-icon">Logout</span>
+            </a>
+        </li>
+
+    {% else %}
+
+        <li class="nav-item">
+            <a class="nav-link" href="/login">
+                <span class="no-icon">Login</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/register">
+                <span class="no-icon">Register</span>
+            </a>
+        </li>
+            
+    {% endif %}
+
+
+
