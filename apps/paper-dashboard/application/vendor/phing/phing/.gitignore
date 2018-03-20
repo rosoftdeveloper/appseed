@@ -1,0 +1,12 @@
+.buildpath
+.project
+.settings
+.idea
+build/full
+build/pear
+test/reports
+docs/api/docs
+vendor
+bin/*
+!bin/pear*
+!bin/phing*
