@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img width="800" height="600" src="https://www.appseed.us/static/media/material-dashboard/thumbnail.jpg">
+  <img width="800" height="600" src="https://www.appseed.us/static/media/paper-dashboard/thumbnail.jpg">
 </p>
 
 
