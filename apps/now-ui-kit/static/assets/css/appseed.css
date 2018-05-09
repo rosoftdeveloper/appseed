@@ -1,0 +1,40 @@
+/*!
+AppSeed CSS
+Author: www.RoSoftware.ro
+*/
+/*---------------------------------------------
+[Table of contents]
+
+1. Customize Trumbowyg
+2. Top edit box
+
+---------------------------------------------*/
+/*
+* 1. Customize Trumbowyg
+*/
+
+.trumbowyg-viewHTML-button {
+    display: none !important;
+}
+
+---------------------------------------------*/
+/*
+* 2. Top edit box
+*/
+
+.header-main {
+    height: 80px;
+}
+
+.header-edit {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f4f4f4;
+
+    z-index: 999;
+
+    height: 80px;
+    text-align: center;
+}
+
