@@ -6,16 +6,9 @@
             <div class="container">
                 <div class="content-center">
                     <h1 class="title">Your great company.</h1>
-                    <h3 class="title">EDITABLE content. Please login</h3>
                     <div class="text-center">
-                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                            <i class="fa fa-google-plus"></i>
+                        <a href="https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-kit" class="btn btn-primary btn-lg btn-round" role="button">
+                            Download
                         </a>
                     </div>
                 </div>

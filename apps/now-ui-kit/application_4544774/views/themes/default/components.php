@@ -1092,14 +1092,17 @@
                     <div class="row justify-content-md-center">
                         <div class="text-center col-md-12 col-lg-8">
                             <h3 class="title">Do you love this Bootstrap 4 UI Kit?</h3>
-                            <h5 class="description">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim or Invision where you can find the kit in HTML or Sketch/PSD format. Start a new project or give an old Bootstrap project a new look!</h5>
+                            <h5 class="description">Cause if you do, it can be yours for FREE. 
+                            Hit the button below to navigate to Creative Tim or AppSeed where you can find the kit in HTML or coded in Php / CodeIgniter. 
+                            Start a new project or give an old Bootstrap project a new look!</h5>
                         </div>
                         <div class="text-center col-md-12 col-lg-8">
                             <a href="https://www.creative-tim.com/product/now-ui-kit" class="btn btn-primary btn-lg btn-round" role="button">
                                 Download HTML
                             </a>
-                            <a href="https://www.invisionapp.com/now" target="_blank" class="btn btn-primary btn-lg btn-simple btn-round" role="button">
-                                Download PSD/Sketch
+                            <a  href="https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-kit" 
+                                target="_blank" class="btn btn-primary btn-lg btn-simple btn-round" role="button">
+                                Download This WebApp
                             </a>
                         </div>
                     </div>

@@ -18,13 +18,13 @@
                 <ul class="navbar-nav">
                 <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('profile'); ?>" >
-                            <i class="now-ui-icons files_paper"></i>
+                            <i class="fa fa-users"></i>
                             <p>Profile</p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('components'); ?>">
-                            <i class="now-ui-icons files_paper"></i>
+                            <i class="fa fa-sitemap"></i>
                             <p>Components</p>
                         </a>
                     </li>
@@ -32,19 +32,19 @@
                     <?php if ( logged_in() ) { ?>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('logout'); ?>">
-                            <i class="now-ui-icons ui-1_settings-gear-63"></i>
+                            <i class="fa fa-sign-out"></i>
                             <p>Logout</p>
                         </a>
                     </li>
                     <?php } else { ?>
                         <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('login'); ?>">
-                            <i class="now-ui-icons ui-1_settings-gear-63"></i>
+                            <i class="fa fa-sign-in"></i>
                             <p>Login</p>
                         </a>
                         <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('register'); ?>">
-                            <i class="now-ui-icons ui-1_settings-gear-63"></i>
+                            <i class="fa fa-user-plus"></i>
                             <p>Register</p>
                         </a>
                     </li>

@@ -15,5 +15,5 @@ RewriteRule ^(.*)$ index.php/$1 [L,QSA]
 
 ################################################################## 
 # Redirect non-www to www
-RewriteCond %{HTTP_HOST} ^demo.amz-webdesign.ro [NC] 
-RewriteRule ^(.*)$ http://www.demo.amz-webdesign.ro/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^now-ui-kit.appseed.us [NC] 
+RewriteRule ^(.*)$ http://www.now-ui-kit.appseed.us/$1 [L,R=301]
