@@ -12,7 +12,7 @@
 
 #### Php / CodeIgniter  
 
-* [DEMO][http://www.now-ui-kit.appseed.us/] - [Now Ui Kit](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-kit) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-kit). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
+* [Demo](http://www.now-ui-kit.appseed.us/) - [Now Ui Kit](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-kit) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-kit). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 * [Now Ui Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 * [Light Bootstrap Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/light-bootstrap-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 * [Material Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/material-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/material-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
