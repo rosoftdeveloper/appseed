@@ -1102,7 +1102,7 @@
                             </a>
                             <a  href="https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-kit" 
                                 target="_blank" class="btn btn-primary btn-lg btn-simple btn-round" role="button">
-                                Download This WebApp
+                                Download This App
                             </a>
                         </div>
                     </div>

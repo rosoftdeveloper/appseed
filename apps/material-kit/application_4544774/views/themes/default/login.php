@@ -44,7 +44,7 @@
                                     <button class="btn btn-primary btn-simple btn-round" type="submit">Submit</button>
                                     <br />            
                                     <button class="btn btn-link btn-info">
-                                        <a href="<?php echo base_url('login'); ?>">Login</a> 
+                                        <a href="<?php echo base_url('register'); ?>">Register</a> 
                                         &nbsp;&nbsp;
                                         <a href="<?php echo base_url(); ?>">Home</a> 
                                     </button>

@@ -1237,19 +1237,19 @@
             </div>
         </div>
         <div class="col-md-12 text-center">
-            <a href="<?php echo base_url('register'); ?>" class="btn btn-link btn-primary btn-lg" target="_blank">View Signup Page</a>
+            <a href="<?php echo base_url('register'); ?>" class="btn btn-link btn-primary btn-lg">View Signup Page</a>
         </div>
         <div class="section section-examples">
             <div class="container-fluid text-center">
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="<?php echo base_url(); ?>" target="_blank">
+                        <a href="<?php echo base_url(); ?>">
                             <img src="/static/themes/<?php echo $theme; ?>/assets/img/kit/free/landing.jpg" alt="Rounded Image" class="img-raised rounded img-fluid">
                             <button class="btn  btn-link btn-primary btn-lg">View Landing Page</button>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="<?php echo base_url('profile'); ?>" target="_blank">
+                        <a href="<?php echo base_url('profile'); ?>">
                             <img src="/static/themes/<?php echo $theme; ?>/assets/img/kit/free/profile.jpg" alt="Rounded Image" class="img-raised rounded img-fluid">
                             <button class="btn btn-link btn-primary btn-lg">View Profile Page</button>
                         </a>
