@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <propel>
+    <datasources default="propel_db">
+      <datasource id="propel_db">
+        <adapter>mysql</adapter> <!-- sqlite, mysql, mssql, oracle, or pgsql -->
+        <connection>
+          <dsn>mysql:host=localhost;dbname=appseed_material_kit</dsn>
+          <user>appseed</user>
+          <password>appseed</password>
+        </connection>
+      </datasource>
+    </datasources>
+  </propel>
+</config>
