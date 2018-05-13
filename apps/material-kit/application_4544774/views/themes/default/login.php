@@ -3,7 +3,9 @@
                 <div class="row">
                     <div class="col-md-4 ml-auto mr-auto">
                         <div class="card card-signup">
-                            <form class="form" method="" action="">
+
+                            <form class="form" method="POST" action="/login">
+                        
                                 <div class="card-header card-header-primary text-center">
                                     <h4>Login</h4>
                                     <div class="social-line">
@@ -24,19 +26,13 @@
                                         <span class="input-group-addon">
                                             <i class="material-icons">face</i>
                                         </span>
-                                        <input type="text" class="form-control" placeholder="First Name...">
-                                    </div>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="material-icons">email</i>
-                                        </span>
-                                        <input type="email" class="form-control" placeholder="Email...">
+                                        <input name="username" type="text" class="form-control" placeholder="Username">
                                     </div>
                                     <div class="input-group">
                                         <span class="input-group-addon">
                                             <i class="material-icons">lock_outline</i>
                                         </span>
-                                        <input type="password" class="form-control" placeholder="Password...">
+                                        <input name="password" type="password" class="form-control" placeholder="Password">
                                     </div>
                         
                                 </div>
