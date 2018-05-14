@@ -12,6 +12,7 @@
 
 #### Php / CodeIgniter  
 
+* [Demo](http://www.paper-kit.appseed.us/) - [Paper Kit 2](https://github.com/rosoftdeveloper/appseed/tree/master/apps/paper-kit) by [Creative-Tim](https://www.creative-tim.com/product/paper-kit-2). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 * [Demo](http://www.now-ui-kit.appseed.us/) - [Now Ui Kit](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-kit) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-kit). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 * [Demo](http://www.material-kit.appseed.us/) - [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/apps/material-kit) by [Creative-Tim](https://www.creative-tim.com/product/material-kit). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
 * [Now Ui Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
