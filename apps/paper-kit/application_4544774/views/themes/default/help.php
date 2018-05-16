@@ -21,10 +21,9 @@
                             <h2 class="title">General Information</h2>
                             <p>
                                 This web application is fully coded. You can use it right away. 
-                                This project includes the HTML theme designed by <a href="https://www.creative-tim.com">Creative-Tim</a> and coded automatically by <a href="https://www.appseed.us">APPSEED</a>.
+                                The project includes the HTML theme designed by <a href="https://www.creative-tim.com">Creative-Tim</a> and coded automatically by <a href="https://www.appseed.us">APPSEED</a>.
                                 <br />
-                                This apllication is coded in <a href="http://php.net/">Php</a> / <a href="https://codeigniter.com/">CodeIgniter</a> and use <a href="https://www.mysql.com/">MySql</a> as a database engine. 
-                                Goodies included: MySql Database, <a href="http://propelorm.org//">Propel</a> orm, a state of the art web framework - <a href="https://codeigniter.com/">CodeIgniter</a>, helpers. 
+                                Goodies included: <a href="http://php.net/">Php</a> / <a href="https://codeigniter.com/">CodeIgniter</a>, MySql Database, <a href="http://propelorm.org//">Propel</a> orm, a state of the art web framework - <a href="https://codeigniter.com/">CodeIgniter</a>, helpers. 
                             </p>
                         </div>
                     </div>
@@ -46,8 +45,8 @@
                         <div class="col-md-8 ml-auto mr-auto">
                             <h3 class="title">Set UP</h3>
                             <p>
-                                <strong>Database</strong>: create a new database with the name <strong>appseed_now_ui_kit</strong> and assign read / write privilegies 
-                                to user user <strong>appseed</strong>, password <strong>appseed</strong>
+                                <strong>Database</strong>: create a new database with the name <strong>appseed_paper_kit</strong> and assign read / write privilegies 
+                                to user <strong>appseed</strong>, password <strong>appseed</strong>
                             </p>
                             <p>
                                 <strong>Database provisioning</strong>: create tables with the SQL script saved in <strong>devel/db_schema.sql</strong> 
