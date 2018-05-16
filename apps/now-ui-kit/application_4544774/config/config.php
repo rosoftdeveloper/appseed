@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-//$config['base_url'] = 'http://localhost:5000/';
-$config['base_url'] = 'http://www.now-ui-kit.appseed.us/';
+$config['base_url'] = 'http://localhost:5000/';
+//$config['base_url'] = 'http://www.now-ui-kit.appseed.us/';
 
 // DO not change this !!!
 $config['theme'] = 'default'; 

@@ -29,6 +29,13 @@
                         </a>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('help'); ?>">
+                            <i class="fa fa-info"></i>
+                            <p>Help</p>
+                        </a>
+                    </li>
+
                     <?php if ( logged_in() ) { ?>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('logout'); ?>">
