@@ -28,6 +28,12 @@
                         </div>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('help'); ?>">
+                            <i class="material-icons">help_outline</i> Help
+                        </a>
+                    </li>
+
                     <?php if ( logged_in() ) { ?>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('logout'); ?>">
