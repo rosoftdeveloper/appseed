@@ -26,13 +26,13 @@
                                         <span class="input-group-addon">
                                             <i class="material-icons">face</i>
                                         </span>
-                                        <input name="username" type="text" class="form-control" placeholder="Username">
+                                        <input value="test" name="username" type="text" class="form-control" placeholder="Username">
                                     </div>
                                     <div class="input-group">
                                         <span class="input-group-addon">
                                             <i class="material-icons">lock_outline</i>
                                         </span>
-                                        <input name="password" type="password" class="form-control" placeholder="Password">
+                                        <input value="pass" name="password" type="password" class="form-control" placeholder="Password">
                                     </div>
                         
                                 </div>

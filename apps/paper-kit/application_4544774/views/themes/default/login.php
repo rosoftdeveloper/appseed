@@ -39,10 +39,10 @@
                                     <form class="register-form" method="POST" action="/login">
 
                                         <label>Username</label>
-                                        <input name="username" type="text" class="form-control" placeholder="Username">
+                                        <input value="test" name="username" type="text" class="form-control" placeholder="Username">
 
                                         <label>Password</label>
-                                        <input name="password" type="password" class="form-control" placeholder="Password">
+                                        <input value="pass" name="password" type="password" class="form-control" placeholder="Password">
 
                                         <button class="btn btn-danger btn-block btn-round">Submit</button>
                                     </form>

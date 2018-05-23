@@ -28,13 +28,13 @@
                                         <span class="input-group-addon">
                                             <i class="now-ui-icons users_circle-08"></i>
                                         </span>
-                                        <input name="username" type="text" class="form-control" placeholder="Username">
+                                        <input value="test" name="username" type="text" class="form-control" placeholder="Username">
                                     </div>
                                     <div class="input-group form-group-no-border">
                                         <span class="input-group-addon">
                                             <i class="now-ui-icons ui-1_email-85"></i>
                                         </span>
-                                        <input name="password" type="password" class="form-control" placeholder="Password">
+                                        <input value="pass" name="password" type="password" class="form-control" placeholder="Password">
                                     </div>
                                     <!-- If you want to add a checkbox to this form, uncomment this code -->
                                     <!-- <div class="checkbox">
