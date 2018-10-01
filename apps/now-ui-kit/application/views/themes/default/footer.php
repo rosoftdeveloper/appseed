@@ -15,11 +15,6 @@
                                 APPSEED
                             </a>
                         </li>
-                        <li>
-                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                                MIT License
-                            </a>
-                        </li>
                     </ul>
                 </nav>
                 <div class="copyright">

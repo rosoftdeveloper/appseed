@@ -97,7 +97,7 @@ switch (ENVIRONMENT)
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-	$system_path = 'system_2554488'; // avoid overwrite ..
+	$system_path = 'system'; // avoid overwrite ..
 
 /*
  *---------------------------------------------------------------
@@ -114,7 +114,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = 'application_4544774';  // avoid overwrite ..
+	$application_folder = 'application';  // avoid overwrite ..
 
 /*
  *---------------------------------------------------------------
