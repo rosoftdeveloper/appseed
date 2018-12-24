@@ -1,0 +1,62 @@
+{
+    "css": [
+        "/assets/css/bootstrap.min.css", 
+        "/assets/css/font-awesome.min.css", 
+        "/assets/css/style.css"
+    ], 
+    "css_raw": [
+        "css/bootstrap.min.css", 
+        "css/font-awesome.min.css", 
+        "style.css"
+    ], 
+    "file": "/home/sm0ke/work/tool_themeparser_interactive/themes/po-portfolio/index.html", 
+    "img": [
+        "/assets/img/logo.png", 
+        "/assets/img/menu-icon.png", 
+        "/assets/img/x.png", 
+        "/assets/img/logo2.png", 
+        "/assets/img/1.jpg", 
+        "/assets/img/2.jpg", 
+        "/assets/img/3.jpg", 
+        "/assets/img/4.jpg", 
+        "/assets/img/5.jpg", 
+        "/assets/img/6.jpg", 
+        "/assets/img/7.jpg", 
+        "/assets/img/8.jpg", 
+        "/assets/img/9.jpg", 
+        "/assets/img/10.jpg", 
+        "/assets/img/11.jpg", 
+        "/assets/img/12.jpg", 
+        "/assets/img/arrow-down.png"
+    ], 
+    "img_raw": [
+        "images/logo.png", 
+        "images/menu-icon.png", 
+        "images/x.png", 
+        "images/logo2.png", 
+        "images/1.jpg", 
+        "images/2.jpg", 
+        "images/3.jpg", 
+        "images/4.jpg", 
+        "images/5.jpg", 
+        "images/6.jpg", 
+        "images/7.jpg", 
+        "images/8.jpg", 
+        "images/9.jpg", 
+        "images/10.jpg", 
+        "images/11.jpg", 
+        "images/12.jpg", 
+        "images/arrow-down.png"
+    ], 
+    "js": [
+        "/assets/js/jquery.js", 
+        "/assets/js/custom.js"
+    ], 
+    "js_raw": [
+        "js/jquery.js", 
+        "js/custom.js"
+    ], 
+    "lang": "en", 
+    "strings": {}, 
+    "strings_info": {}
+}

@@ -1,42 +1,22 @@
-## Free & Hacky content provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
-### WebApps & scripts for bad ass developers  
+## Free content provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
+### Fully functional website templates & Coded Apps & Free website builder 
+
+#### Coded Apps   
+*  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/py-flask-jq)
+*  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/js-fastify-jq)
+*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq)
+*  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-laravel-jq)
 
 
-
-
-<p align="center">
-  <img width="800" height="600" src="https://www.appseed.us/static/media/github/thumbnail-2.jpg">
-</p>
-
-
-
-#### Php / CodeIgniter  
-
-* [Demo](http://www.paper-kit.appseed.us/) - [Paper Kit 2](https://github.com/rosoftdeveloper/appseed/tree/master/apps/paper-kit) by [Creative-Tim](https://www.creative-tim.com/product/paper-kit-2). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
-* [Demo](http://www.now-ui-kit.appseed.us/) - [Now Ui Kit](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-kit) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-kit). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
-* [Demo](http://www.material-kit.appseed.us/) - [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/apps/material-kit) by [Creative-Tim](https://www.creative-tim.com/product/material-kit). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
-* [Now Ui Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
-* [Light Bootstrap Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/light-bootstrap-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
-* [Material Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/material-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/material-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
-* [Paper Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/paper-dashboard) by [Creative-Tim](https://www.creative-tim.com/product/paper-dashboard). Modules: Auth, Registration, [Propel ORM](http://propelorm.org), helpers
-
-#### Python / Flask  
-
-* [Now Ui Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/now-ui-dashboard-flask) by [Creative-Tim](https://www.creative-tim.com/product/now-ui-dashboard). Modules: Auth, Registration, [SqlAlchemy ORM](http://flask-sqlalchemy.pocoo.org/2.3/), helpers
-* [Light Bootstrap Dashboard](https://github.com/rosoftdeveloper/appseed/tree/master/apps/light-bootstrap-dashboard-flask) by [Creative-Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard). Modules: Auth, Registration, [SqlAlchemy ORM](http://flask-sqlalchemy.pocoo.org/2.3/), helpers
-
-
-#### Processed Themes   
+#### Fully functional website templates   
 
 * [Argon](https://github.com/creativetimofficial/argon-design-system) by [Creative-Tim](https://demos.creative-tim.com/argon-design-system/)
-  * The new UI Kit released by Creative-Tim. Goodies added by us: [Processed Index](https://github.com/rosoftdeveloper/appseed/blob/master/themes/argon/index_p.html), [Assets in JSON format](https://github.com/rosoftdeveloper/appseed/blob/master/themes/argon/index_data.json), Components in [HTML](https://github.com/rosoftdeveloper/appseed/tree/master/themes/argon/components) and [Php](https://github.com/rosoftdeveloper/appseed/tree/master/themes/argon/components/php) extracted in HTML / Php  
+  * The new UI Kit released by Creative-Tim. Goodies added by us: [Processed Index](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/index_p.html), [Assets in JSON format](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/index_data.json), Components in [HTML](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon/components) and [Php](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon/components/php) extracted in HTML / Php  
 * [po-portfolio](https://colorlib.com/wp/template/po-portfolio/) by [ColorLib](https://colorlib.com/)
-  * Free Bootstrap portfolio website template. Goodies addedincluded: [Processed Index](https://github.com/rosoftdeveloper/appseed/blob/master/themes/po-portfolio/index_p.html), [Assets in JSON format](https://github.com/rosoftdeveloper/appseed/blob/master/themes/po-portfolio/index_data.json), Components in [HTML](https://github.com/rosoftdeveloper/appseed/tree/master/themes/po-portfolio/components)   
+  * Free Bootstrap portfolio website template. Goodies addedincluded: [Processed Index](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/po-portfolio/index_p.html), [Assets in JSON format](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/po-portfolio/index_data.json), Components in [HTML](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/po-portfolio/components)   
 
-
-## Note 
-* All apps are generated by [AppSeed](https://www.appseed.us/?ref=github). Cool! 
-
+#### Tools
+Nothing here for the moment. Stay tooned!
 
 
 ## License 
