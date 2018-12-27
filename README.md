@@ -3,7 +3,6 @@
 
 #### Coded Apps   
 *  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/py-flask-jq)
-*  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/js-fastify-jq)
 *  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq)
 *  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-laravel-jq)
 
