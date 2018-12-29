@@ -1,7 +1,7 @@
-## Free content provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
-### Fully functional website templates & Coded Apps & Free website builder 
+## Fully functional website templates provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
+No more lorem ipsun in your components. 
 
-#### Fully functional website templates   
+### Argon Desgn system - Designed by CreativeTim   
 
 * [Argon](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon) by [Creative-Tim](https://demos.creative-tim.com/argon-design-system/)
   * 20 components extracted in (plain) [HTML](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/html/), [Php](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/php/), [Blade (Laravel)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/blade/) and [Jinja2 (Flask)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/jinja2/)  
@@ -9,16 +9,6 @@
 <p align="center">
   <img width="1000" height="400" src="https://www.appseed.us/static/themes/enhanced-argon/thumbnail.jpg">
 </p>
-
-#### Coded Apps   
-*  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/py-flask-jq)
-*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq)
-*  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-laravel-jq)
-
-
-
-#### Tools
-Nothing here for the moment. Stay tooned!
 
 
 ## License 
