@@ -1,8 +1,8 @@
 
 Codded app:
     Frontend: Jq
-    Backend:  Fastify
-    DB:       SqLite
+    Backend:  CodeIgniter
+    DB:       
 
 Info:
  @Todo

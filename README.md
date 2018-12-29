@@ -10,7 +10,8 @@
 #### Fully functional website templates   
 
 * [Argon](https://github.com/creativetimofficial/argon-design-system) by [Creative-Tim](https://demos.creative-tim.com/argon-design-system/)
-  * The new UI Kit released by Creative-Tim. Goodies added by us: [Processed Index](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/index_p.html), [Assets in JSON format](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/index_data.json), Components in [HTML](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon/components) and [Php](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon/components/php) extracted in HTML / Php  
+  * 20 components extracted in (plain) [HTML] (https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/html), [Php], [Blade (Laravel)] and [Jinja2 (Flask)]  
+
 * [po-portfolio](https://colorlib.com/wp/template/po-portfolio/) by [ColorLib](https://colorlib.com/)
   * Free Bootstrap portfolio website template. Goodies addedincluded: [Processed Index](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/po-portfolio/index_p.html), [Assets in JSON format](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/po-portfolio/index_data.json), Components in [HTML](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/po-portfolio/components)   
 
