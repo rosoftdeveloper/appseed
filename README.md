@@ -1,19 +1,21 @@
 ## Free content provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
 ### Fully functional website templates & Coded Apps & Free website builder 
 
+#### Fully functional website templates   
+
+* [Argon](https://github.com/creativetimofficial/argon-design-system) by [Creative-Tim](https://demos.creative-tim.com/argon-design-system/)
+  * 20 components extracted in (plain) [HTML](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/html/), [Php](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/php/), [Blade (Laravel)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/blade/) and [Jinja2 (Flask)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/jinja2/)  
+
+<p align="center">
+  <img width="1000" height="400" src="https://www.appseed.us/static/themes/enhanced-argon/thumbnail.jpg">
+</p>
+
 #### Coded Apps   
 *  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/py-flask-jq)
 *  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq)
 *  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-laravel-jq)
 
 
-#### Fully functional website templates   
-
-* [Argon](https://github.com/creativetimofficial/argon-design-system) by [Creative-Tim](https://demos.creative-tim.com/argon-design-system/)
-  * 20 components extracted in (plain) [HTML] (https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/html), [Php], [Blade (Laravel)] and [Jinja2 (Flask)]  
-
-* [po-portfolio](https://colorlib.com/wp/template/po-portfolio/) by [ColorLib](https://colorlib.com/)
-  * Free Bootstrap portfolio website template. Goodies addedincluded: [Processed Index](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/po-portfolio/index_p.html), [Assets in JSON format](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/po-portfolio/index_data.json), Components in [HTML](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/po-portfolio/components)   
 
 #### Tools
 Nothing here for the moment. Stay tooned!
