@@ -8,10 +8,11 @@ No more lorem ipsun in your components.
 </p>
 
 ## Features:
-* Design: (Argon Design System)[https://github.com/creativetimofficial/argon-design-system]
-* Framework: (CodeIgniter)[https://codeigniter.com/] Version 3.1.9
-* Auth System: (CodeIgniter-Ion-Auth)[https://github.com/benedmunds/CodeIgniter-Ion-Auth]
-* Helpers: Session Helpers, Validation (int, strings)
+* Design: [Argon Design System](https://github.com/creativetimofficial/argon-design-system)
+* Framework: [CodeIgniter](https://codeigniter.com/) Version 3.1.9
+* Auth System: [CodeIgniter-Ion-Auth](https://github.com/benedmunds/CodeIgniter-Ion-Auth)
+* Helpers: [Common Helpers](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/helpers/util_helper.php), [Auth Helpers](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/helpers/auth_helper.php)
+* Server: Sample [.htaccess](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/.htaccess) 
 * Architecture: theme based
 
 ## License 
