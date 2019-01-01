@@ -1,7 +1,7 @@
 ## Fully functional website templates provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
 No more lorem ipsun in your components. 
 
-### Argon Designed by CreativeTim - Coded in CodeIgniter  
+### Argon Designed by CreativeTim - Coded in CodeIgniter - [DEMO](https://www.coded-app-codeigniter.appseed.us/) 
 
 <p align="center">
   <img width="1000" height="400" src="https://www.appseed.us/static/themes/enhanced-argon/thumbnail.jpg">

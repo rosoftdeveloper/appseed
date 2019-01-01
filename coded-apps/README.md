@@ -1,8 +1,8 @@
 ## Free coded apps provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
 
 #### Coded Apps   
+*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
 *  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/py-flask-jq)
-*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq)
 *  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-laravel-jq)
 
 ## License 

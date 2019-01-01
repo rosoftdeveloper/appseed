@@ -3,7 +3,7 @@
 
 #### Fully functional website templates   
 
-* [Argon](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon) by [Creative-Tim](https://demos.creative-tim.com/argon-design-system/)
+* [Argon](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon) by [Creative-Tim](https://demos.creative-tim.com/argon-design-system/) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
   * 20 components extracted in (plain) [HTML](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/html/), [Php](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/php/), [Blade (Laravel)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/blade/) and [Jinja2 (Flask)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/jinja2/)  
 
 <p align="center">
@@ -11,8 +11,8 @@
 </p>
 
 #### Coded Apps   
+*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
 *  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/py-flask-jq)
-*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq)
 *  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-laravel-jq)
 
 
