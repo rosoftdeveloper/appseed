@@ -25,7 +25,7 @@ No more lorem ipsun in your components.
   Note: Please Check out the [config file](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/config/config.php), (directive **base_url**) if required to start on another port   
 
 ## License 
-* This project is under MIT License
+* This project is released under MIT License
 
 Copyright (c) 2018 AppSeed | RoSoftware.ro
 
