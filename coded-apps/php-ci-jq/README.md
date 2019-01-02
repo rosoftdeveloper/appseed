@@ -15,6 +15,14 @@ No more lorem ipsun in your components.
 * Server: Sample [.htaccess](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/.htaccess) 
 * Architecture: theme based
 
+## Usage:
+* create database & database user (according to [database.php](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/config/database.php))
+* import [Sql DB Schema](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/help/sql/schema.sql)
+* Save basidc information in database with [this SQL script](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/help/sql/data.sql)
+* Start the web application from console:
+  php -S localhost:5000 
+  Note: Check out the [config file](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/config/config.php), directive **base_url** if required to start on another port   
+
 ## License 
 * This project is under MIT License
 
