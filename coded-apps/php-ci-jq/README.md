@@ -22,7 +22,7 @@ No more lorem ipsun in your components.
 * Start the web application from console:
   php -S localhost:5000 
   
-  Note: Check out the [config file](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/config/config.php), directive **base_url** if required to start on another port   
+  Note: Please Check out the [config file](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/config/config.php), (directive **base_url**) if required to start on another port   
 
 ## License 
 * This project is under MIT License
