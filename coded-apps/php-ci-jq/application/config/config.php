@@ -24,11 +24,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'https://www.coded-app-codeigniter.appseed.us';
+//$config[ 'base_url'] = 'https://www.coded-app-argon.appseed.us';
+//$config[ 'theme'   ] = 'argon-design-system'; 
+
+$config[ 'base_url'] = 'https://www.coded-app-now-ui.appseed.us';
+$config[ 'theme'   ] = 'now-ui-kit'; //'argon-design-system';
 
 //$config['base_url'] = 'http://localhost:5000'; // development
-
-$config['theme'] = 'argon-design-system';
 
 /*
 |--------------------------------------------------------------------------
