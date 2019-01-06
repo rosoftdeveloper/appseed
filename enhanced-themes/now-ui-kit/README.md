@@ -3,8 +3,8 @@ No more lorem ipsun in your components.
 
 ### Now Ui Kit - Designed by CreativeTim   
 
-* [Argon](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon) by [Creative-Tim](https://demos.creative-tim.com/now-ui-kit-design-system/) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
-  * 20 components extracted in (plain) [HTML](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/now-ui-kit/components/html/), [Php](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/now-ui-kit/components/php/), [Blade (Laravel)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/now-ui-kit/components/blade/) and [Jinja2 (Flask)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/now-ui-kit/components/jinja2/)  
+* [Now UI Kit](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/now-ui-kit) by Creative-Tim - [DEMO](https://www.now-ui-kit.appseed.us/)
+  * Components extracted in (plain) [HTML](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/now-ui-kit/components/html/), [Php](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/now-ui-kit/components/php/), [Blade (Laravel)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/now-ui-kit/) and [Jinja2 (Flask)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/now-ui-kit/)  
 
 <p align="center">
   <img width="1000" height="400" src="https://www.appseed.us/static/themes/enhanced-now-ui-kit/thumbnail.jpg">
