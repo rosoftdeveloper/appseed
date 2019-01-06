@@ -26,7 +26,6 @@ class Auth extends CI_Controller
 	 */
 	public function index()
 	{
-
 		if (!$this->ion_auth->logged_in())
 		{
 			// redirect them to the login page
@@ -116,8 +115,15 @@ class Auth extends CI_Controller
 			//$this->_render_page('auth' . DIRECTORY_SEPARATOR . 'login', $this->data);
 
 			// This directive load theme dependent login 
-			$this->data['content'] = $this->load->view('themes/' . _theme() . '/login', $this->data, TRUE );
-			$this->load->view('themes/' . _theme() . '/skeleton', $this->data );
+
+			// Load specific login
+			//$this->data['content'] = $this->load->view('themes/' . _theme() . '/login', $this->data, TRUE );
+			//$this->load->view('themes/' . _theme() . '/skeleton', $this->data );
+
+			// Load common LOGIN form
+			$this->data['content'] = $this->load->view('themes/common/login', $this->data, TRUE );
+			$this->load->view('themes/common/skeleton', $this->data );
+
 		}
 	}
 
@@ -579,9 +585,12 @@ class Auth extends CI_Controller
 			//$this->_render_page('auth' . DIRECTORY_SEPARATOR . 'create_user', $this->data);
 
 			// This directive load theme dependent login 
-			$this->data['content'] = $this->load->view('themes/' . _theme() . '/create_user', $this->data, TRUE );
-			$this->load->view('themes/' . _theme() . '/skeleton', $this->data );
+			//$this->data['content'] = $this->load->view('themes/' . _theme() . '/create_user', $this->data, TRUE );
+			//$this->load->view('themes/' . _theme() . '/skeleton', $this->data );
 
+			// Load common REGISTRATION form
+			$this->data['content'] = $this->load->view('themes/common/create_user', $this->data, TRUE );
+			$this->load->view('themes/common/skeleton', $this->data );
 		}
 	}
 	/**

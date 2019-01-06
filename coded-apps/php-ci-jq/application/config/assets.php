@@ -17,9 +17,9 @@ class Assets {
     public $LINK_DOWNLOAD        = 'https://www.appseed.us/coded-app-codeigniter-argon-design-system'             ;
     public $LINK_COMPONENTS      = 'https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon' ;
 
-    public $HEADER_TITLE         = 'Argon Design System - Coded App in CodeIgniter';
+    public $HEADER_TITLE         = 'Coded App in CodeIgniter @AppSeed.us';
     public $HEADER_DESCRIPTION   = 'Fully Coded App in CodeIgniter. Modules: Authentication, Helpers, Database';
-    public $HEADER_KEYWORDS      = 'coded app, codeigniter, argon design, appseed';
+    public $HEADER_KEYWORDS      = 'coded app, codeigniter, appseed';
 
 }
 
