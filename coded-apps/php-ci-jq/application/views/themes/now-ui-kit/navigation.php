@@ -63,12 +63,28 @@
                     Login
                 </a>
             </li>
+
         <?php } ?>
 
-      
+        <li class="nav-item" parser_dataid="24">
+            <a class="nav-link" href="<?php echo _assets('LINK_GITHUB') ?>" parser_dataid="25">
+                Download
+            </a>
+        </li>
       
       <li class="nav-item" parser_dataid="28">
-       <a class="nav-link" data-placement="bottom" href="<?php echo _assets('LINK_TWITTER') ?>" parser_dataid="29" rel="tooltip" target="_blank" title="Follow us on Twitter">
+       <a class="nav-link" data-placement="bottom" 
+            href="<?php echo _assets('LINK_GITHUB') ?>" parser_dataid="29" rel="tooltip" target="_blank" title="Download from Github">
+        <i class="fab fa-github" parser_dataid="30">
+        </i>
+        <p class="d-lg-none d-xl-none" parser_dataid="31">
+         Github
+        </p>
+       </a>
+      </li>
+      <li class="nav-item" parser_dataid="28">
+       <a class="nav-link" data-placement="bottom" 
+            href="<?php echo _assets('LINK_TWITTER') ?>" parser_dataid="29" rel="tooltip" target="_blank" title="Follow us on Twitter">
         <i class="fab fa-twitter" parser_dataid="30">
         </i>
         <p class="d-lg-none d-xl-none" parser_dataid="31">
