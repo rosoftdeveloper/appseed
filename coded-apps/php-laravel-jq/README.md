@@ -37,7 +37,7 @@ composer install
 php artisan migrate
 ```
 
-* Start the web application from console:
+* Start the web application from console. Go to "_Laravel root_ / _public_" folder and run cmd:
 
 ```
 php -S localhost:5000
