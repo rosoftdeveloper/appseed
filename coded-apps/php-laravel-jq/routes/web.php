@@ -1,20 +1,37 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+// BASE ROUTE
+Route::get('/', 'PagesController@index');
 
-Route::get('/', function () {
-    return view('index');
+//Another route example
+//Route::get('/about', 'PagesController@about');
+
+Route::get('/locale/{locale?}', function($locale = null){
+
+    if(in_array($locale, config('app.available_locale')))
+    {
+        session(['locale' => ($locale ?? config('app.locale'))]);
+    }
+
+    return redirect()->back();
 });
 
+// THEME SWITCHER ROUTE - set "theme" session and redirect to BASE ROUTE
+Route::get('/theme/{theme?}', function($theme = null){
+
+    if(in_array($theme, config('themes.available_themes')))
+    {
+        session(['theme' => ($theme ?? env('APP_THEME') ?? config('themes.default_theme'))]);
+    }
+    else
+    {
+        session(['theme' => (env('APP_THEME') ?? config('themes.default_theme'))]);
+    }
+
+    return redirect('/');
+});
+
+// AUTH ROUTES
 Auth::routes();
 
-// Route::get('/home', 'HomeController@index')->name('home');
+

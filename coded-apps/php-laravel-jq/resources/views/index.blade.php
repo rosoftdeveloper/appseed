@@ -11,10 +11,13 @@
         <div class="wrapper">
 
             @include('sections.header')
-            @include('sections.about-us')
-            @include('sections.testimonials-1')
-            @include('sections.pricing-2')
-            @include('sections.contact-us')
+            {{--@include('sections.about-us')--}}
+            {{--@include('sections.testimonials-1')--}}
+            {{--@include('sections.pricing-2')--}}
+            {{--@include('sections.contact-us')--}}
+
+            @include('sections.list')
+
             @include('sections.footer-default')
 
         </div>

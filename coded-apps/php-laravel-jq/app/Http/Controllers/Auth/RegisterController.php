@@ -7,6 +7,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Auth\Events\Registered;
 
 class RegisterController extends Controller
 {
@@ -68,5 +71,37 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+    /*
+     * DYNAMIC RETURN OF THEME VIEW
+     */
+    public function showRegistrationForm()
+    {
+        /* REDIRECT TO THEME LOGIN VIEW */
+        if(session('theme'))
+        {
+            return view('themes.'.session('theme').'.auth.register');
+        }
+        return view('auth.login');
+    }
+
+    /*
+     * DYNAMIC REDIRECT OF THEME VIEW
+     */
+    public function register(Request $request)
+    {
+        $this->validator($request->all())->validate();
+
+        event(new Registered($user = $this->create($request->all())));
+
+        $this->guard()->login($user);
+
+        if(session('theme'))
+        {
+            return redirect('theme/'.session('theme'));
+        }
+        return redirect('/');
+
     }
 }

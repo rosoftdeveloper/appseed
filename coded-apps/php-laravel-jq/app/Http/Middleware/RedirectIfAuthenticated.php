@@ -18,6 +18,12 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
+
+            if(session('theme'))
+            {
+                return redirect('theme/'.session('theme'));
+            }
+
             return redirect('/');
         }
 
