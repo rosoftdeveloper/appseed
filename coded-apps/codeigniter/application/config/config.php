@@ -30,10 +30,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$config[ 'base_url'] = 'https://www.coded-app-now-ui.appseed.us';
 //$config[ 'theme'   ] = 'now-ui-kit'; //'argon-design-system';
 
-$config[ 'base_url'] = 'https://www.argon-dashboard.appseed.us';
-$config[ 'theme'   ] = 'argon-dashboard'; //'argon-design-system';
+$config[ 'base_url'] = 'https://www.codeigniter-dashboard-argon.appseed.us';
+$config[ 'theme'   ] = 'dashboard-argon'; //'argon-design-system';
 
-$config['base_url'] = 'http://localhost:5001'; // development
+//$config['base_url'] = 'http://localhost:5001'; // development
 
 /*
 |--------------------------------------------------------------------------
@@ -233,7 +233,7 @@ $config['allow_get_array'] = TRUE;
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 4;
+$config['log_threshold'] = 0;
 
 /*
 |--------------------------------------------------------------------------
