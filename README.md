@@ -12,10 +12,10 @@
   <img width="1000" height="400" src="https://www.appseed.us/static/themes/enhanced-argon/thumbnail.jpg">
 </p>
 
-#### Coded Apps   
-*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-ci-jq) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
-*  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/py-flask-jq)
-*  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/coded-apps/php-laravel-jq)
+#### Full Stack Apps    
+*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
+*  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask)
+*  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel)
 
 
 
