@@ -7,7 +7,7 @@ Build landing pages and apps in minutes.
 ## Sections and features
 
 Available sections and features:
-- Account ready
+- Account database ready
 - Database migration
 - SQLite db for fast usage and easy config on your full stack application
 
@@ -15,7 +15,9 @@ Available sections and features:
 <img width="1000" height="400" src="https://github.com/rosoftdeveloper/appseed/blob/master/fullstack-apps/fastify/public/image.png">
 </p>
 
-## Why fastify? (source: check fastify page)
+
+## Why fastify? 
+source: check fastify page
 Even if the name includes fast it does not mean you don't have to check benchmarks comparing other REST libraries:
 __Machine:__ MacBook Pro (Late 2016 | 2,7 GHz Intel Core i7 | 16 GB 2133 MHz LPDDR3)
 
@@ -59,3 +61,5 @@ From the project folder run:
 ```
 
 Open link: http://localhost:5000
+
+You can build similar apps using https://appseed.us
