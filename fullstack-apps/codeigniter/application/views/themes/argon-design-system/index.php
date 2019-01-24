@@ -18,18 +18,23 @@
           <div class="col px-0">
             <div class="row">
               <div class="col-lg-6">
-                <h1 class="display-3  text-white">A beautiful Design System
-                  <span>completed with examples</span>
+                <h1 class="display-3  text-white">Full Stack Web App
+                  <span>Argon Design System</span>
                 </h1>
-                <p class="lead  text-white">The design system comes with four pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
+                <p class="lead  text-white">
+                  Web App Modules: Login, Register, Helpers, Clean code base. 
+                  The design system (by Creative-Tim) comes with four pre-built pages to help you get started faster. 
+                  <br />
+                  <br />Generated in CodeIgniter, yours FREE!
+                </p>
                 <div class="btn-wrapper">
-                  <a href="<?php echo _assets('LINK_COMPONENTS') ?>" class="btn btn-info btn-icon mb-3 mb-sm-0">
-                    <span class="btn-inner--icon"><i class="fa fa-code"></i></span>
-                    <span class="btn-inner--text">Components</span>
+                  <a target="_blank" href="/archive.zip" class="btn btn-info btn-icon mb-3 mb-sm-0">
+                    <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
+                    <span class="btn-inner--text">Download</span>
                   </a>
-                  <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" class="btn btn-white btn-icon mb-3 mb-sm-0">
-                    <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
-                    <span class="btn-inner--text">Download HTML</span>
+                  <a target="_blank" href="<?php echo _assets('LINK_APP_GENERATOR') ?>" class="btn btn-white btn-icon mb-3 mb-sm-0">
+                    <span class="btn-inner--icon"><i class="fa fa-code"></i></span>
+                    <span class="btn-inner--text">Build this app in Vue, React</span>
                   </a>
                 </div>
               </div>
@@ -57,14 +62,14 @@
                     <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
                       <i class="ni ni-check-bold"></i>
                     </div>
-                    <h6 class="text-primary text-uppercase">Download Argon</h6>
+                    <h6 class="text-primary text-uppercase">UI Design</h6>
                     <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
                     <div>
+                      <span class="badge badge-pill badge-primary">argon</span>
                       <span class="badge badge-pill badge-primary">design</span>
-                      <span class="badge badge-pill badge-primary">system</span>
-                      <span class="badge badge-pill badge-primary">creative</span>
+                      <span class="badge badge-pill badge-primary">fullstack</span>
                     </div>
-                    <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" class="btn btn-primary mt-4">Learn more</a>
+                    <a href="#" class="btn btn-primary mt-4">Learn more</a>
                   </div>
                 </div>
               </div>
@@ -78,10 +83,10 @@
                     <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
                     <div>
                       <span class="badge badge-pill badge-success">business</span>
-                      <span class="badge badge-pill badge-success">vision</span>
-                      <span class="badge badge-pill badge-success">success</span>
+                      <span class="badge badge-pill badge-success">creative-tim</span>
+                      <span class="badge badge-pill badge-success">appseed</span>
                     </div>
-                    <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" class="btn btn-success mt-4">Learn more</a>
+                    <a href="#" class="btn btn-success mt-4">Learn more</a>
                   </div>
                 </div>
               </div>
@@ -96,9 +101,9 @@
                     <div>
                       <span class="badge badge-pill badge-warning">marketing</span>
                       <span class="badge badge-pill badge-warning">product</span>
-                      <span class="badge badge-pill badge-warning">launch</span>
+                      <span class="badge badge-pill badge-warning">fullstack</span>
                     </div>
-                    <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" class="btn btn-warning mt-4">Learn more</a>
+                    <a href="#" class="btn btn-warning mt-4">Learn more</a>
                   </div>
                 </div>
               </div>
@@ -112,7 +117,8 @@
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
-            <img src="/<?php echo _static() ?>assets/img/theme/promo-1.png" class="img-fluid floating">
+            <img  alt="Full Stack Web App - Argon Design System coded by AppSeed" 
+                  src="/<?php echo _static() ?>assets/img/theme/promo-1.png" class="img-fluid floating">
           </div>
           <div class="col-md-6 order-md-1">
             <div class="pr-md-5">
@@ -120,7 +126,8 @@
                 <i class="ni ni-settings-gear-65"></i>
               </div>
               <h3>Awesome features</h3>
-              <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
+              <p>Stop reinventing the wheel. This fullstack app comes is delivered production-ready. Get it and deploy it. 
+               <br />The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
               <ul class="list-unstyled mt-5">
                 <li class="py-2">
                   <div class="d-flex align-items-center">
@@ -154,7 +161,7 @@
                       </div>
                     </div>
                     <div>
-                      <h6 class="mb-0">Super friendly support team</h6>
+                      <h6 class="mb-0">Production-Ready Fullstack Web App</h6>
                     </div>
                   </div>
                 </li>
@@ -170,7 +177,7 @@
         <div class="row row-grid align-items-center">
           <div class="col-md-6">
             <div class="card bg-default shadow border-0">
-              <img src="/<?php echo _static() ?>assets/img/theme/img-1-1200x1000.jpg" class="card-img-top">
+              <img alt="Full Stack Web App - Argon Design System coded by AppSeed" src="/<?php echo _static() ?>assets/img/theme/img-1-1200x1000.jpg" class="card-img-top">
               <blockquote class="card-blockquote">
                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="svg-bg">
                   <polygon points="0,52 583,95 0,95" class="fill-default" />
@@ -190,7 +197,7 @@
               <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.</p>
               <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
               <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
-              <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful websites</a>
+              <a target="_blank" href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" class="font-weight-bold text-warning mt-5">Build this app in React, Vue, Node or Laravel</a>
             </div>
           </div>
         </div>
@@ -202,7 +209,7 @@
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-lg-2 ml-lg-auto">
             <div class="position-relative pl-md-5">
-              <img src="/<?php echo _static() ?>assets/img/ill/ill-2.svg" class="img-center img-fluid">
+              <img alt="Full Stack Web App - Argon Design System coded by AppSeed" src="/<?php echo _static() ?>assets/img/ill/ill-2.svg" class="img-center img-fluid">
             </div>
           </div>
           <div class="col-lg-6 order-lg-1">
@@ -271,7 +278,8 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
             <div class="px-4">
-              <img src="/<?php echo _static() ?>assets/img/theme/team-1-800x800.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
+              <img alt="Full Stack Web App - Argon Design System coded by AppSeed" 
+                   src="/<?php echo _static() ?>assets/img/theme/team-1-800x800.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
               <div class="pt-4 text-center">
                 <h5 class="title">
                   <span class="d-block mb-1">Ryan Tompson</span>
@@ -293,7 +301,8 @@
           </div>
           <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
             <div class="px-4">
-              <img src="/<?php echo _static() ?>assets/img/theme/team-2-800x800.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
+              <img alt="Full Stack Web App - Argon Design System coded by AppSeed"  
+                src="/<?php echo _static() ?>assets/img/theme/team-2-800x800.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
               <div class="pt-4 text-center">
                 <h5 class="title">
                   <span class="d-block mb-1">Romina Hadid</span>
@@ -315,7 +324,8 @@
           </div>
           <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
             <div class="px-4">
-              <img src="/<?php echo _static() ?>assets/img/theme/team-3-800x800.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
+              <img alt="Full Stack Web App - Argon Design System coded by AppSeed" 
+                  src="/<?php echo _static() ?>assets/img/theme/team-3-800x800.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
               <div class="pt-4 text-center">
                 <h5 class="title">
                   <span class="d-block mb-1">Alexander Smith</span>
@@ -337,7 +347,8 @@
           </div>
           <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
             <div class="px-4">
-              <img src="/<?php echo _static() ?>assets/img/theme/team-4-800x800.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
+              <img  alt="Full Stack Web App - Argon Design System coded by AppSeed"
+                    src="/<?php echo _static() ?>assets/img/theme/team-4-800x800.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
               <div class="pt-4 text-center">
                 <h5 class="title">
                   <span class="d-block mb-1">John Doe</span>
@@ -367,11 +378,11 @@
           <div class="p-5">
             <div class="row align-items-center">
               <div class="col-lg-8">
-                <h3 class="text-white">We made website building easier for you.</h3>
+                <h3 class="text-white">Generate this web app in React, Vue or Node.js.</h3>
                 <p class="lead text-white mt-3">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture.</p>
               </div>
               <div class="col-lg-3 ml-lg-auto">
-                <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" class="btn btn-lg btn-block btn-white">Download HTML</a>
+                <a target="_blank" href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" class="btn btn-lg btn-block btn-white">Get Started</a>
               </div>
             </div>
           </div>
@@ -460,43 +471,43 @@
       <div class="container">
         <div class="row row-grid justify-content-center">
           <div class="col-lg-8 text-center">
-            <h2 class="display-3">Do you love this awesome
+            <h2 class="display-3">Full Stack Web App
               <span class="text-success">Design System for Bootstrap 4?</span>
             </h2>
             <p class="lead">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the Design System in HTML. Start a new project or give an old Bootstrap project a new look!</p>
             <div class="btn-wrapper">
-              <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" class="btn btn-primary mb-3 mb-sm-0">Download HTML</a>
+              <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" class="btn btn-primary mb-3 mb-sm-0">Build this app in React or Vue</a>
             </div>
             <div class="text-center">
               <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
               <div class="row justify-content-center">
                 <div class="col-lg-2 col-4">
-                  <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" target="_blank" data-toggle="tooltip" data-original-title="Bootstrap 4 - Most popular front-end component library">
+                  <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" target="_blank" data-toggle="tooltip" data-original-title="Bootstrap 4 - Most popular front-end component library">
                     <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" class="img-fluid">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" target="_blank" data-toggle="tooltip" data-original-title="Vue.js - The progressive javascript framework">
+                  <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" target="_blank" data-toggle="tooltip" data-original-title="Vue.js - The progressive javascript framework">
                     <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Sketch - Digital design toolkit">
+                  <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Sketch - Digital design toolkit">
                     <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
+                  <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
                     <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
+                  <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
                     <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="<?php echo _assets('LINK_DOWNLOAD') ?>" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
+                  <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
                     <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>

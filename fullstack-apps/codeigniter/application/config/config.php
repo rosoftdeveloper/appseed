@@ -24,14 +24,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-//$config[ 'base_url'] = 'https://www.coded-app-argon.appseed.us';
-//$config[ 'theme'   ] = 'argon-design-system'; 
+$config[ 'base_url'] = 'https://www.fullstack-app-argon-design.appseed.us';
+$config[ 'theme'   ] = 'argon-design-system'; 
 
-//$config[ 'base_url'] = 'https://www.coded-app-now-ui.appseed.us';
-//$config[ 'theme'   ] = 'now-ui-kit'; //'argon-design-system';
+//$config[ 'base_url'] = 'https://www.fullstack-app-now-ui-kit.appseed.us';
+//$config[ 'theme'   ] = 'now-ui-kit'; 
 
-$config[ 'base_url'] = 'https://www.codeigniter-dashboard-argon.appseed.us';
-$config[ 'theme'   ] = 'dashboard-argon'; //'argon-design-system';
+//$config[ 'base_url'] = 'https://www.fullstack-app-argon-dashboard.appseed.us';
+//$config[ 'theme'   ] = 'dashboard-argon'; 
 
 //$config['base_url'] = 'http://localhost:5001'; // development
 

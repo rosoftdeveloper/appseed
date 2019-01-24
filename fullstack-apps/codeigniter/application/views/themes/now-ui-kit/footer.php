@@ -9,7 +9,7 @@
         </a>
        </li>
        <li parser_dataid="6">
-        <a href="https://www.appseed.us" parser_dataid="7">
+        <a href="<?php echo _assets('LINK_PRODUCT_NOW_UI_KIT') ?>" parser_dataid="7">
          AppSeed
         </a>
        </li>
@@ -24,8 +24,8 @@
       <a href="https://www.creative-tim.com" target="_blank">
       Creative Tim
       </a>
-      . Coded by
-      <a href="https://www.appseed.us" target="_blank">
+      . Full Stack App coded by 
+      <a href="<?php echo _assets('LINK_PRODUCT_NOW_UI_KIT') ?>" target="_blank">
        AppSeed
       </a>
       .

@@ -1,11 +1,11 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Creative Tim">
+  <meta name="author" content="Creative Tim - Coded by AppSeed">
 
-  <title><?php echo _assets('HEADER_TITLE') ?></title>
-  <meta name="description" content="<?php echo _assets('HEADER_DESCRIPTION') ?>">
-  <meta name="keywords"    content="<?php echo _assets('HEADER_KEYWORDS') ?>">
+  <title>Argon Design System - <?php echo _assets('HEADER_TITLE') ?></title>
+  <meta name="description" content="Argon Design System - <?php echo _assets('HEADER_DESCRIPTION') ?>">
+  <meta name="keywords"    content="argon design system, <?php echo _assets('HEADER_KEYWORDS') ?>">
 
   <link href="/<?php echo _static() ?>assets/img/brand/favicon.png" rel="icon" type="image/png">
 

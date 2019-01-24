@@ -38,6 +38,18 @@ function _is_get()
     return ( $CI->input->server('REQUEST_METHOD') === 'GET' ? true : false );
 }
 
+// Check current workspace - Dev or Production
+function _is_dev( )
+{
+
+    $aUrl = base_url();
+
+    if( _contains( $aUrl, 'localhost') || _contains( $aUrl, '127.0.0.1') )
+        return TRUE;
+        
+    return FALSE;    
+} 
+
 // Check input to be int
 function _is_int( $var, $min_val=0 ) 
 {
@@ -224,6 +236,9 @@ function _assets( $aAssetName=NULL )
 
 function _analytics( ) 
 {
+    if ( _is_dev() )
+        return '<!-- NO GOOGLE_ANALYTICS (local development) -->'; 
+
     $GOOGLE_ANALYTICS = _assets( 'GOOGLE_ANALYTICS' );
     
     if ( _is_set( $GOOGLE_ANALYTICS ) ) 

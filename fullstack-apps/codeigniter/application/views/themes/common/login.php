@@ -6,6 +6,7 @@
 						<div class="row">
 							<div class="col-xs-12 text-center">
 								<a href="#" class="active" id="login-form-link">Login</a>
+								<br /> ( Default user / pass: test@appseed.us / pass )
 							</div>
 							<div class="col-xs-12 text-center">
                                 <div class='text-danger' id="infoMessage"><?php echo $message;?></div>
