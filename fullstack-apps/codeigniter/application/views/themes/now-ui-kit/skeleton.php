@@ -19,13 +19,13 @@
 
     </div>
 
-  <script src="https://www.now-ui-kit.appseed.us/assets/js/jquery.min.js"           type="text/javascript"></script>
-  <script src="https://www.now-ui-kit.appseed.us/assets/js/popper.min.js"           type="text/javascript"></script>
-  <script src="https://www.now-ui-kit.appseed.us/assets/js/bootstrap.min.js"        type="text/javascript"></script>
-  <script src="https://www.now-ui-kit.appseed.us/assets/js/bootstrap-switch.js"></script>
-  <script src="https://www.now-ui-kit.appseed.us/assets/js/nouislider.min.js"       type="text/javascript"></script>
-  <script src="https://www.now-ui-kit.appseed.us/assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
-  <script src="https://www.now-ui-kit.appseed.us/assets/js/now-ui-kit.js?v=1.2.0"   type="text/javascript"></script>
+  <script src="/<?php echo _static() ?>assets/js/jquery.min.js"           type="text/javascript"></script>
+  <script src="/<?php echo _static() ?>assets/js/popper.min.js"           type="text/javascript"></script>
+  <script src="/<?php echo _static() ?>assets/js/bootstrap.min.js"        type="text/javascript"></script>
+  <script src="/<?php echo _static() ?>assets/js/bootstrap-switch.js"     type="text/javascript"></script>
+  <script src="/<?php echo _static() ?>assets/js/nouislider.min.js"       type="text/javascript"></script>
+  <script src="/<?php echo _static() ?>assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+  <script src="/<?php echo _static() ?>assets/js/now-ui-kit.js?v=1.2.0"   type="text/javascript"></script>
 
  </body>
 </html>

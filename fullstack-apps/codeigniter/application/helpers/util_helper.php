@@ -141,7 +141,7 @@ function _static( $aTheme=NULL )
     if ( FALSE == _is_set( $aTheme ) )
         $aTheme = _theme();
 
-    return _build_path( 'static', 'themes', _theme() );
+    return 'static/themes/' . _theme() . '/';
 }
 
 // Same as _static() with echo instead of return

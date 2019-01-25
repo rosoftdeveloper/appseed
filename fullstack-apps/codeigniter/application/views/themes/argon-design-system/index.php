@@ -28,7 +28,7 @@
                   <br />Generated in CodeIgniter, yours FREE!
                 </p>
                 <div class="btn-wrapper">
-                  <a target="_blank" href="/archive.zip" class="btn btn-info btn-icon mb-3 mb-sm-0">
+                  <a download href="/archive.zip" class="btn btn-info btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
                     <span class="btn-inner--text">Download</span>
                   </a>

@@ -7,7 +7,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Brand -->
-      <a class="navbar-brand pt-0" href="<?php echo _assets('LINK_PRODUCT_ARGON_DASHBOARD') ?>">
+      <a target="_blank" class="navbar-brand pt-0" href="<?php echo _assets('LINK_PRODUCT_ARGON_DASHBOARD') ?>">
         <img src="/<?php echo _static() ?>assets/img/brand/blue.png" class="navbar-brand-img" 
              alt="Argon Dashboard - Full Stack App coded by AppSeed">
       </a>
@@ -149,11 +149,17 @@
         <ul class="navbar-nav mb-md-3">
 
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo _assets('LINK_PRODUCT_ARGON_DASHBOARD') ?>">
-              <i class="ni ni-spaceship"></i>Full Stack Apps
+            <a target="_blank" class="nav-link" href="<?php echo _assets('LINK_PRODUCT_ARGON_DASHBOARD') ?>">
+              <i class="ni ni-spaceship"></i>Get this app in Vue, React
             </a>
           </li>
-          
+
+          <li class="nav-item">
+            <a download class="nav-link" href="/archive.zip">
+              <i class="ni ni-spaceship"></i>Download
+            </a>
+          </li>
+
         </ul>
       </div>
     </div>
