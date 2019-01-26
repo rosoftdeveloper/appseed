@@ -33,10 +33,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$config[ 'base_url'] = 'https://www.fullstack-app-argon-dashboard.appseed.us';
 //$config[ 'theme'   ] = 'dashboard-argon'; 
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-light-bootstrap-dashboard.appseed.us';
+$config[ 'base_url'] = 'https://www.fullstack-app-light-bootstrap-dashboard.appseed.us';
 $config[ 'theme'   ] = 'light-bootstrap-dashboard'; 
 
-$config['base_url'] = 'http://localhost:5001'; // development
+//$config['base_url'] = 'http://localhost:5001'; // development
 
 /*
 |--------------------------------------------------------------------------
