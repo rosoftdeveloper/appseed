@@ -15,8 +15,9 @@ class Cindex extends CI_Controller {
 
 	public function index( $aSegment='index' )
 	{		
-		$this->data['theme'  ] = _theme  ();
-		$this->data['assets' ] = _assets ();
+		$this->data['theme'  ] = _theme  () ;
+		$this->data['assets' ] = _assets () ;
+		$this->data['page'   ] = $aSegment  ;
 
 		$this->data['content'] = $this->load->view('themes/' . _theme() . '/' . $aSegment, $this->data, TRUE );
 		$this->load->view('themes/' . _theme() . '/skeleton', $this->data );
