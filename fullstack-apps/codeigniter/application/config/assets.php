@@ -27,12 +27,13 @@ class Assets {
 
     // ***********************************************************************************************
     // product links 
-    public $LINK_PRODUCT_ARGON_DESIGN       = 'https://www.appseed.us/fullstack-apps-generator'; // 'https://www.appseed.us/fullstack-app-argon-design-system' ; 
-    public $LINK_PRODUCT_ARGON_DASHBOARD    = 'https://www.appseed.us/fullstack-apps-generator'; // 'https://www.appseed.us/fullstack-app-argon-dashboard'     ; 
-    public $LINK_PRODUCT_NOW_UI_KIT         = 'https://www.appseed.us/fullstack-apps-generator'; // 'https://www.appseed.us/fullstack-app-now-ui-kit'          ; 
+    public $LINK_PRODUCT_ARGON_DESIGN                  = 'https://www.appseed.us/fullstack-apps-generator'; // 'https://www.appseed.us/fullstack-app-argon-design-system' ; 
+    public $LINK_PRODUCT_ARGON_DASHBOARD               = 'https://www.appseed.us/fullstack-apps-generator'; // 'https://www.appseed.us/fullstack-app-argon-dashboard'     ; 
+    public $LINK_PRODUCT_NOW_UI_KIT                    = 'https://www.appseed.us/fullstack-apps-generator'; // 'https://www.appseed.us/fullstack-app-now-ui-kit'          ; 
+    public $LINK_PRODUCT_NOW_LIGHT_BOOTSTRAP_DASHBOARD = 'https://www.appseed.us/fullstack-app-light-bootstrap-dashboard'; 
 
-    public $LINK_APP_GENERATOR              = 'https://www.appseed.us/fullstack-apps-generator'; 
-
+    // Common generator
+    public $LINK_APP_GENERATOR                         = 'https://www.appseed.us/fullstack-apps-generator'; 
 }
 
 // define assets ..
