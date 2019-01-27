@@ -1,5 +1,5 @@
 
-    <div class="sidebar" data-color="orange">
+<div class="sidebar" data-color="orange">
 
 <div class="logo">
   <a target="_blank" href="https://www.appseed.us/fullstack-apps-generator" class="simple-text logo-normal">

@@ -36,10 +36,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$config[ 'base_url'] = 'https://www.fullstack-app-light-bootstrap-dashboard.appseed.us';
 //$config[ 'theme'   ] = 'light-bootstrap-dashboard'; 
 
-$config[ 'base_url'] = 'https://www.fullstack-app-now-ui-dashboard.appseed.us';
-$config[ 'theme'   ] = 'now-ui-dashboard'; 
+//$config[ 'base_url'] = 'https://www.fullstack-app-now-ui-dashboard.appseed.us';
+//$config[ 'theme'   ] = 'now-ui-dashboard'; 
 
-//$config['base_url'] = 'http://localhost:5001'; // development
+//$config[ 'base_url'] = 'https://www.fullstack-app-material-dashboard.appseed.us';
+$config[ 'theme'   ] = 'material-dashboard'; 
+
+//$config[ 'base_url'] = 'https://www.fullstack-app-paper-dashboard.appseed.us';
+//$config[ 'theme'   ] = 'paper-dashboard'; 
+
+$config['base_url'] = 'http://localhost:5001'; // development
 
 /*
 |--------------------------------------------------------------------------

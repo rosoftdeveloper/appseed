@@ -9,13 +9,8 @@
                 </a>
               </li>
               <li>
-                <a href="http://presentation.creative-tim.com">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com">
-                  Blog
+                <a href="<?php echo _assets('LINK_APP_GENERATOR') ?>">
+                  AppSeed
                 </a>
               </li>
             </ul>
@@ -25,8 +20,8 @@
             <script>
               document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
             </script>, Designed by
-            <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>. Coded by
+            <a href="<?php echo _assets('LINK_APP_GENERATOR') ?>" target="_blank">AppSeed - Full Stack App Generator</a>.
           </div>
         </div>
       </footer>
