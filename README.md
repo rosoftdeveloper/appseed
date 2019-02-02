@@ -1,33 +1,26 @@
-## Free content provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
-### Fully functional website templates & Coded Apps & Free website builder 
-
-#### Fully functional website templates   
-
-* [Now UI Kit](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/now-ui-kit) by Creative-Tim - [DEMO](https://www.now-ui-kit.appseed.us/)
-  * Components extracted in (plain) [HTML](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/now-ui-kit/components/html/), [Php](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/now-ui-kit/components/php/), [Blade (Laravel)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/now-ui-kit/) and [Jinja2 (Flask)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/now-ui-kit/) 
-* [Argon](https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/argon) by [Creative-Tim](https://demos.creative-tim.com/argon-design-system/) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
-  * 20 components extracted in (plain) [HTML](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/html/), [Php](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/php/), [Blade (Laravel)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/blade/) and [Jinja2 (Flask)](https://github.com/rosoftdeveloper/appseed/blob/master/enhanced-themes/argon/components/jinja2/)  
+## [AppSeed.us](https://www.appseed.us/?ref=github) - Full Stack web apps generator
+### This repository provides full stack apps prototyped in Vue, react, Flask, Laravel and Node   
 
 <p align="center">
-  <img width="1000" height="400" src="https://www.appseed.us/static/themes/enhanced-argon/thumbnail.jpg">
+  <img width="800" height="350" src="https://www.appseed.us/static/thumbnails/appseed-fullstack-app-generator.jpg">
 </p>
 
-#### Full Stack Apps    
-*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
+#### Full Stack Apps Starters   
 *  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask)
+*  [Python Flask / Vue](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-vuejs)
+*  [Python Flask / React](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-react)
 *  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel)
-
-
+*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) 
+*  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/fastify)
 
 #### Tools
 Nothing here for the moment. Stay tooned!
-
 
 ## License 
 * This project is under MIT License
 
 
-Copyright (c) 2018 AppSeed | RoSoftware.ro
+Copyright (c) 2018 [AppSeed.us](https://www.appseed.us/?ref=github) | [RoSoft](https://www.rosoftware.ro/?ref=github)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
