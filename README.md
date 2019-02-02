@@ -6,19 +6,21 @@
 </p>
 
 #### Full Stack Apps Starters   
-*  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask)
-*  [Python Flask / Vue](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-vuejs)
-*  [Python Flask / React](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-react)
-*  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel)
-*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) 
-*  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/fastify)
+*  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask) - status: under development, active support
+*  [Python Flask / Vue](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-vuejs) - status: under development, active support
+*  [Python Flask / React](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-react) - status: under development, active support
+*  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel) - status: under development, active support
+*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) - status: under development, active support
+*  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/fastify) - status: under development, active support
 
 #### Tools
 Nothing here for the moment. Stay tooned!
 
-## License 
-* This project is under MIT License
+## Trouble shooting
 
+For any issues, please open an issue here or contact us on [Facebook (closed group)](https://www.facebook.com/groups/fullstack.apps.generator/) 
+
+## MIT License
 
 Copyright (c) 2018 [AppSeed.us](https://www.appseed.us/?ref=github) | [RoSoft](https://www.rosoftware.ro/?ref=github)
 
@@ -39,5 +41,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-

@@ -1,15 +1,17 @@
-## Free coded apps provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
+## [AppSeed.us](https://www.appseed.us/?ref=github) - Full Stack web apps generator
+### Starters generated and prototyped by AppSeed Engine   
 
-#### Coded Apps   
-*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) - [DEMO](https://www.coded-app-codeigniter.appseed.us/)
+#### Full Stack Apps Starters   
 *  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask)
+*  [Python Flask / Vue](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-vuejs)
+*  [Python Flask / React](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-react)
 *  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel)
+*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) 
+*  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/fastify)
 
-## License 
-* This project is under MIT License
+## MIT License
 
-
-Copyright (c) 2018 AppSeed | RoSoftware.ro
+Copyright (c) 2018 [AppSeed.us](https://www.appseed.us/?ref=github) | [RoSoft](https://www.rosoftware.ro/?ref=github)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -28,5 +30,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-

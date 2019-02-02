@@ -1,33 +1,42 @@
-## Fully functional website templates provided by [AppSeed.us](https://www.appseed.us/?ref=github) 
-No more lorem ipsun in your components. 
+## CodeIgniter / jQuery Starter 
+### [AppSeed.us](https://www.appseed.us/?ref=github) - Full Stack web apps generator   
 
-### Argon Designed by CreativeTim - Coded in CodeIgniter - [DEMO](https://www.coded-app-codeigniter.appseed.us/) 
+## Project Status: 
 
-<p align="center">
-  <img width="1000" height="400" src="https://www.appseed.us/static/themes/enhanced-argon/thumbnail.jpg">
-</p>
+* Under development, active suport
 
-## Features:
-* Design: [Argon Design System](https://github.com/creativetimofficial/argon-design-system)
-* Framework: [CodeIgniter](https://codeigniter.com/) Version 3.1.9
-* Auth System: [CodeIgniter-Ion-Auth](https://github.com/benedmunds/CodeIgniter-Ion-Auth)
-* Helpers: [Common Helpers](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/helpers/util_helper.php), [Auth Helpers](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/helpers/auth_helper.php)
-* Server: Sample [.htaccess](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/.htaccess) 
-* Architecture: theme based
+## Code characteristics
 
-## Usage:
-* create database & database user (according to [database.php](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/config/database.php))
-* import [Sql DB Schema](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/help/sql/schema.sql)
-* Save basidc information in database with [this SQL script](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/help/sql/data.sql)
-* Start the web application from console:
-  php -S localhost:5000 
-  
-  Note: Please Check out the [config file](https://github.com/rosoftdeveloper/appseed/blob/master/coded-apps/php-ci-jq/application/config/config.php), (directive **base_url**) if required to start on another port   
+* Tested with Php 7.2
+* Modules: authentication, registration, helpers
+* Theme based architecture. Themes:
+  Argon Dashboard (designed by Creative-Tim) - [demo](https://www.fullstack-app-argon-dashboard.appseed.us/) 
+  Argon Design System (designed by Creative-Tim) - [demo](https://www.fullstack-app-argon-design.appseed.us/) 
 
-## License 
-* This project is released under MIT License
+## Setting up a development environment
 
-Copyright (c) 2018 AppSeed | RoSoftware.ro
+We assume that you have `php` and `mysql` installed.
+
+    # Clone the code repository 
+    git clone https://github.com/rosoftdeveloper/appseed.git
+
+    # Navigate into flask directory 
+    cd appseed/fullstack-apps/codeigniter/
+
+## Running the app
+
+    # Start the web app
+    php -S localhost:5000
+
+Point your web browser to http://localhost:5000/
+
+## Trouble shooting
+
+For any issues, please open an issue here or contact us on [Facebook (closed group)](https://www.facebook.com/groups/fullstack.apps.generator/) 
+
+## MIT License
+
+Copyright (c) 2018 [AppSeed.us](https://www.appseed.us/?ref=github) | [RoSoft](https://www.rosoftware.ro/?ref=github)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -46,5 +55,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
