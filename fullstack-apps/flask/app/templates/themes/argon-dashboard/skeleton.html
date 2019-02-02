@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  {% include 'themes/argon-dashboard/header.html' %}
+
+</head>
+
+<body>
+
+  {% include 'themes/argon-dashboard/sidenav.html' %}  
+
+  <!-- Main content -->
+  <div class="main-content">
+
+    {% include 'themes/argon-dashboard/navigation.html' %}  
+
+    {% include 'themes/argon-dashboard/top.html' %}  
+
+    {{ content | safe }}
+            
+  </div>
+  <!-- Argon Scripts -->
+  <!-- Core -->
+  <script src="/static/themes/argon-dashboard/assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="/static/themes/argon-dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Optional JS -->
+  <script src="/static/themes/argon-dashboard/assets/vendor/chart.js/dist/Chart.min.js"></script>
+  <script src="/static/themes/argon-dashboard/assets/vendor/chart.js/dist/Chart.extension.js"></script>
+  <!-- Argon JS -->
+  <script src="/static/themes/argon-dashboard/assets/js/argon.js?v=1.0.0"></script>
+</body>
+
+</html>
