@@ -2,12 +2,12 @@
     <!-- Top navbar -->
     <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
       <div class="container-fluid">
-        <!-- Brand -->
-        <a download class="h4 mb-0 d-none d-lg-inline-block" 
-           href="/archive.zip">Download</a>
 
+        <a target="_blank" class="h4 mb-0 d-none d-lg-inline-block" href="https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/">Sources</a>
         &nbsp;&nbsp; 
-        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" 
+        <a target="_blank" class="h4 mb-0 d-none d-lg-inline-block" href="https://www.facebook.com/groups/fullstack.apps.generator/">Support</a>
+        &nbsp;&nbsp; 
+        <a target="_blank" class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" 
            href="<?php echo _assets('LINK_PRODUCT_ARGON_DASHBOARD') ?>">Get this app in Vue, React</a>
         <!-- Form -->
         <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">

@@ -28,9 +28,9 @@
                   <br />Generated in CodeIgniter, yours FREE!
                 </p>
                 <div class="btn-wrapper">
-                  <a download href="/archive.zip" class="btn btn-info btn-icon mb-3 mb-sm-0">
+                  <a target="_blank" href="<?php echo _assets('LINK_GITHUB_APPS') ?>" class="btn btn-info btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
-                    <span class="btn-inner--text">Download</span>
+                    <span class="btn-inner--text">Sources</span>
                   </a>
                   <a target="_blank" href="<?php echo _assets('LINK_APP_GENERATOR') ?>" class="btn btn-white btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="fa fa-code"></i></span>

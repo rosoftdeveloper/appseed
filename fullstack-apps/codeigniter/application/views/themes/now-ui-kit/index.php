@@ -12,8 +12,11 @@
       <br />Modules: Login, Register, Helpers, Clean code base
       </p>
       <div class="text-center" >
-       <a download href="/archive.zip" class="btn btn-primary">
-         Download
+       <a target="_blank" href="<?php echo _assets('LINK_GITHUB_APPS') ?>" class="btn btn-primary">
+         Sources
+       </a>
+       <a target="_blank" href="<?php echo _assets('LINK_FACEBOOK_GRP') ?>" class="btn btn-primary">
+         Support
        </a>
       </div>
      </div>

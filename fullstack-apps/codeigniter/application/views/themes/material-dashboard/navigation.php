@@ -2,7 +2,7 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a target="_blank" class="navbar-brand" href="https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter">Sources</a>
+            <a target="_blank" class="navbar-brand" href="https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/">Sources</a>
             <a target="_blank" class="navbar-brand" href="https://www.facebook.com/groups/fullstack.apps.generator/">Support</a>
             <a target="_blank" class="navbar-brand active" href="<?php echo _assets('LINK_APP_GENERATOR') ?>">Get this app in React, Vue</a>
           </div>

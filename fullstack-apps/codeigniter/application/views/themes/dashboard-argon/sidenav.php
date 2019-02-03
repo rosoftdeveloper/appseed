@@ -155,8 +155,8 @@
           </li>
 
           <li class="nav-item">
-            <a download class="nav-link" href="/archive.zip">
-              <i class="ni ni-spaceship"></i>Download
+            <a target="_blank" class="nav-link" href="https://www.facebook.com/groups/fullstack.apps.generator/">
+              <i class="ni ni-bullet-list-67"></i>Support
             </a>
           </li>
 

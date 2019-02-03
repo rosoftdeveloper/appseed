@@ -12,11 +12,13 @@ class Assets {
     public $GOOGLE_ANALYTICS                = 'UA-104843706-1'; // save your google analytics here
 
     public $LINK_FACEBOOK                   = 'https://www.facebook.com/webappseed'                              ;
-    public $LINK_FACEBOOK_GRP               = 'https://www.facebook.com/groups/407230609806980'                  ;
+    public $LINK_FACEBOOK_GRP               = 'https://www.facebook.com/groups/fullstack.apps.generator/'        ;
     public $LINK_TWITTER                    = 'https://www.twitter.com/webappseed'                               ;
     public $LINK_INSTAGRAM                  = 'https://www.instagram.com/webappseed'                             ;
     public $LINK_YOUTUBE                    = 'https://www.youtube.com/channel/UCSEnv6MeRzmFXAnG5baXC_Q'         ;
     public $LINK_GITHUB                     = 'https://github.com/rosoftdeveloper/appseed'                       ;
+    public $LINK_GITHUB_APPS                = 'https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps'  ;
+    public $LINK_GITHUB_THEMES              = 'https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes' ;
 
     public $LINK_DOWNLOAD                   = 'https://www.appseed.us/fullstack-apps-generator'                         ;
     public $LINK_COMPONENTS                 = 'https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/' ;

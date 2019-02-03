@@ -8,7 +8,10 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="/archive.zip">Download</a>
+                    <a target="_blank" class="navbar-brand" href="https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/">Sources</a>
+                    &nbsp;&nbsp; 
+                    <a target="_blank" class="navbar-brand" href="https://www.facebook.com/groups/fullstack.apps.generator/">Support</a>
+                    &nbsp;&nbsp; 
                     <a target="_blank" class="navbar-brand active" href="<?php echo _assets('LINK_APP_GENERATOR') ?>">Get this app in React, Vue</a>
                 </div>
                 <div class="collapse navbar-collapse">
