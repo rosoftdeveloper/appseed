@@ -9,6 +9,11 @@
 *  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) 
 *  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/fastify)
 
+## Trouble shooting
+
+For any issues, please open an issue here or contact us on [Facebook (closed group)](https://www.facebook.com/groups/fullstack.apps.generator/) 
+
+
 ## MIT License
 
 Copyright (c) 2018 [AppSeed.us](https://www.appseed.us/?ref=github) | [RoSoft](https://www.rosoftware.ro/?ref=github)
