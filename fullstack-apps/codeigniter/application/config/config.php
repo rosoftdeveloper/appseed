@@ -40,10 +40,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$config[ 'theme'   ] = 'now-ui-dashboard'; 
 
 //$config[ 'base_url'] = 'https://www.fullstack-app-material-dashboard.appseed.us';
-$config[ 'theme'   ] = 'material-dashboard'; 
+//$config[ 'theme'   ] = 'material-dashboard'; 
 
 //$config[ 'base_url'] = 'https://www.fullstack-app-paper-dashboard.appseed.us';
-//$config[ 'theme'   ] = 'paper-dashboard'; 
+$config[ 'theme'   ] = 'paper-dashboard'; 
 
 $config['base_url'] = 'http://localhost:5001'; // development
 

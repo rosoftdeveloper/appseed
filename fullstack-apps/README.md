@@ -2,10 +2,19 @@
 ### Starters generated and prototyped by AppSeed Engine   
 
 #### Full Stack Apps Starters   
+
 *  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask)
 *  [Python Flask / Vue](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-vuejs)
 *  [Python Flask / React](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-react)
+
+
 *  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel)
+*  [Php Laravel / Vue](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel-vuejs)
+*  [Php Laravel / React](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel-react)
+
+*  [Javascript Express / Vue](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/express-vuejs)
+*  [Javascript Express / React](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/express-react)
+
 *  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) 
 *  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/fastify)
 
