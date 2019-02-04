@@ -1,9 +1,12 @@
 ## [AppSeed.us](https://www.appseed.us/?ref=github) - [Full Stack Apps Generator](https://www.appseed.us/fullstack-apps-generator?ref=github)
-### This repository provides full stack apps prototyped in Vue, react, Flask, Laravel and Node   
+### This repository provides full stack apps prototyped in Vue, React, Flask, Laravel and Node   
+
+
 
 <p align="center">
-  <img width="800" height="350" src="https://www.appseed.us/static/thumbnails/appseed-fullstack-app-generator.jpg">
+  <img width="800" height="350" alt="AppSeed.us - Full Stack Apps Generator" src="https://www.appseed.us/static/thumbnails/appseed-fullstack-app-generator.jpg">
 </p>
+
 
 
 #### Demo Web Apps (MIT License):    
