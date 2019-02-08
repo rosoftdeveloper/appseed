@@ -1,9 +1,21 @@
-## [AppSeed.us](https://www.appseed.us/?ref=github) - Full Stack web apps generator
-### This repository provides full stack apps prototyped in Vue, react, Flask, Laravel and Node   
+## [AppSeed.us](https://www.appseed.us/?ref=github) - [Full Stack Apps Generator](https://www.appseed.us/fullstack-apps-generator?ref=github)
+### This repository provides full stack apps prototyped in Vue, React, Flask, Laravel and Node   
+
+
 
 <p align="center">
-  <img width="800" height="350" src="https://www.appseed.us/static/thumbnails/appseed-fullstack-app-generator.jpg">
+  <img width="800" height="350" alt="AppSeed.us - Full Stack Apps Generator" src="https://www.appseed.us/static/thumbnails/appseed-fullstack-app-generator.jpg">
 </p>
+
+
+
+#### Demo Web Apps (MIT License):    
+*  [Now UI Dashboard](https://www.fullstack-app-now-ui-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+*  [Argon Dashboard](https://www.fullstack-app-argon-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+*  [Material Dashboard](https://www.fullstack-app-material-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+*  [Now UI Kit](https://www.fullstack-app-now-ui-kit.appseed.us/?ref=github) - Design by Creative-Tim 
+*  [Argon Design System](https://www.fullstack-app-argon-design.appseed.us/?ref=github) - Design by Creative-Tim 
+
 
 #### Full Stack Apps Starters   
 *  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask) - status: under development, active support
