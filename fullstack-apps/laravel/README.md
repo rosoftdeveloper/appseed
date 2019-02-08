@@ -8,7 +8,7 @@ No more lorem ipsun in your components.
 
 ### 2. Now UI Kit Pro Designed by CreativeTim
 
-
+### 3. Argon-Dashboard Designed by CreativeTim  - [DEMO](https://www.coded-app-laravel.appseed.us/)
 
 ## Features:
 * Design: [Argon Design System](https://github.com/creativetimofficial/argon-design-system)

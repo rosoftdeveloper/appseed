@@ -49,4 +49,36 @@ class PagesController extends Controller
     {
         return view(config('themes.view_path.'.$this->theme) . 'pages.index');
     }
+
+    /*
+     * @return theme icons view - [argon-dashboard]
+     */
+    public function icons()
+    {
+        return view(config('themes.view_path.'.$this->theme) . 'pages.icons');
+    }
+
+    /*
+     * @return theme maps view - [argon-dashboard]
+     */
+    public function maps()
+    {
+        return view(config('themes.view_path.'.$this->theme) . 'pages.maps');
+    }
+
+    /*
+     * @return theme profile view - [argon-dashboard]
+     */
+    public function profile()
+    {
+        return view(config('themes.view_path.'.$this->theme) . 'pages.profile');
+    }
+
+    /*
+     * @return theme tables view - [argon-dashboard]
+     */
+    public function tables()
+    {
+        return view(config('themes.view_path.'.$this->theme) . 'pages.tables');
+    }
 }

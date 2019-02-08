@@ -15,18 +15,34 @@ return [
     'available_themes' => [
         'argon',
         'now-ui-kit-pro',
+        'argon-dashboard',
     ],
 
     // VIEWS PATH
     'view_path' => [
         'argon' => 'themes.argon.',
         'now-ui-kit-pro' => 'themes.now-ui-kit-pro.',
+        'argon-dashboard' => 'themes.argon-dashboard.',
     ],
 
     // ASSETS PATH
     'assets' => [
         'argon' => '/themes/argon',
         'now-ui-kit-pro' => '/themes/now-ui-kit-pro',
+        'argon-dashboard' => '/themes/argon-dashboard',
     ],
 
+    // THEME PAGES - EXCEPT AUTH
+    'pages' => [
+        'argon' => [
+            'index' => '/',
+        ],
+        'now-ui-kit-pro' => [
+            'index' => '/',
+        ],
+        'argon-dashboard' => [
+            'index' => '/',
+            'icons' => '/icons',
+        ],
+    ],
 ];

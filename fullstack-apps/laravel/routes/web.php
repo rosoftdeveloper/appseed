@@ -6,6 +6,13 @@ Route::get('/', 'PagesController@index');
 //Another route example
 //Route::get('/about', 'PagesController@about');
 
+// ADDITIONAL PAGES FOR argon-dashboard THEME
+Route::get('/icons', 'PagesController@icons');
+Route::get('/maps', 'PagesController@maps');
+Route::get('/profile', 'PagesController@profile');
+Route::get('/tables', 'PagesController@tables');
+// END ADDITIONAL PAGES FOR argon-dashboard THEME
+
 Route::get('/locale/{locale?}', function($locale = null){
 
     if(in_array($locale, config('app.available_locale')))
