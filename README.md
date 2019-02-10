@@ -19,13 +19,13 @@ Production ready servers: Flask, Express and Laravel
 
 
 
-#### Vue.js Starters (with desing)   
+#### Vue.js Starters (with design)   
 
 [Argon Design System](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) Design by Creative-Tim - status: under development
 
 
 
-#### React Starters (with desing)  
+#### React Starters (with design)  
 
 [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - status: under development
 
