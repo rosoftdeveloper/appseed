@@ -38,22 +38,43 @@
                                 <small>Or sign in with credentials</small>
                             </div>
                             <form role="form">
-                                <base-input alternative
+                                <base-input v-model="email.value"
+                                            alternative
+                                            :class="email.errors.length && 'input-error'"
                                             class="mb-3"
                                             placeholder="Email"
                                             addon-left-icon="ni ni-email-83">
                                 </base-input>
-                                <base-input alternative
+
+                                <ul class="form-errors">
+                                    <li v-for="(error, index) in email.errors" :key="index">
+                                        {{error}}
+                                    </li>
+                                </ul>
+                                
+                                <base-input v-model="password.value"
+                                            alternative
+                                            :class="password.errors.length && 'input-error'"
                                             type="password"
                                             placeholder="Password"
                                             addon-left-icon="ni ni-lock-circle-open">
                                 </base-input>
+
+                                <ul class="form-errors">
+                                    <li v-for="(error, index) in password.errors" :key="index">
+                                        {{error}}
+                                    </li>
+                                </ul>
+                                
+
                                 <base-checkbox>
                                     Remember me
                                 </base-checkbox>
                                 <div class="text-center">
-                                    <base-button type="primary" class="my-4">Sign In</base-button>
+                                    <base-button type="submit" @click="submitForm" class="my-4">Sign In</base-button>
                                 </div>
+                                
+                                
                             </form>
                         </template>
                     </card>
@@ -75,7 +96,98 @@
     </section>
 </template>
 <script>
-export default {};
+import Cookies from '../utils/Cookies';
+import router from '../router.js'
+
+export default {
+    data: () => ({
+        email: {
+            value: null,
+            errors: []
+        },
+        password: {
+            value: null,
+            errors: []
+        }
+    }),
+    methods: {
+        validEmail: function (email) {
+            const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        },
+        isValidForm() {
+            this.email.errors = [];
+            this.password.errors = [];
+
+            if (!this.email.value) {
+                this.email.errors.push('Email required.');
+            } else if (!this.validEmail(this.email.value)) {
+                this.email.errors.push('Invalid email.');
+            }
+
+            if (!this.password.value) {
+                this.password.errors.push('Password required.');
+            }
+
+            if (this.password.errors.length || this.email.errors.length) {
+                return false;
+            }
+            
+            return true;
+        },
+        async submitForm() {
+            if ( !this.isValidForm() ) {
+                return;
+            }
+
+            const user = {
+                email: this.email.value,
+                password: this.password.value
+            }
+
+            const url = 'http://localhost:3000/api/users/login';
+
+            fetch(url, {
+                method: "POST", // *GET, POST, PUT, DELETE, etc.
+                mode: "cors", // no-cors, cors, *same-origin
+                cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+                credentials: "same-origin", // include, *same-origin, omit
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ user }), // body data type must match "Content-Type" header
+            })
+            .then( res => res.json())
+            .then( data => {
+                const { errors, user } = data;
+
+                if (errors) {
+                    for (let key in errors) {
+                        this[key].errors.push(errors[key])
+                    }
+
+                    return;
+                }
+
+                if (user) {
+                    const { token, ...userData } = user;
+                    Cookies.create('token',token, null);
+                    console.log(userData, token)
+
+                    this.$store.dispatch('LOGIN', userData);
+
+                    router.push('/')
+                }
+            });
+        }
+    }
+};
 </script>
 <style>
+.form-errors {
+    color: red;
+}
+div.input-error {
+    border: 1px solid red;
+}
 </style>

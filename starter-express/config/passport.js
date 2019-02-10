@@ -14,11 +14,11 @@ passport.use(new LocalStrategy({
     */
 
     if ( email !== dummyUser.email ) {
-        return done(null, false, { errors: { 'email or user': `doesn't exist`}})
+        return done(null, false, { errors: { 'email': `User or email doesn't exist`}})
     } 
 
     if ( !validatePassword(password, dummyUser.password) ) {
-        return done(null, false, { errors: { 'password': `is invalid`}})
+        return done(null, false, { errors: { 'password': `Password is invalid`}})
     }
 
     return done(null, dummyUser);

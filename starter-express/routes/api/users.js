@@ -32,6 +32,8 @@ router.post('/login', auth.optional, (req, res, next) => {
             const user = {
                 _id: passportUser.id,
                 email: passportUser.email,
+                name: passportUser.name,
+                surname: passportUser.surname,
                 token: generateJWT(passportUser)
             };
 

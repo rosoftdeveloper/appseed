@@ -9,12 +9,15 @@
 
 ## Setting up a development environment
 
-* To be updated
+* clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
+* change directory to this project: `cd appseed/starter-vue`
+* install node modules: `npm i`
+
 
 
 ## Running the app
 
-* To be updated
+* start the application by running: `npm run serve`
 
 
 ## Trouble shooting
