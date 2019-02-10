@@ -8,6 +8,26 @@
 </p>
 
 
+#### Server Starters   
+
+Production ready servers: Flask, Express and Laravel
+
+*  [Starter Flask](https://github.com/rosoftdeveloper/appseed/tree/master/starter-flask) - status: under development
+*  [Starter Express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express) - status: under development
+*  [Starter Laravel](https://github.com/rosoftdeveloper/appseed/tree/master/starter-laravel) - status: under development
+
+#### Vue Starters   
+
+Vue.js apps
+
+*  [Argon Design System](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) Design by Creative-Tim - status: under development
+
+#### React Starters   
+
+React apps 
+
+*  [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - status: under development
+
 
 #### Demo Web Apps (MIT License):    
 *  [Now UI Dashboard](https://www.fullstack-app-now-ui-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
@@ -16,17 +36,6 @@
 *  [Now UI Kit](https://www.fullstack-app-now-ui-kit.appseed.us/?ref=github) - Design by Creative-Tim 
 *  [Argon Design System](https://www.fullstack-app-argon-design.appseed.us/?ref=github) - Design by Creative-Tim 
 
-
-#### Full Stack Apps Starters   
-*  [Python Flask / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask) - status: under development, active support
-*  [Python Flask / Vue](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-vuejs) - status: under development, active support
-*  [Python Flask / React](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/flask-react) - status: under development, active support
-*  [Php Laravel / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/laravel) - status: under development, active support
-*  [Php CodeIgniter / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/codeigniter) - status: under development, active support
-*  [Javascript Fastify / jQuery](https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/fastify) - status: under development, active support
-
-#### Tools
-Nothing here for the moment. Stay tooned!
 
 ## Trouble shooting
 

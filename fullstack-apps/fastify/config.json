@@ -1,9 +1,0 @@
-{
-	"port": 5000,
-	"host": "localhost",
-
-	"theme": {
-		"lang": "en",
-		"name": "argon"
-	}
-}
