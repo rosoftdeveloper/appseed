@@ -9,17 +9,27 @@
 
 ## Setting up a development environment
 
-* To be updated
-
+* clone repo: `git clone git@github.com:rosoftdeveloper/appseed.git` 
+* change directory to starter-express: `cd appseed/starter-express`
+* install node modules: `npm i`
+* create a file named .env which should contain the following default setup ( you should provide your own values to this variables ):
+```
+SALT=35kj7waj3k5kja09jeoi21kn0pg13iuhlkn // used in password hashing
+JWT_SECRET=secret                        // used in JWT signing
+SESSION_SECRET=secret                    // used for session data
+PORT=8080      // the port on which your server will be available on
+```
+* [optional] You can install nodemon: `npm i nodemon -g` in order watch & auto restart the server on file change.
 
 ## Running the app
 
-* To be updated
+* run `node index.js` or `nodemon start` if you installed nodemon previously.
 
 
 ## Trouble shooting
 
-* To be updated
+* In order to debug the application, you must provide a `--inspect` flag to node: `node --inspect index.js`.
+* For more info on debugging, see: https://nodejs.org/en/docs/inspector
 
 
 ## MIT License
