@@ -12,29 +12,25 @@
 
 Production ready servers: Flask, Express and Laravel
 
-*  [Starter Flask](https://github.com/rosoftdeveloper/appseed/tree/master/starter-flask) - status: under development
-*  [Starter Express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express) - status: under development
-*  [Starter Laravel](https://github.com/rosoftdeveloper/appseed/tree/master/starter-laravel) - status: under development
+[Starter Flask](https://github.com/rosoftdeveloper/appseed/tree/master/starter-flask) - status: under development
+[Starter Express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express) - status: under development
+[Starter Laravel](https://github.com/rosoftdeveloper/appseed/tree/master/starter-laravel) - status: under development
 
-#### Vue Starters   
+#### Vue.js Starters (with desing)   
 
-Vue.js apps
+[Argon Design System](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) Design by Creative-Tim - status: under development
 
-*  [Argon Design System](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) Design by Creative-Tim - status: under development
+#### React Starters (with desing)  
 
-#### React Starters   
-
-React apps 
-
-*  [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - status: under development
+[Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - status: under development
 
 
 #### Demo Web Apps (MIT License):    
-*  [Now UI Dashboard](https://www.fullstack-app-now-ui-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
-*  [Argon Dashboard](https://www.fullstack-app-argon-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
-*  [Material Dashboard](https://www.fullstack-app-material-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
-*  [Now UI Kit](https://www.fullstack-app-now-ui-kit.appseed.us/?ref=github) - Design by Creative-Tim 
-*  [Argon Design System](https://www.fullstack-app-argon-design.appseed.us/?ref=github) - Design by Creative-Tim 
+[Now UI Dashboard](https://www.fullstack-app-now-ui-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+[Argon Dashboard](https://www.fullstack-app-argon-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+[Material Dashboard](https://www.fullstack-app-material-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+[Now UI Kit](https://www.fullstack-app-now-ui-kit.appseed.us/?ref=github) - Design by Creative-Tim 
+[Argon Design System](https://www.fullstack-app-argon-design.appseed.us/?ref=github) - Design by Creative-Tim 
 
 
 ## Trouble shooting
