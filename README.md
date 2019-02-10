@@ -13,21 +13,21 @@
 
 Production ready servers: Flask, Express and Laravel
 
-* [Starter Flask](https://github.com/rosoftdeveloper/appseed/tree/master/starter-flask) - status: under development
-* [Starter Express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express) - status: under development
-* [Starter Laravel](https://github.com/rosoftdeveloper/appseed/tree/master/starter-laravel) - status: under development
+* [Starter Flask](https://github.com/rosoftdeveloper/appseed/tree/master/starter-flask) - (**under development**)
+* [Starter Express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express) - (**under development**)
+* [Starter Laravel](https://github.com/rosoftdeveloper/appseed/tree/master/starter-laravel) - (**under development**)
 
 
 
 #### Vue.js Starters (with design)   
 
-* [Argon Design System](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) Design by Creative-Tim - status: under development
+* [Argon Design System](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) Design by Creative-Tim - (**under development**)
 
 
 
 #### React Starters (with design)  
 
-* [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - status: under development
+* [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - (**under development**)
 
 
 #### Demo Web Apps (MIT License):    
