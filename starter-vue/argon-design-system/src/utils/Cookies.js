@@ -7,7 +7,7 @@ export default {
             date.setTime(date.getTime() + seconds);
             expires = `; expires=${date.toUTCString()}`
         }
-
+        
         document.cookie = `${name}=${value}${expires}; path=/`
 
         return true;
@@ -26,7 +26,7 @@ export default {
         return false;
     },
 
-    erase(name){
+    remove(name){
         return this.create(name,"",-1);
     }
 }

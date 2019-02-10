@@ -292,6 +292,10 @@
 
         .collapse-close { 
             text-align: right;
+            max-width: 100%;
+            position: absolute;
+            top: 30px;
+            right: 5px;
         }
     }
 

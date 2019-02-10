@@ -24,6 +24,9 @@
             <div class="collapse navbar-collapse" :class="{show: toggled}" :id="contentId" v-click-outside="closeMenu">
                 <div class="navbar-collapse-header">
                     <slot name="content-header" :close-menu="closeMenu"></slot>
+                    <div class="col-6 collapse-close">
+                        <close-button @click="closeMenu"></close-button>
+                    </div>
                 </div>
                 <slot :close-menu="closeMenu"></slot>
             </div>
@@ -33,12 +36,14 @@
 <script>
 import { FadeTransition } from "vue2-transitions";
 import NavbarToggleButton from "./NavbarToggleButton";
+import CloseButton from "./CloseButton";
 
 export default {
   name: "base-nav",
   components: {
     FadeTransition,
-    NavbarToggleButton
+    NavbarToggleButton,
+    CloseButton
   },
   props: {
     type: {
