@@ -27,7 +27,7 @@ Production ready servers: Flask, Express and Laravel
 
 #### React Starters (with design)  
 
-*[Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - status: under development
+* [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - status: under development
 
 
 #### Demo Web Apps (MIT License):    
