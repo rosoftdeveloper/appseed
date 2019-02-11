@@ -8,11 +8,9 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a target="_blank" class="navbar-brand" href="https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps/">Sources</a>
+                    <a target="_blank" class="navbar-brand" href="<?php echo _assets('GITHUB') ?>">Sources</a>
                     &nbsp;&nbsp; 
-                    <a target="_blank" class="navbar-brand" href="https://www.facebook.com/groups/fullstack.apps.generator/">Support</a>
-                    &nbsp;&nbsp; 
-                    <a target="_blank" class="navbar-brand active" href="<?php echo _assets('LINK_APP_GENERATOR') ?>">Get this app in React, Vue</a>
+                    <a target="_blank" class="navbar-brand active" href="<?php echo _assets('GENERATOR') ?>">Get this app in React, Vue</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">

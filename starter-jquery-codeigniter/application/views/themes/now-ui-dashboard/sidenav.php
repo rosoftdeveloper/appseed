@@ -2,7 +2,7 @@
 <div class="sidebar" data-color="orange">
 
 <div class="logo">
-  <a target="_blank" href="https://www.appseed.us/fullstack-apps-generator" class="simple-text logo-normal">
+  <a target="_blank" href="https://www.appseed.us/fullstack-apps-generator" class="simple-text logo-normal text-center">
     Full Stack App
   </a>
 </div>

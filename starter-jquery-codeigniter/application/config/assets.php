@@ -17,11 +17,11 @@ class Assets {
     public $LINK_INSTAGRAM                  = 'https://www.instagram.com/webappseed'                             ;
     public $LINK_YOUTUBE                    = 'https://www.youtube.com/channel/UCSEnv6MeRzmFXAnG5baXC_Q'         ;
     public $LINK_GITHUB                     = 'https://github.com/rosoftdeveloper/appseed'                       ;
-    public $LINK_GITHUB_APPS                = 'https://github.com/rosoftdeveloper/appseed/tree/master/fullstack-apps'  ;
-    public $LINK_GITHUB_THEMES              = 'https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes' ;
+    public $LINK_GITHUB_APPS                = 'https://github.com/rosoftdeveloper/appseed/'                      ;
+    public $LINK_GITHUB_THEMES              = 'https://github.com/rosoftdeveloper/appseed/'                      ;
 
-    public $LINK_DOWNLOAD                   = 'https://www.appseed.us/fullstack-apps-generator'                         ;
-    public $LINK_COMPONENTS                 = 'https://github.com/rosoftdeveloper/appseed/tree/master/enhanced-themes/' ;
+    public $LINK_DOWNLOAD                   = 'https://www.appseed.us/fullstack-apps-generator'                  ;
+    public $LINK_COMPONENTS                 = 'https://github.com/rosoftdeveloper/appseed/ '      ;
 
     public $HEADER_TITLE                    = 'Full Stack App @AppSeed.us';
     public $HEADER_DESCRIPTION              = 'Full stack app. Modules: Authentication, Helpers, Database';
@@ -35,7 +35,11 @@ class Assets {
     public $LINK_PRODUCT_NOW_LIGHT_BOOTSTRAP_DASHBOARD = 'https://www.appseed.us/fullstack-app-light-bootstrap-dashboard'; 
 
     // Common generator
-    public $LINK_APP_GENERATOR                         = 'https://www.appseed.us/fullstack-apps-generator'; 
+    public $LINK_APP_GENERATOR                         = 'https://www.appseed.us/fullstack-apps-generator' ; 
+
+    public $GITHUB                                     = 'https://github.com/rosoftdeveloper/appseed'      ;
+    public $GENERATOR                                  = 'https://www.appseed.us/fullstack-apps-generator' ; 
+
 }
 
 // define assets ..

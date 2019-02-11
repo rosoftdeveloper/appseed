@@ -4,7 +4,7 @@
           <nav class="float-left">
             <ul>
               <li>
-                <a href="https://www.creative-tim.com">
+                <a target="_blank" href="https://www.creative-tim.com">
                   Creative Tim
                 </a>
               </li>
