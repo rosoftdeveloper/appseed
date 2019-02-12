@@ -33,4 +33,4 @@ app.use(require('./routes'));
 const port = process.env.PORT || 8080;
 const interface = process.env.SERVER_ADDRESS || '127.0.0.1';
 
-app.listen(interface, port, () => console.log(`Server running on http://${interface}:${port}`));
+app.listen( port, interface, () => console.log(`Server running on http://${interface}:${port}`));

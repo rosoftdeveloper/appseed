@@ -20,6 +20,15 @@ SESSION_SECRET=secret                    // used for session data
 PORT=8080      // the port on which your server will be available on
 SERVER_ADDRESS=127.0.0.1 // or 0.0.0.0 for all or other interface address you want to listen
 ```
+You have to remove the comments from the end of each row.
+Real life example .env file:
+```
+SALT=35kj7waj3k5kja09jeoi21kn0pg13iuhlkn
+JWT_SECRET=secret
+SESSION_SECRET=secret
+PORT=8080
+SERVER_ADDRESS=127.0.0.1
+```
 * [optional] You can install nodemon: `npm i nodemon -g` in order watch & auto restart the server on file change.
 
 ## Running the app
