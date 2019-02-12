@@ -18,6 +18,7 @@ SALT=35kj7waj3k5kja09jeoi21kn0pg13iuhlkn // used in password hashing
 JWT_SECRET=secret                        // used in JWT signing
 SESSION_SECRET=secret                    // used for session data
 PORT=8080      // the port on which your server will be available on
+SERVER_ADDRESS=127.0.0.1 // or 0.0.0.0 for all or other interface address you want to listen
 ```
 * [optional] You can install nodemon: `npm i nodemon -g` in order watch & auto restart the server on file change.
 
