@@ -4,11 +4,33 @@
 
 ## General: 
 
-* ToDo
+* All backend use a hardcoded list of (two) users:
+  Sample used by [Express Backend](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/config/users.js)  
 
-## Features: 
+## Input: 
 
-* ToDo
+* Header:
+Content-Type: application/json
+
+* Body:
+{
+	"user": {
+		"email": "demo@appseed.us",
+		"password": "demo"
+	}
+}
+
+## Output: 
+
+{
+    "user": {
+        "_id": 1,
+        "email": "demo@appseed.us",
+        "name": "John",
+        "surname": "Doe",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkZW1vQGFwcHNlZWQudXMiLCJuYW1lIjoiSm9obiIsInN1cm5hbWUiOiJEb2UiLCJleHAiOjE1NTUxODY1NTEsImlhdCI6MTU1MDAwNjE1MX0.Adu5GOqf2Sx1CrAhNgId_KTZL_xxj3fBgRKTe41K-YA"
+    }
+}
 
 ## Trouble shooting
 
