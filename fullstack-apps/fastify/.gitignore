@@ -1,0 +1,6 @@
+#db files
+db.*
+package-lock.json
+
+#dependency modules
+node_modules
