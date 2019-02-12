@@ -16,7 +16,7 @@ const user1 = {
     id        : 1,
     name      : 'John',
     surname   : 'Doe',
-    email     : 'demo@appseed.com',
+    email     : 'demo@appseed.us',
     password  : 'demo'
 };
 
@@ -24,7 +24,7 @@ const user2 = {
     id        : 2,
     name      : 'George',
     surname   : 'Clooney',
-    email     : 'demo2@appseed.com',
+    email     : 'demo2@appseed.us',
     password  : 'demo'
 };
 
