@@ -1,3 +1,12 @@
+/**
+ *
+ * Author:  AppSeed.us - Full Stack App Generator
+ *
+ * License: MIT - Copyright (c) AppSeed.us
+ * @link https://github.com/rosoftdeveloper/appseed
+ *
+ */
+
 const crypto = require('crypto');
 
 /**
@@ -11,8 +20,12 @@ const crypto = require('crypto');
  */
 
 const validatePassword = (password, hashedPassword) => {
-    const hash = crypto.pbkdf2Sync(password, process.env.SALT, 10000, 512, 'sha512').toString('hex');
-    return hash === hashedPassword;
+    
+    return password === hashedPassword;
+
+    // Hashed passwords !? here is the code ;) 
+    //const hash = crypto.pbkdf2Sync(password, process.env.SALT, 10000, 512, 'sha512').toString('hex');
+    //return hash === hashedPassword;
 }
 
 module.exports = validatePassword;

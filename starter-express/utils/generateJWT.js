@@ -1,3 +1,12 @@
+/**
+ *
+ * Author:  AppSeed.us - Full Stack App Generator
+ *
+ * License: MIT - Copyright (c) AppSeed.us
+ * @link https://github.com/rosoftdeveloper/appseed
+ *
+ */
+
 const jwt = require("jsonwebtoken");
 
 /**
@@ -5,11 +14,11 @@ const jwt = require("jsonwebtoken");
  * 
  * @since 1.0.0
  * @category authentication
- * @param {Any} id The user ID
- * @param {String} email The email of the user
- * @param {String} name The name of the user
- * @param {String} surname The surname of the user
- * @returns {Object} The generated JWT
+ * @param    {Any} id The user ID
+ * @param    {String} email The email of the user
+ * @param    {String} name The name of the user
+ * @param    {String} surname The surname of the user
+ * @returns  {Object} The generated JWT
  */
 
 const generateJWT = ({ id, email, name, surname }) => {

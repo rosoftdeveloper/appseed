@@ -1,6 +1,15 @@
-const passport = require('passport');
-const router = require('express').Router();
-const auth = require('../auth');
+/**
+ *
+ * Author:  AppSeed.us - Full Stack App Generator
+ *
+ * License: MIT - Copyright (c) AppSeed.us
+ * @link https://github.com/rosoftdeveloper/appseed
+ *
+ */
+
+const passport    = require('passport');
+const router      = require('express').Router();
+const auth        = require('../auth');
 const generateJWT = require('../../utils/generateJWT');
 
 /* POST login route */

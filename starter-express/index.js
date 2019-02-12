@@ -1,8 +1,17 @@
-const express = require("express");
-const path = require("path");
+/**
+ *
+ * Author:  AppSeed.us - Full Stack App Generator
+ *
+ * License: MIT - Copyright (c) AppSeed.us
+ * @link https://github.com/rosoftdeveloper/appseed
+ *
+ */
+
+const express    = require("express");
+const path       = require("path");
 const bodyParser = require("body-parser");
-const session = require("express-session");
-const cors = require("cors");
+const session    = require("express-session");
+const cors       = require("cors");
 
 /* Make all variables from our .env file available in our process */
 require('dotenv').config()

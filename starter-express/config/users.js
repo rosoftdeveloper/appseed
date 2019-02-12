@@ -1,0 +1,36 @@
+/**
+ *
+ * Author:  AppSeed.us - Full Stack App Generator
+ *
+ * License: MIT - Copyright (c) AppSeed.us
+ * @link https://github.com/rosoftdeveloper/appseed
+ *
+ */
+
+/* 
+ * The hardcoded users list 
+ *
+*/
+
+const user1 = {
+    id        : 1,
+    name      : 'John',
+    surname   : 'Doe',
+    email     : 'demo@appseed.com',
+    password  : 'demo'
+};
+
+const user2 = {
+    id        : 2,
+    name      : 'George',
+    surname   : 'Clooney',
+    email     : 'demo2@appseed.com',
+    password  : 'demo'
+};
+
+var Users = { }
+
+Users[ user1.email ] = user1;
+Users[ user2.email ] = user2;
+
+module.exports = Users;
