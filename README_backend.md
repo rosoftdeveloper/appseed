@@ -22,6 +22,8 @@ Content-Type: application/json
 
 ## Output: 
 
+* Nominal case:
+
 {
     "user": {
         "_id": 1,
@@ -29,6 +31,14 @@ Content-Type: application/json
         "name": "John",
         "surname": "Doe",
         "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkZW1vQGFwcHNlZWQudXMiLCJuYW1lIjoiSm9obiIsInN1cm5hbWUiOiJEb2UiLCJleHAiOjE1NTUxODY1NTEsImlhdCI6MTU1MDAwNjE1MX0.Adu5GOqf2Sx1CrAhNgId_KTZL_xxj3fBgRKTe41K-YA"
+    }
+}
+
+* Error Case
+
+{
+    "errors": {
+        "password": "Password is invalid"
     }
 }
 
