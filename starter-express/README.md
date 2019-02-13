@@ -6,7 +6,6 @@
 
 * Under development, incomplete documentation, active suport
 
-
 ## Setting up a development environment
 
 * clone repo: `git clone git@github.com:rosoftdeveloper/appseed.git` 
@@ -38,8 +37,7 @@ SERVER_ADDRESS=127.0.0.1
 
 ## Trouble shooting
 
-* In order to debug the application, you must provide a `--inspect` flag to node: `node --inspect index.js`.
-* For more info on debugging, see: https://nodejs.org/en/docs/inspector
+* Support via @Github or [Facebook Group](https://www.facebook.com/groups/fullstack.apps.generator) 
 
 
 ## MIT License
