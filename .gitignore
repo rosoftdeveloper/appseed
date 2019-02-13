@@ -3,6 +3,7 @@
 */public/storage
 */storage/*.key
 */vendor
+/starter-laravel/vendor
 *.idea
 */.idea
 */.vagrant

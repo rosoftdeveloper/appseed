@@ -7,15 +7,46 @@
 
 ## Setting up a development environment
 
-* To be updated
+* clone repo: git clone git@github.com:rosoftdeveloper/appseed.git
+* change directory to starter-express: cd appseed/starter-laravel
+* CMD ```composer install```
+* create a file named .env (copy .env.example file) which should contain the following default setup ( you should provide your own values to this variables ):
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=MY_DB_MANE
+DB_USERNAME=MY_DB_USER
+DB_PASSWORD=MY_DB_PASSWORD
+
+JWT_SECRET=RuoxLtY4F3HvH3K0aVTkgLPTZu8IvlhJ
+```
+* CMD: ```php artisan key:generate```
+* CMD: ```php artisan migrate:fresh --seed``` to create tables and seed with data
 
 ## Running the app
 
-* To be updated
+* Go in the appseed/starter-laravel/public run in CMD ``` php -S localhost:5000 ```
+* Login route: /api/users/login [post: email, password],
+* Demo credentials email: demo@appseed.us, password: demo & demo2@appseed.us, password: demo
+
+Test with POSTMAN first.
+
+Headers ```Content-Type: application/json```
+
+Body/raw data: 
+```
+{
+	"user": {
+		"email": "demo2@appseed.us",
+		"password": "demo"
+	}
+}
+```
 
 ## Trouble shooting
 
-* To be updated
+* Support via @Github or [Facebook Group](https://www.facebook.com/groups/fullstack.apps.generator) 
 
 ## MIT License
 
