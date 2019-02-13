@@ -9,18 +9,18 @@
 
 ## Setting up a development environment
 
-* To be updated
-
+* clone repo: `git clone git@github.com:rosoftdeveloper/appseed.git` 
+* change directory to starter-express: `cd appseed/starter-flask`
+* pip install -r requirements.txt
 
 ## Running the app
 
-* To be updated
-
+* flask run ( app is started on default port 5000 )
+* flask run --port 3500 ( to start on specific port)
 
 ## Trouble shooting
 
-* To be updated
-
+* Support via @Github or [Facebook Group](https://www.facebook.com/groups/fullstack.apps.generator) 
 
 ## MIT License
 
