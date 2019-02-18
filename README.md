@@ -31,11 +31,11 @@ Production ready servers: Flask, Express and Laravel
 
 
 #### Demo Web Apps (MIT License):    
-* [Now UI Dashboard](https://www.fullstack-app-now-ui-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
-* [Argon Dashboard](https://www.fullstack-app-argon-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
-* [Material Dashboard](https://www.fullstack-app-material-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
-* [Now UI Kit](https://www.fullstack-app-now-ui-kit.appseed.us/?ref=github) - Design by Creative-Tim 
-* [Argon Design System](https://www.fullstack-app-argon-design.appseed.us/?ref=github) - Design by Creative-Tim 
+* [Now UI Dashboard](https://now-ui-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+* [Argon Dashboard](https://argon-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+* [Material Dashboard](https://material-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
+* [Now UI Kit](https://now-ui-kit.appseed.us/?ref=github) - Design by Creative-Tim 
+* [Argon Design System](https://argon-design.appseed.us/?ref=github) - Design by Creative-Tim 
 
 
 ## Trouble shooting
