@@ -4,7 +4,15 @@
 
     <?php $this->load->view( 'themes/'. _theme() . '/header'); ?>
 
-    <?php echo _analytics() ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134578029-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134578029-1');
+</script>
 
 </head>
 <body>
