@@ -35,7 +35,7 @@ Production ready servers: Flask, Express and Laravel
 * [Argon Dashboard](https://argon-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
 * [Material Dashboard](https://material-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
 * [Now UI Kit](https://now-ui-kit.appseed.us/?ref=github) - Design by Creative-Tim 
-* [Argon Design System](https://argon-design.appseed.us/?ref=github) - Design by Creative-Tim 
+* [Argon Design System](https://argon-design-system.appseed.us/?ref=github) - Design by Creative-Tim 
 
 
 ## Trouble shooting
