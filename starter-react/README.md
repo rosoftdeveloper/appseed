@@ -9,12 +9,16 @@
 
 ## Setting up a development environment
 
-* To be updated
+* clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
+* change directory to this project: `cd appseed/starter-react`
+* install node modules: `npm i`
+
 
 
 ## Running the app
 
-* To be updated
+* start `starter-express` server on port 3001 [more info on config setup](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express)
+* start the application by running: `npm start`
 
 
 ## Trouble shooting
