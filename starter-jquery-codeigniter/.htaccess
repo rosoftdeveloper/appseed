@@ -1,5 +1,6 @@
 DirectoryIndex index.php
 RewriteEngine on
+RewriteBase /
 
 ########################################
 # index.php to /
@@ -14,9 +15,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
 
 ##################################################################  
-# Redirect non-www to www
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 ################################################################## 
 # Redirect http to https

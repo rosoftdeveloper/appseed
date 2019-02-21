@@ -24,28 +24,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-argon-design.appseed.us';
+//$config[ 'base_url'] = 'https://argon-design-system.appseed.us';
 //$config[ 'theme'   ] = 'argon-design-system'; 
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-now-ui-kit.appseed.us';
+//$config[ 'base_url'] = 'https://now-ui-kit.appseed.us';
 //$config[ 'theme'   ] = 'now-ui-kit'; 
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-argon-dashboard.appseed.us';
+//$config[ 'base_url'] = 'https://argon-dashboard.appseed.us';
 //$config[ 'theme'   ] = 'dashboard-argon'; 
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-light-bootstrap-dashboard.appseed.us';
+//$config[ 'base_url'] = 'https://light-bootstrap-dashboard.appseed.us';
 //$config[ 'theme'   ] = 'light-bootstrap-dashboard'; 
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-now-ui-dashboard.appseed.us';
+//$config[ 'base_url'] = 'https://now-ui-dashboard.appseed.us';
 //$config[ 'theme'   ] = 'now-ui-dashboard'; 
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-material-dashboard.appseed.us';
+//$config[ 'base_url'] = 'https://material-dashboard.appseed.us';
 //$config[ 'theme'   ] = 'material-dashboard'; 
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-paper-dashboard.appseed.us';
+//$config[ 'base_url'] = 'https://paper-dashboard.appseed.us';
 //$config[ 'theme'   ] = 'paper-dashboard'; 
 
-//$config[ 'base_url'] = 'https://www.fullstack-app-dark-dashboard.appseed.us';
+//$config[ 'base_url'] = 'https://dark-dashboard.appseed.us';
 $config[ 'theme'   ] = 'dark-dashboard'; 
 
 $config['base_url'] = 'http://localhost:5001'; // development
