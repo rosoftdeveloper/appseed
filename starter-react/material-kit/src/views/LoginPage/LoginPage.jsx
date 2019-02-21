@@ -1,5 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
+// utils
+import Cookies from "../../utils/Cookies";
+import { login } from "../../store/actions";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import InputAdornment from "@material-ui/core/InputAdornment";
@@ -19,11 +22,8 @@ import CardBody from "components/Card/CardBody.jsx";
 import CardHeader from "components/Card/CardHeader.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
 import CustomInput from "components/CustomInput/CustomInput.jsx";
-import Cookies from "../../utils/Cookies";
-import { login } from "../../store/actions";
-
+// assets
 import loginPageStyle from "assets/jss/material-kit-react/views/loginPage.jsx";
-
 import image from "assets/img/bg7.jpg";
 
 class LoginPage extends React.Component {
@@ -97,11 +97,11 @@ class LoginPage extends React.Component {
 
         if (user) {
             const { token, ...userData } = user;
+
             Cookies.create('token', token, null);
             
             this.props.dispatch(login(userData));
             this.props.history.push('/');
-
         }
     });
   }
@@ -221,7 +221,6 @@ class LoginPage extends React.Component {
     );
   }
 }
-
 
 const LoginPageContainer = connect(dispatch => ({ dispatch }))(LoginPage);
 

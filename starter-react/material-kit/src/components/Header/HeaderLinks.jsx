@@ -8,7 +8,6 @@ import { logout } from "../../store/actions";
 import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
 import { Apps, CloudDownload } from "@material-ui/icons";
@@ -16,38 +15,22 @@ import { Apps, CloudDownload } from "@material-ui/icons";
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
 import Button from "components/CustomButtons/Button.jsx";
-
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
-// const RegisterButton = props => (
-//     <ListItem className={props.classes.listItem}>
-//         <Link to={"/login-page"}>
-//             <Button 
-//             href=""
-//             color="transparent"
-//             target="_blank"
-//             className={props.classes.navLink}>Register</Button>
-//         </Link>
-//     </ListItem>
-// )
+const RegisterButton = props => (
+    <ListItem className={props.classes.listItem}>
+        <Link to={"/login-page"}>
+            <Button 
+            href=""
+            color="transparent"
+            target="_blank"
+            style={{color: 'white'}}
+            className={props.classes.navLink}>Register</Button>
+        </Link>
+    </ListItem>
+)
 
-const RegisterButton = props => {
-    console.log(props);
-    return (
-        <ListItem className={props.classes.listItem}>
-            <Link to={"/login-page"}>
-                <Button 
-                href=""
-                color="transparent"
-                target="_blank"
-                style={{color: 'white'}}
-                className={props.classes.navLink}>Register</Button>
-            </Link>
-        </ListItem>
-    )
-}
- 
-
+// the logout component emits a logout signal to redux
 const Logout = connect(dispatch => ({ dispatch }))(props => (
     <ListItem className={props.classes.listItem}>
         <Button 
@@ -116,7 +99,6 @@ function HeaderLinks({ ...props }) {
     </List>
   );
 }
-
 
 const HeaderLinksContainer = connect(state => ({ state }))(HeaderLinks);
 

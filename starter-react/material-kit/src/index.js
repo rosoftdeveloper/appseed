@@ -19,7 +19,6 @@ import LoginPage from "views/LoginPage/LoginPage.jsx";
 var hist = createBrowserHistory();
 
 const token = Cookies.read('token');
-console.log(token);
 
 if (token) {
     const user = jwtDecode(token);

@@ -4,7 +4,7 @@ import {
     LOGOUT,
 } from "../actions";
 
-
+// the user function itself represents the user key of the store
 const user = (state = null, action) => {
     switch (action.type) {
         case LOGIN:
