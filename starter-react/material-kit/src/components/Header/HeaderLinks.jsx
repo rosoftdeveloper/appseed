@@ -2,7 +2,8 @@
 import React from "react";
 // react components for routing our app without refresh
 import { Link } from "react-router-dom";
-
+import { connect } from "react-redux";
+import { logout } from "../../store/actions";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
@@ -17,6 +18,49 @@ import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
+
+// const RegisterButton = props => (
+//     <ListItem className={props.classes.listItem}>
+//         <Link to={"/login-page"}>
+//             <Button 
+//             href=""
+//             color="transparent"
+//             target="_blank"
+//             className={props.classes.navLink}>Register</Button>
+//         </Link>
+//     </ListItem>
+// )
+
+const RegisterButton = props => {
+    console.log(props);
+    return (
+        <ListItem className={props.classes.listItem}>
+            <Link to={"/login-page"}>
+                <Button 
+                href=""
+                color="transparent"
+                target="_blank"
+                style={{color: 'white'}}
+                className={props.classes.navLink}>Register</Button>
+            </Link>
+        </ListItem>
+    )
+}
+ 
+
+const Logout = connect(dispatch => ({ dispatch }))(props => (
+    <ListItem className={props.classes.listItem}>
+        <Button 
+        href=""
+        color="transparent"
+        target="_blank"
+        style={{color: 'white'}}
+        onClick={() => props.dispatch(logout())}
+        className={props.classes.navLink}>Logout</Button>
+    </ListItem>
+))
+
+
 
 function HeaderLinks({ ...props }) {
   const { classes } = props;
@@ -55,59 +99,25 @@ function HeaderLinks({ ...props }) {
           <CloudDownload className={classes.icons} /> Download
         </Button>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            href="https://twitter.com/CreativeTim"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-twitter"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/CreativeTim"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
+      
+        <ListItem className={classes.listItem}>
+            <Link to={props.state.user ? "/profile-page" : "/login-page"}>
+                <Button 
+                href=""
+                color="transparent"
+                target="_blank"
+                style={{color: 'white'}}
+                className={classes.navLink}>{props.state.user ? `${props.state.user.name} ${props.state.user.surname}` : `Login`}</Button>
+            </Link>
+        </ListItem>
+        {
+            props.state.user ? <Logout {...props}/> : <RegisterButton {...props} />
+        }
     </List>
   );
 }
 
-export default withStyles(headerLinksStyle)(HeaderLinks);
+
+const HeaderLinksContainer = connect(state => ({ state }))(HeaderLinks);
+
+export default withStyles(headerLinksStyle)(HeaderLinksContainer);

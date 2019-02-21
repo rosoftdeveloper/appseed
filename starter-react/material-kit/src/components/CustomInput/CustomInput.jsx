@@ -22,7 +22,11 @@ function CustomInput({ ...props }) {
     error,
     white,
     inputRootCustomClasses,
-    success
+    success,
+    errors,
+    onChange,
+    value,
+    name
   } = props;
 
   const labelClasses = classNames({
@@ -63,6 +67,9 @@ function CustomInput({ ...props }) {
         </InputLabel>
       ) : null}
       <Input
+        onChange={onChange}
+        name={name}
+        value={value}
         classes={{
           input: inputClasses,
           root: marginTop,
@@ -72,6 +79,13 @@ function CustomInput({ ...props }) {
         id={id}
         {...inputProps}
       />
+      <ul style={{ padding: 0, margin: 0, marginTop: 10, listStyleType: 'none' }}>
+        { errors && errors.map(message => (
+            <li key={message}>
+                <p style={{ color: 'red', margin: 0 }}>{message}</p>
+            </li>
+        ))}
+      </ul>
     </FormControl>
   );
 }

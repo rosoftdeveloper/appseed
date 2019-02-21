@@ -1,4 +1,5 @@
 import React from "react";
+import { connect } from "react-redux";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import InputAdornment from "@material-ui/core/InputAdornment";
@@ -18,6 +19,8 @@ import CardBody from "components/Card/CardBody.jsx";
 import CardHeader from "components/Card/CardHeader.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
 import CustomInput from "components/CustomInput/CustomInput.jsx";
+import Cookies from "../../utils/Cookies";
+import { login } from "../../store/actions";
 
 import loginPageStyle from "assets/jss/material-kit-react/views/loginPage.jsx";
 
@@ -28,9 +31,20 @@ class LoginPage extends React.Component {
     super(props);
     // we use this to make the card to appear after the page has been rendered
     this.state = {
-      cardAnimaton: "cardHidden"
+        cardAnimaton: "cardHidden",
+        email: {
+            value: "",
+            errors: []
+        },
+        password: {
+            value: "",
+            errors: []
+        }
     };
+    this.handleInputChange = this.handleInputChange.bind(this);
+    this.submitForm = this.submitForm.bind(this);
   }
+
   componentDidMount() {
     // we add a hidden class to the card and after 700 ms we delete it and the transition appears
     setTimeout(
@@ -39,6 +53,57 @@ class LoginPage extends React.Component {
       }.bind(this),
       700
     );
+  }
+  handleInputChange(e) {
+      const {name, value} = e.target;
+
+      this.setState(state => ({ [name]: { ...this.state[name], value } }));
+  }
+  submitForm(e){
+    e.preventDefault();
+
+    const user = {
+        email: this.state.email.value,
+        password: this.state.password.value
+    }
+
+    const url = 'http://localhost:3001/api/users/login';
+
+    fetch(url, {
+        method: "POST", // *GET, POST, PUT, DELETE, etc.
+        mode: "cors", // no-cors, cors, *same-origin
+        cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+        credentials: "same-origin", // include, *same-origin, omit
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ user }), // body data type must match "Content-Type" header
+    })
+    .then( res => res.json())
+    .then( data => {
+        const { errors, user } = data;
+
+        this.setState({ email: { ...this.state.email, errors: [] }, password: { ...this.state.password, errors: [] }  })
+
+        if (errors) {
+            for (let name in errors) {
+                const errorMessage = errors[name];
+
+                this.setState(state => ({ [name]: { ...state[name], errors: [ ...state[name].errors, errorMessage ] } }));
+            }
+
+            return;
+        }
+
+        if (user) {
+            const { token, ...userData } = user;
+            Cookies.create('token', token, null);
+            
+            this.props.dispatch(login(userData));
+            this.props.history.push('/');
+
+        }
+    });
   }
   render() {
     const { classes, ...rest } = this.props;
@@ -63,7 +128,7 @@ class LoginPage extends React.Component {
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={4}>
                 <Card className={classes[this.state.cardAnimaton]}>
-                  <form className={classes.form}>
+                  <form onSubmit={this.submitForm} className={classes.form}>
                     <CardHeader color="primary" className={classes.cardHeader}>
                       <h4>Login</h4>
                       <div className={classes.socialLine}>
@@ -99,23 +164,12 @@ class LoginPage extends React.Component {
                     <p className={classes.divider}>Or Be Classical</p>
                     <CardBody>
                       <CustomInput
-                        labelText="First Name..."
-                        id="first"
-                        formControlProps={{
-                          fullWidth: true
-                        }}
-                        inputProps={{
-                          type: "text",
-                          endAdornment: (
-                            <InputAdornment position="end">
-                              <People className={classes.inputIconsColor} />
-                            </InputAdornment>
-                          )
-                        }}
-                      />
-                      <CustomInput
                         labelText="Email..."
+                        value={this.state.email.value}
+                        errors={this.state.email.errors}
                         id="email"
+                        name="email"
+                        onChange={this.handleInputChange}
                         formControlProps={{
                           fullWidth: true
                         }}
@@ -127,10 +181,15 @@ class LoginPage extends React.Component {
                             </InputAdornment>
                           )
                         }}
+                        
                       />
                       <CustomInput
                         labelText="Password"
+                        value={this.state.password.value}
+                        errors={this.state.password.errors}
                         id="pass"
+                        name="password"
+                        onChange={this.handleInputChange}
                         formControlProps={{
                           fullWidth: true
                         }}
@@ -147,8 +206,8 @@ class LoginPage extends React.Component {
                       />
                     </CardBody>
                     <CardFooter className={classes.cardFooter}>
-                      <Button simple color="primary" size="lg">
-                        Get started
+                      <Button type="submit" simple color="primary" size="lg">
+                        Login
                       </Button>
                     </CardFooter>
                   </form>
@@ -163,4 +222,7 @@ class LoginPage extends React.Component {
   }
 }
 
-export default withStyles(loginPageStyle)(LoginPage);
+
+const LoginPageContainer = connect(dispatch => ({ dispatch }))(LoginPage);
+
+export default withStyles(loginPageStyle)(LoginPageContainer);
