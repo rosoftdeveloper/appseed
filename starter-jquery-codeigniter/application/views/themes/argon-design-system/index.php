@@ -19,22 +19,21 @@
             <div class="row">
               <div class="col-lg-6">
                 <h1 class="display-3  text-white">Full Stack Web App
-                  <span>Argon Design System</span>
+                  <span>jQuery / CodeIgniter / MySql</span>
                 </h1>
                 <p class="lead  text-white">
                   Web App Modules: Login, Register, Helpers, Clean code base. 
                   The design system (by Creative-Tim) comes with four pre-built pages to help you get started faster. 
                   <br />
-                  <br />Generated in CodeIgniter, yours FREE!
+                  <br />Built in CodeIgniter, yours FREE!
                 </p>
                 <div class="btn-wrapper">
-                  <a target="_blank" href="<?php echo _assets('LINK_GITHUB_APPS') ?>" class="btn btn-info btn-icon mb-3 mb-sm-0">
+                  <a target="_blank" href="<?php echo _assets('GITHUB') ?>" class="btn btn-info btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
-                    <span class="btn-inner--text">Sources</span>
+                    <span class="btn-inner--text">Php Sources</span>
                   </a>
-                  <a target="_blank" href="<?php echo _assets('LINK_APP_GENERATOR') ?>" class="btn btn-white btn-icon mb-3 mb-sm-0">
-                    <span class="btn-inner--icon"><i class="fa fa-code"></i></span>
-                    <span class="btn-inner--text">Build this app in Vue, React</span>
+                  <a target="_blank" href="<?php echo _assets('GENERATOR_VUEJS') ?>" class="btn btn-white btn-icon mb-3 mb-sm-0">
+                    <span class="btn-inner--text">Build in Vue.js</span>
                   </a>
                 </div>
               </div>
@@ -197,7 +196,11 @@
               <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.</p>
               <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
               <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
-              <a target="_blank" href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" class="font-weight-bold text-warning mt-5">Build this app in React, Vue, Node or Laravel</a>
+              <h4>
+              <a target="_blank" href="<?php echo _assets('GENERATOR_VUEJS') ?>" class="font-weight-bold text-warning mt-5">
+                Build this app in Vue.js 
+              </a>
+              </h4>
             </div>
           </div>
         </div>
@@ -378,11 +381,11 @@
           <div class="p-5">
             <div class="row align-items-center">
               <div class="col-lg-8">
-                <h3 class="text-white">Generate this web app in React, Vue or Node.js.</h3>
+                <h3 class="text-white">Build this app in Vue.js</h3>
                 <p class="lead text-white mt-3">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture.</p>
               </div>
               <div class="col-lg-3 ml-lg-auto">
-                <a target="_blank" href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" class="btn btn-lg btn-block btn-white">Get Started</a>
+                <a target="_blank" href="<?php echo _assets('GENERATOR_VUEJS') ?>" class="btn btn-lg btn-block btn-white">Build with AppSeed</a>
               </div>
             </div>
           </div>

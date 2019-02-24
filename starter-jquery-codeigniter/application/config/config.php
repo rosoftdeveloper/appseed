@@ -24,9 +24,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-//$config[ 'base_url'] = 'https://argon-design-system.appseed.us';
-//$config[ 'theme'   ] = 'argon-design-system'; 
-
 //$config[ 'base_url'] = 'https://now-ui-kit.appseed.us';
 //$config[ 'theme'   ] = 'now-ui-kit'; 
 
@@ -46,9 +43,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$config[ 'theme'   ] = 'paper-dashboard'; 
 
 //$config[ 'base_url'] = 'https://dark-dashboard.appseed.us';
-$config[ 'theme'   ] = 'dark-dashboard'; 
+//$config[ 'theme'   ] = 'dark-dashboard'; 
 
-$config['base_url'] = 'http://localhost:5001'; // development
+//$config[ 'base_url'] = 'https://argon-design-system.appseed.us';
+//$config[ 'theme'   ] = 'argon-design-system'; 
+
+//$config[ 'base_url'] = 'https://material-kit.appseed.us';
+$config[ 'theme'   ] = 'material-kit'; 
+
+$config['base_url'] = 'http://localhost:9999'; // development
 
 /*
 |--------------------------------------------------------------------------

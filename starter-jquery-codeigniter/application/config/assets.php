@@ -35,10 +35,22 @@ class Assets {
     public $LINK_PRODUCT_NOW_LIGHT_BOOTSTRAP_DASHBOARD = 'https://www.appseed.us/fullstack-app-light-bootstrap-dashboard'; 
 
     // Common generator
-    public $LINK_APP_GENERATOR                         = 'https://www.appseed.us/fullstack-apps-generator' ; 
+    public $LINK_APP_GENERATOR                          = 'https://www.appseed.us/fullstack-apps-generator' ; 
 
-    public $GITHUB                                     = 'https://github.com/rosoftdeveloper/appseed'      ;
-    public $GENERATOR                                  = 'https://www.appseed.us/fullstack-apps-generator' ; 
+    public $GITHUB                                      = 'https://github.com/rosoftdeveloper/appseed'               ;
+    public $GENERATOR                                   = 'https://www.appseed.us/fullstack-apps-generator'          ; 
+    public $GENERATOR_REACT                             = 'https://www.appseed.us/fullstack-apps-generator/react'    ;   
+    public $GENERATOR_VUEJS                             = 'https://www.appseed.us/fullstack-apps-generator/vuejs'    ;   
+    public $GENERATOR_FLASK                             = 'https://www.appseed.us/fullstack-apps-generator/flask'    ;   
+    public $GENERATOR_EXPRESS                           = 'https://www.appseed.us/fullstack-apps-generator/express'  ;   
+    public $GENERATOR_NODE                              = 'https://www.appseed.us/fullstack-apps-generator/express'  ;   
+    public $GENERATOR_LARAVEL                           = 'https://www.appseed.us/fullstack-apps-generator/laravel'  ;   
+
+    public $FACEBOOK                                    = 'https://www.facebook.com/webappseed'                              ;
+    public $FACEBOOK_GRP                                = 'https://www.facebook.com/groups/fullstack.apps.generator/'        ;
+    public $TWITTER                                     = 'https://www.twitter.com/webappseed'                               ;
+    public $INSTAGRAM                                   = 'https://www.instagram.com/webappseed'                             ;
+    public $YOUTUBE                                     = 'https://www.youtube.com/channel/UCSEnv6MeRzmFXAnG5baXC_Q'         ;
 
 }
 

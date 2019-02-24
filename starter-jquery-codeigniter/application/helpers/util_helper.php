@@ -227,6 +227,16 @@ function _assets( $aAssetName=NULL )
     return NULL;
 }
 
+// Social helpers
+function _facebook      ( )  { echo _assets( 'FACEBOOK'         ); }
+function _facebook_grp  ( )  { echo _assets( 'FACEBOOK_GRP'     ); }
+function _twitter       ( )  { echo _assets( 'TWITTER'          ); }
+function _instagram     ( )  { echo _assets( 'INSTAGRAM'        ); }
+function _youtube       ( )  { echo _assets( 'YOUTUBE'          ); }
+function _github        ( )  { echo _assets( 'GITHUB'           ); }
+function _generator     ( )  { echo _assets( 'GENERATOR'        ); }
+function _react         ( )  { echo _assets( 'GENERATOR_REACT'  ); }
+function _vuejs         ( )  { echo _assets( 'GENERATOR_VUEJS'  ); }
 
 /*
 * ***************************************************
