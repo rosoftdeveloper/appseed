@@ -3,8 +3,8 @@
 
 <div class="sidebar-wrapper">
   <div class="logo text-center">
-    <a target="_blank" href="<?php echo _assets('GENERATOR') ?>" class="simple-text logo-normal">
-      Full Stack App
+    <a target="_blank" href="<?php _github() ?>" class="simple-text logo-normal">
+      Php (CodeIgniter) Sources
     </a>
   </div>
   <ul class="nav">

@@ -10,7 +10,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a target="_blank" class="navbar-brand" href="<?php echo _assets('GENERATOR') ?>">Get This App in Vue, React</a>
+            <a target="_blank" class="navbar-brand" href="<?php _generator() ?>">Build Apps in Vue, React</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -47,29 +47,6 @@
                   </li>
                   <li class="nav-link">
                     <a href="javascript:void(0)" class="nav-item dropdown-item">Another one</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown nav-item">
-                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                  <div class="photo">
-                    <img src="/<?php echo _static() ?>assets/img/anime3.png" alt="Profile Photo">
-                  </div>
-                  <b class="caret d-none d-lg-block d-xl-block"></b>
-                  <p class="d-lg-none">
-                    Log out
-                  </p>
-                </a>
-                <ul class="dropdown-menu dropdown-navbar">
-                  <li class="nav-link">
-                    <a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a>
-                  </li>
-                  <li class="dropdown-divider"></li>
-                  <li class="nav-link">
-                    <a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a>
                   </li>
                 </ul>
               </li>
