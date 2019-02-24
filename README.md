@@ -1,13 +1,21 @@
-## [AppSeed.us](https://www.appseed.us/?ref=github) - [Full Stack Apps Generator](https://www.appseed.us/fullstack-apps-generator?ref=github)
-### This repository provides full stack apps prototyped in Vue, React, Flask, Laravel and Node   
+#### [AppSeed.us](https://www.appseed.us/?ref=github) - [Full Stack Apps Generator](https://www.appseed.us/fullstack-apps-generator?ref=github)
+##### Web Apps prototyped in Vue, React, Flask, Laravel, Node / Express   
 
 
+#### Yeoman Integration
 
-<p align="center">
-  <img width="800" height="350" alt="AppSeed.us - Full Stack Apps Generator" src="https://www.appseed.us/static/thumbnails/appseed-fullstack-app-generator.jpg">
-</p>
+First, install [Yeoman](http://yeoman.io) and generator-fullstack-apps using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
+```bash
+npm install -g yo
+npm install -g generator-fullstack-apps
+```
 
+Then generate your new project:
+
+```bash
+yo fullstack-apps
+```
 
 #### Server Starters   
 
@@ -24,13 +32,13 @@ Production ready servers: Flask, Express and Laravel
 * [Argon Design System](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) Design by Creative-Tim - (**under development**)
 
 
-
 #### React Starters (with design)  
 
 * [Material Kit](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit) Design by Creative-Tim - (**under development**)
 
 
 #### Demo Web Apps (MIT License):    
+* [Dark Dashboard](https://dark-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
 * [Now UI Dashboard](https://now-ui-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
 * [Argon Dashboard](https://argon-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
 * [Material Dashboard](https://material-dashboard.appseed.us/?ref=github) - Design by Creative-Tim 
