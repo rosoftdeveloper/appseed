@@ -4,15 +4,14 @@
       <div class="row">
         <div class="col-md-6">
           <h1 class="title">Full Stack Web App</h1>
-          <h4>Web App Modules: Login, Register, Helpers, Clean code base. The design system (by Creative-Tim) comes with four pre-built pages to help you get started faster.</h4>
+          <h2>Built with <a style="color: white" target="_blank" href="https://www.appseed.us">AppSeed</a></h2>
+          <h4>Web App Modules: Login, Register, Helpers, Clean code base, design provided by Creative-Tim.</h4>
           <br>
-          <a href="<?php _github() ?>" target="_blank" class="btn btn-warn">
-            <i class="fa fa-github"></i>  Php Sources
-          </a>
+          <h4>This web app can be generated in React combined with Express / Flask or Laravel. Your choice :)</h4>
           &nbsp;&nbsp;
-          <a href="<?php _vuejs() ?>" target="_blank" class="btn btn-danger">
-            <i class="fa fa-cog"></i>  Build App in Vue.js
-          </a>
+<a href="<?php _vuejs() ?>" target="_blank" class="btn btn-danger">
+<i class="fa fa-rocket"></i>&nbsp; Build this App in React
+</a>
         </div>
       </div>
     </div>

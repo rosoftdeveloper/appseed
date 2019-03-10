@@ -19,21 +19,20 @@
             <div class="row">
               <div class="col-lg-6">
                 <h1 class="display-3  text-white">Full Stack Web App
-                  <span>jQuery / CodeIgniter / MySql</span>
+                  <span>Built with <a style="color: white; font-weight: 600;" target="_blank" href="https://www.appseed.us">AppSeed</a></span>
                 </h1>
-                <p class="lead  text-white">
+                <p class="lead text-white">
                   Web App Modules: Login, Register, Helpers, Clean code base. 
                   The design system (by Creative-Tim) comes with four pre-built pages to help you get started faster. 
                   <br />
-                  <br />Built in CodeIgniter, yours FREE!
                 </p>
                 <div class="btn-wrapper">
-                  <a target="_blank" href="<?php echo _assets('GITHUB') ?>" class="btn btn-info btn-icon mb-3 mb-sm-0">
-                    <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
-                    <span class="btn-inner--text">Php Sources</span>
-                  </a>
+                  <p class="lead text-white">
+                    This web app can be generated in Vue.js combined with Express / Flask or Laravel. Your choice :)
+                  </p>
                   <a target="_blank" href="<?php echo _assets('GENERATOR_VUEJS') ?>" class="btn btn-white btn-icon mb-3 mb-sm-0">
-                    <span class="btn-inner--text">Build in Vue.js</span>
+                    <i style="color: red" class="fa fa-rocket"></i>
+                    <span class="btn-inner--text">Build this App in Vue.js</span>
                   </a>
                 </div>
               </div>
@@ -479,7 +478,7 @@
             </h2>
             <p class="lead">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the Design System in HTML. Start a new project or give an old Bootstrap project a new look!</p>
             <div class="btn-wrapper">
-              <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" class="btn btn-primary mb-3 mb-sm-0">Build this app in React or Vue</a>
+              <a href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>" class="btn btn-primary mb-3 mb-sm-0">Build this app in Vue.js</a>
             </div>
             <div class="text-center">
               <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>

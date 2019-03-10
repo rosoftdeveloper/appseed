@@ -2,7 +2,7 @@
   <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
-        <a target="_blank" class="navbar-brand mr-lg-5" href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>">
+        <a class="navbar-brand mr-lg-5" href="<?php echo base_url() ?>">
           <img alt="Argon Design System - Full Stack App coded by AppSeed" src="/<?php echo _static() ?>assets/img/brand/white.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@
           <div class="navbar-collapse-header">
             <div class="row">
               <div class="col-6 collapse-brand">
-                <a target="_blank" href="<?php echo _assets('LINK_PRODUCT_ARGON_DESIGN') ?>">
+                <a href="<?php echo base_url() ?>">
                   <img alt="Argon Design System - Full Stack App coded by AppSeed" src="/<?php echo _static() ?>assets/img/brand/blue.png">
                 </a>
               </div>

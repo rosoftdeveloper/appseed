@@ -21,7 +21,7 @@
           document.write(new Date().getFullYear())
         </script>, Designed by
         <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>. Full Stack App coded by
-            <a href="<?php _generator() ?>" target="_blank">AppSeed</a>.
+            <a href="https://www.appseed.us" target="_blank">AppSeed</a>.
       </div>
     </div>
   </footer>

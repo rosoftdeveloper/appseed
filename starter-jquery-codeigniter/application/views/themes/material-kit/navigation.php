@@ -38,8 +38,8 @@
           <?php } ?>
 
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="<?php echo _assets('GITHUB') ?>" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Php Sources
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="<?php _github() ?>" target="_blank" data-original-title="Star AppSeed on Github">
+              <i class="fa fa-github"></i>
             </a>
           </li>
           <li class="nav-item">
