@@ -4,23 +4,41 @@
 
 ## Project Status: 
 
-* Under development, incomplete documentation, active suport
+* Under development, active suport
+
+## Dependencies
+
+* Php 7.2, with extensions (you may check the version by typing `php -v`)
+  * ext-mbstring
+  * ext-openssl
+  * ext-fileinfo
+  * dom
+  * pdo
+  * mysql
+* Composer - https://getcomposer.org/
 
 
 ## Setting up a development environment
 
-* To be updated
-
+* Create .env (based on .env.example)
+  * edit database credentials (db name, user, password)
+* Install dependencies:
+    ```composer install```
+* Create initial database provisioning (tables & test users)
+    ```
+    php artisan migrate
+    ```
 
 ## Running the app
 
-* To be updated
-
+* Go to 'public' folder and type:
+    ```
+    php -S localhost:5000
+    ```
 
 ## Trouble shooting
 
-* To be updated
-
+For any issues, please open an issue here or contact us on [Facebook (closed group)](https://www.facebook.com/groups/fullstack.apps.generator/)
 
 ## MIT License
 

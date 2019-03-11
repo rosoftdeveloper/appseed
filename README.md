@@ -45,10 +45,9 @@ Production ready servers: Flask, Express and Laravel
 * [Now UI Kit](https://now-ui-kit.appseed.us/?ref=github) - Design by Creative-Tim 
 * [Argon Design System](https://argon-design-system.appseed.us/?ref=github) - Design by Creative-Tim 
 
-
 ## Trouble shooting
 
-For any issues, please open an issue here or contact us on [Facebook (closed group)](https://www.facebook.com/groups/fullstack.apps.generator/) 
+For any issues, please open an issue here or contact us on [Facebook (closed group)](https://www.facebook.com/groups/fullstack.apps.generator/)
 
 ## MIT License
 
