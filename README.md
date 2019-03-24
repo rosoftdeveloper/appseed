@@ -7,7 +7,7 @@ Full Stack **Web** App Generator
 
 ## Setting up for development
 * Clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
-* Choose a backend (Express, Laravel or Flask). For all servers, the default `ip/port` is `localhost:3000` 
+* Choose a backend: [Express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express), [Laravel](https://github.com/rosoftdeveloper/appseed/tree/master/starter-laravel) or [Flask](https://github.com/rosoftdeveloper/appseed/tree/master/starter-flask). The default `ip/port`, for all servers: `localhost:3000` 
 * Choose a frontend UI KIT: [Vue.js](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) or [React](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit). All apps will start on `ip/port` is `localhost:8080`
 
 ## Support
