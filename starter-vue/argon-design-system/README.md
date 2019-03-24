@@ -23,7 +23,7 @@ $ npm i
 ```
 
 **Run**
-* Start the backend server `starter-express` server on port 3000 [more info on config setup](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express)
+* Start the backend server [starter-express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express) (default ip/port: `locahost:3000`) 
 * start the application by running: `npm start`. Visit [localhost:8080](http://localhost:8080) in your browser. The `default port 8080` can be overwritten by updating the `package.json`, line with `serve` attribute: `vue-cli-service serve --port 8080`
 
 **Production Build**
