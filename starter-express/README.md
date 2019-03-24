@@ -59,7 +59,7 @@ $ nodemon start
 Runs the application with [nodemon]("https://nodemon.io/"). Server is listening on Port 3000 by default. This can be overwritten by `PORT` constant in `.env` file. 
 
 ## Trouble shooting
-Support via @Github and Live help on [Discord]("https://discord.gg/fZC6hup")
+Support via @Github and Live help on [Discord](https://discord.gg/fZC6hup)
 
 
 ## License
