@@ -27,8 +27,8 @@ $ npm i
 * start the application by running: `npm start`. Visit [localhost:8080](http://localhost:8080) in your browser. The `default port 8080` can be overwritten by updating the `package.json`, line with `serve` attribute: `vue-cli-service serve --port 8080`
 
 **Production Build**
-`npm run build` - to build the app in build folder
-`cd dist && php -S locahost:5555` - to test the future deployment. Visit [localhost:5555](http://localhost:5555) in your browser.
+* `npm run build` - to build the app in build folder
+* `cd dist && php -S locahost:5555` - to test the future deployment. Visit [localhost:5555](http://localhost:5555) in your browser.
 
 ## Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
