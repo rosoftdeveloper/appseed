@@ -28,7 +28,7 @@ $ npm run serve
 ```
 
 ## Support
-Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here or access [Discord](https://discord.gg/fZC6hup) for LIVE help. 
+Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
 ## License
 
