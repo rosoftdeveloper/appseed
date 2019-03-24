@@ -10,7 +10,7 @@
 ## Setting up a development environment
 
 * clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
-* change directory to this project: `cd appseed/starter-react`
+* change directory to this project: `cd appseed/starter-react/material-kit`
 * install node modules: `npm i`
 
 
