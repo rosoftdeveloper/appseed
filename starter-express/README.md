@@ -34,8 +34,7 @@ WIP - to be updated soon
 ## Setting up for development
 * clone repo: `git clone git@github.com:rosoftdeveloper/appseed.git` 
 * change directory to starter-express: `cd appseed/starter-express`
-* install node modules: `npm i`
-* create a file named .env which should contain the following default setup ( you should provide your own values to this variables ):
+* create a file named .env which should contain the following default setup:
 ```
 SALT=35kj7waj3k5kja09jeoi21kn0pg13iuhlkn // used in password hashing
 JWT_SECRET=secret        // used in JWT signing
@@ -58,9 +57,8 @@ $ nodemon start
 ```
 Runs the application with [nodemon]("https://nodemon.io/"). Server is listening on Port 3000 by default. This can be overwritten by `PORT` constant in `.env` file. 
 
-## Trouble shooting
-Support via @Github and Live help on [Discord](https://discord.gg/fZC6hup)
-
+## Support
+Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) or Live help on [Discord](https://discord.gg/fZC6hup)
 
 ## License
 
