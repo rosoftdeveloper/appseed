@@ -1,5 +1,5 @@
 
-Express Jwt
+Express Starter
 ====
 Basic setup of express with JWT authentication (passport, passport-jwt), ES6.
 
