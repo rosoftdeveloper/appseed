@@ -1,7 +1,6 @@
 
 ## Full Stack App Generator
-====
-Provided and by [AppSeed.us](https://appseed.us)
+Provided and maintained by [AppSeed.us](https://appseed.us)
 
 ## Requirements
 - Basic programming knowledge for: Javascript, Python, Full Stack, Web Development
