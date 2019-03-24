@@ -53,8 +53,8 @@ $ npm i nodemon -g
 
 **Run**
 ```bash
-$ node index.js # classic start OR
-$ nodemon start # with live update (recommend) 
+$ npm run start # classic start OR
+$ npm run dev # with nodemon live update  
 ```
 Runs the application with [nodemon]("https://nodemon.io/"). Server is listening on Port 3000 by default. This can be overwritten by `PORT` constant in `.env` file. 
 
