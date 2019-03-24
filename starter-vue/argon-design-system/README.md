@@ -1,7 +1,7 @@
 
 Vue.js / Vuex Starter
 ====
-Argon Design System Design by Creative-Tim.com 
+**UI Kit:** Argon Design System by Creative-Tim.com 
 
 <p align="center">
   <img width="450" height="400" src="https://appseed.us/static/products/appctargvuexx1x06/thumbnail-max.png">
