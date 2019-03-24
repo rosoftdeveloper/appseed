@@ -1,5 +1,5 @@
 
-Express Starter
+Express JWT Starter
 ====
 Basic setup of express with JWT authentication (passport, passport-jwt), ES6.
 
@@ -26,7 +26,7 @@ Content-Type: application/json
 }
 ```
 
-### Signup: `/api/signup`
+### Signup: `/api/users/signup`
 ```
 WIP - to be updated soon
 ```
@@ -38,21 +38,12 @@ WIP - to be updated soon
 * create a file named .env which should contain the following default setup ( you should provide your own values to this variables ):
 ```
 SALT=35kj7waj3k5kja09jeoi21kn0pg13iuhlkn // used in password hashing
-JWT_SECRET=secret                        // used in JWT signing
-SESSION_SECRET=secret                    // used for session data
-PORT=8080      // the port on which your server will be available on
+JWT_SECRET=secret        // used in JWT signing
+SESSION_SECRET=secret    // used for session data
+PORT=3000                // the port on which your server will be available on
 SERVER_ADDRESS=127.0.0.1 // or 0.0.0.0 for all or other interface address you want to listen
 ```
-You have to remove the comments from the end of each row.
-Real life example .env file:
-```
-SALT=35kj7waj3k5kja09jeoi21kn0pg13iuhlkn
-JWT_SECRET=secret
-SESSION_SECRET=secret
-PORT=8080
-SERVER_ADDRESS=127.0.0.1
-```
-* [optional] You can install nodemon: `npm i nodemon -g` in order watch & auto restart the server on file change.
+* users are saved in file `config/users.js`
 
 ## Scripts
 **Install Modules**
