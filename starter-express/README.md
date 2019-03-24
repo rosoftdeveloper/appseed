@@ -58,7 +58,7 @@ $ nodemon start
 Runs the application with [nodemon]("https://nodemon.io/"). Server is listening on Port 3000 by default. This can be overwritten by `PORT` constant in `.env` file. 
 
 ## Support
-Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) or Live help on [Discord](https://discord.gg/fZC6hup)
+Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here or access [Discord](https://discord.gg/fZC6hup) for LIVE help. 
 
 ## License
 
