@@ -5,7 +5,7 @@ Save time using stable UI-Ready starters. Provided by [AppSeed.us](https://appse
 <br/>
 
 <p align="center">
-  <img width="700" height="428" src="https://appseed.us/static/assets/img/appseed-generator.gif">
+  [<img width="700" height="428" src="https://appseed.us/static/assets/img/appseed-generator.gif">](https://appseed.us)
 </p>
 
 <br/>
