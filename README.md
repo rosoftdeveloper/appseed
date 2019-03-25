@@ -2,6 +2,14 @@
 ## FullStack Apps in React, Vue, Express  
 Save time using stable UI-Ready starters. Provided by [AppSeed.us](https://appseed.us). Free support via [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator).
 
+<p align="center">
+  <img width="700" height="428" src="https://appseed.us/static/assets/img/appseed-generator.gif">
+</p>
+
+## Demo Apps
+- [Vue.js / Express](https://vuejs.appseed.us/): JWT Authentication, Vuex Store, UI Kit: Argon Design (by Creative-Tim)
+- [React / Express](https://react.appseed.us/): JWT Authentication, Redux Store, UI Kit: Material Kit (by Creative-Tim)
+
 ## Requirements
 - Basic programming knowledge for: Javascript, Python, Full Stack, Web Development
 - [Node.js](https://nodejs.org/) >= 6.x
