@@ -26,47 +26,21 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
+            
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/"
+                href="https://appseed.us/fullstack-apps-generator"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
+                Full Stack App Generator 
               </a>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} , 
+          Designed by{" "}
           <a
             href="https://www.creative-tim.com"
             className={aClasses}
@@ -74,7 +48,14 @@ function Footer({ ...props }) {
           >
             Creative Tim
           </a>{" "}
-          for a better web.
+          Coded by  
+          <a
+            href="https://appseed.us"
+            className={aClasses}
+            target="_blank"
+          >
+            AppSeed
+          </a>
         </div>
       </div>
     </footer>
