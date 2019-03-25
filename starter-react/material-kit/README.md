@@ -23,7 +23,7 @@ $ npm i
 
 **Run**
 * `npm run start` to start the app. Visit [localhost:8080](http://localhost:8080) in your browser. The `default port 8080` can be overwritten by updating the `package.json`, line with `start` attribute: `PORT=8080 NODE_PATH=./src react-scripts start`
-* For Windows OS (tested on Win10) update PORT, NODE_PATH as bellow and execute target `npm run start_win`
+* <span style="color:yellow">Warn: For Windows OS</span> (tested on Win10) please update the PORT, NODE_PATH in your environment exec target `start_win`
 ```powershell
 $env:PORT = "8080"
 $env:NODE_PATH = "./src"
