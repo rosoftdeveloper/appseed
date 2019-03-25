@@ -1,12 +1,14 @@
 
-<p align="center">
 ## FullStack Apps in React, Vue, Express  
 Save time using stable UI-Ready starters. Provided by [AppSeed.us](https://appseed.us). Free support via [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator).
-</p>
+
+<br/>
 
 <p align="center">
   <img width="700" height="428" src="https://appseed.us/static/assets/img/appseed-generator.gif">
 </p>
+
+<br/>
 
 ## Demo Apps
 - [Vue.js / Express](https://vuejs.appseed.us/): JWT Authentication, Vuex Store, UI Kit: Argon Design (by Creative-Tim)
