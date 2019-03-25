@@ -45,23 +45,21 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Your Story Starts With Us.</h1>
+                <h1 className={classes.title}>Full Stack Web App.</h1>
                 <h4>
-                  Every landing page needs a small description after the big
-                  bold title, that's why we added this text here. Add here all
-                  the information that can make you or your product create the
-                  first impression.
+                Designed by Creative-Tim, coded by AppSeed.us.
+                <br/>
+                This web app can be generated in React combined with Express / Flask or Laravel. Your choice :)
                 </h4>
                 <br />
                 <Button
                   color="danger"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://appseed.us/fullstack-apps-generator"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fas fa-play" />
-                  Watch video
+                  <i className="fas fa-rocket" /> Full Stack App Generator
                 </Button>
               </GridItem>
             </GridContainer>
