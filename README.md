@@ -1,10 +1,10 @@
 
-## Full Stack App Generator
-Provided and maintained by [AppSeed.us](https://appseed.us)
+## FullStack Apps in React, Vue, Express  
+Save time using stable UI-Ready starters. Provided by [AppSeed.us](https://appseed.us). Free support via [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator).
 
 ## Requirements
 - Basic programming knowledge for: Javascript, Python, Full Stack, Web Development
-- [Node.js]("https://nodejs.org/") >= 6.x
+- [Node.js](https://nodejs.org/) >= 6.x
 
 ## Setting up for development
 * Clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
