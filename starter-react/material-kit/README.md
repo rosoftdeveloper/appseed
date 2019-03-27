@@ -13,7 +13,7 @@ React / Redux Starter
 ## Setting up for development
 * clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
 * change directory to this project: `cd appseed/starter-react/material-kit`
-* (Optionally) start the backend server [starter-express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express) (default ip/port: `locahost:3000`)
+* (Optionally) start the backend server [starter-express](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/README.md) (default ip/port: `locahost:3000`)
 
 ## Scripts
 **Install Modules**

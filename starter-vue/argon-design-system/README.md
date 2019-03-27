@@ -13,7 +13,7 @@ Vue.js / Vuex Starter
 ## Setting up for development
 * clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
 * change directory to this project: `cd appseed/starter-vue/argon-design-system`
-* (Optionally) start the backend server [starter-express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express) (default ip/port: `locahost:3000`)
+* (Optionally) start the backend server [starter-express](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/README.md) (default ip/port: `locahost:3000`)
 * Default backend URL `http://loalhost:3000`. This can be overwritten by updating the file: `src/views/Login.vue`
 
 ## Scripts
