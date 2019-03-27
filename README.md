@@ -20,8 +20,8 @@ Save time using stable UI-Ready starters. Provided by [AppSeed.us](https://appse
 
 ## Setting up for development
 * Clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
-* Choose a backend: [Express](https://github.com/rosoftdeveloper/appseed/tree/master/starter-express), [Laravel](https://github.com/rosoftdeveloper/appseed/tree/master/starter-laravel) or [Flask](https://github.com/rosoftdeveloper/appseed/tree/master/starter-flask). The default `ip/port`, for all servers: `localhost:3000` 
-* Choose a frontend UI KIT: [Vue.js](https://github.com/rosoftdeveloper/appseed/tree/master/starter-vue/argon-design-system) or [React](https://github.com/rosoftdeveloper/appseed/tree/master/starter-react/material-kit). All apps will start on `ip/port` is `localhost:8080`
+* Choose a backend: [Express](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/README.md), [Laravel](https://github.com/rosoftdeveloper/appseed/blob/master/starter-laravel/README.md) or [Flask](https://github.com/rosoftdeveloper/appseed/blob/master/starter-flask/README.md). The default `ip/port`, for all servers: `localhost:3000` 
+* Choose a frontend UI KIT: [Vue.js](https://github.com/rosoftdeveloper/appseed/blob/master/starter-vue/argon-design-system/README.md) or [React](https://github.com/rosoftdeveloper/appseed/blob/master/starter-react/material-kit/README.md). All apps will start on `ip/port` is `localhost:8080`
 
 ## Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
