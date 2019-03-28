@@ -33,7 +33,7 @@ npm run start_win
 * Visit [localhost:8080](http://localhost:8080) in your browser. The `default port 8080` can be overwritten by updating the `package.json`, `scripts \ start` attribute.
 
 **Production Build**
-* `npm build` - build the app in `dist` directory
+* `npm run-script build` - build the app in `dist` directory
 
 ## Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 

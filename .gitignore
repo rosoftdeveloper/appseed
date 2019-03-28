@@ -3,7 +3,7 @@ node_modules
 */public/storage
 */storage/*.key
 */vendor
-/starter-laravel/vendor
+starter-laravel/vendor
 *.idea
 */.idea
 */.vagrant
@@ -14,3 +14,4 @@ node_modules
 *.phpunit.result.cache
 *.pyc
 *.psd
+starter-react/material-kit/build
