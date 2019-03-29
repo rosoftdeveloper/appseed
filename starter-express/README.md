@@ -3,15 +3,15 @@ Express JWT Starter
 ====
 Basic setup of express with JWT authentication (passport, passport-jwt), ES6.
 
-### Requirements
+## Requirements
 - [Node.js](https://nodejs.org/) >= 6.x
 
-### Authentication
+## Authentication
 Authentication is based on [json web tokens](https://jwt.io). `passport-jwt` strategy is used to handle the email / password authentication.
 After a successful login the generated token is sent to the requester. 
 
-### API
-#### Login: `api/users/login`
+## API
+### Login: `api/users/login`
 ```
 POST api/users/login
 Host: localhost:3000
@@ -23,12 +23,12 @@ Content-Type: application/json
 }
 ```
 
-#### Signup: `/api/users/signup`
+### Signup: `/api/users/signup`
 ```
 WIP - to be updated soon
 ```
 
-### Setting up for development
+## Setting up for development
 * clone repo: `git clone git@github.com:rosoftdeveloper/appseed.git` 
 * change directory to starter-express: `cd appseed/starter-express`
 * create a file named .env which should contain the following default setup:
@@ -41,7 +41,7 @@ SERVER_ADDRESS=127.0.0.1 // or 0.0.0.0 for all or other interface address you wa
 ```
 * users are saved in file `config/users.js`
 
-### Scripts
+## Scripts
 **Install Modules**
 ```bash
 $ npm i
@@ -55,10 +55,10 @@ $ npm run dev # with nodemon live update
 ```
 Runs the application with [nodemon]("https://nodemon.io/"). Server is listening on Port 3000 by default. This can be overwritten by `PORT` constant in `.env` file. 
 
-### Support
+## Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
-### MIT License
+## MIT License
 
 Copyright (c) 2018 - present [AppSeed.us](https://www.appseed.us/?ref=github) 
 
