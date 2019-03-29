@@ -7,6 +7,9 @@ React / Redux Starter
   <img width="450" height="400" src="https://appseed.us/static/products/appctmktrtexx1x12/thumbnail-max.png">
 </p>
 
+## LIVE Demo
+- [Material Kit](https://react.appseed.us)
+
 ## Requirements
 - [Node.js]("https://nodejs.org/") >= 6.x
 
@@ -14,11 +17,13 @@ React / Redux Starter
 * clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
 * change directory to this project: `cd appseed/starter-react/material-kit`
 * (Optionally) start the backend server [starter-express](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/README.md) (default ip/port: `locahost:3000`)
+* Default backend URL `http://127.0.0.1:3000`. This can be overwritten by updating the file: `src/views/LoginPage/LoginPage.jsx`
 
 ## Scripts
 **Install Modules**
 ```bash
 $ npm i
+$ npm install -g serve # (optionally) 
 ```
 
 **Run**
@@ -33,7 +38,13 @@ npm run start_win
 * Visit [localhost:8080](http://localhost:8080) in your browser. The `default port 8080` can be overwritten by updating the `package.json`, `scripts \ start` attribute.
 
 **Production Build**
-* `npm run-script build` - build the app in `dist` directory
+* **Linux/MacOs**: 
+`npm run build` - build the app in `build` directory
+* **Windows OS**: 
+`npm run build_win` - build the app in `build` directory
+
+**Test the production build**
+`serve -s build` - and visit [localhost:8080](http://localhost:8080) in your browser. You should see this [app](https://react.appseed.us) running. 
 
 ## Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 

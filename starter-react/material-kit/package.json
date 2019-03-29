@@ -39,6 +39,7 @@
     "start": "PORT=8080 NODE_PATH=./src react-scripts start",
     "start_win": "react-scripts start",
     "build": "NODE_PATH=./src react-scripts build",
+    "build_win": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint:check": "eslint . --ext=js,jsx;  exit 0",
