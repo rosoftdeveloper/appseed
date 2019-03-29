@@ -1,17 +1,14 @@
 
 React / Redux Starter
 ====
-**UI Kit:** Material Kit by Creative-Tim.com 
+**UI Kit:** Material Kit by Creative-Tim.com - [LIVE Demo](https://react.appseed.us) 
 
 <p align="center">
   <img width="450" height="400" src="https://appseed.us/static/products/appctmktrtexx1x12/thumbnail-max.png">
 </p>
 
-## LIVE Demo
-- [Material Kit](https://react.appseed.us)
-
 ## Requirements
-- [Node.js]("https://nodejs.org/") >= 6.x
+- [Node.js](https://nodejs.org/) >= 6.x
 
 ## Setting up for development
 * clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`

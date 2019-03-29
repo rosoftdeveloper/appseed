@@ -1,14 +1,11 @@
 
 Vue.js / Vuex Starter
 ====
-**UI Kit:** Argon Design System by Creative-Tim.com 
+**UI Kit:** Argon Design System by Creative-Tim.com - [LIVE Demo](https://vuejs.appseed.us) 
 
 <p align="center">
   <img width="450" height="400" src="https://appseed.us/static/products/appctargvuexx1x06/thumbnail-max.png">
 </p>
-
-## LIVE Demo
-- [Argon Design](https://vuejs.appseed.us)
 
 ## Requirements
 - [Node.js](https://nodejs.org/) >= 6.x
