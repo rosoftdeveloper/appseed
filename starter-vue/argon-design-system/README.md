@@ -7,16 +7,16 @@ Vue.js / Vuex Starter
   <img width="450" height="400" src="https://appseed.us/static/products/appctargvuexx1x06/thumbnail-max.png">
 </p>
 
-## Requirements
+### Requirements
 - [Node.js](https://nodejs.org/) >= 6.x
 
-## Setting up for development
+### Setting up for development
 * clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
 * change directory to this project: `cd appseed/starter-vue/argon-design-system`
 * (Optionally) start the backend server [starter-express](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/README.md) (default ip/port: `locahost:3000`)
 * Default backend URL `http://127.0.0.1:3000`. This can be overwritten by updating the file: `src/views/Login.vue`
 
-## Scripts
+### Scripts
 **Install Modules**
 ```bash
 $ npm i
@@ -32,10 +32,10 @@ $ npm install -g serve # (optionally)
 **Test the production build**
 `serve -s dist` - and visit [localhost:8080](http://localhost:8080) in your browser. You should see this [app](https://vuejs.appseed.us) running.  
 
-## Support
+### Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
-## License
+### MIT License
 
 Copyright (c) 2018 - present [AppSeed.us](https://www.appseed.us/?ref=github) 
 

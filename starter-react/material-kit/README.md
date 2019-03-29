@@ -7,16 +7,16 @@ React / Redux Starter
   <img width="450" height="400" src="https://appseed.us/static/products/appctmktrtexx1x12/thumbnail-max.png">
 </p>
 
-## Requirements
+### Requirements
 - [Node.js](https://nodejs.org/) >= 6.x
 
-## Setting up for development
+### Setting up for development
 * clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
 * change directory to this project: `cd appseed/starter-react/material-kit`
 * (Optionally) start the backend server [starter-express](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/README.md) (default ip/port: `locahost:3000`)
 * Default backend URL `http://127.0.0.1:3000`. This can be overwritten by updating the file: `src/views/LoginPage/LoginPage.jsx`
 
-## Scripts
+### Scripts
 **Install Modules**
 ```bash
 $ npm i
@@ -43,10 +43,10 @@ npm run start_win
 **Test the production build**
 `serve -s build` - and visit [localhost:8080](http://localhost:8080) in your browser. You should see this [app](https://react.appseed.us) running. 
 
-## Support
+### Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
-## License
+### MIT License
 
 Copyright (c) 2018 - present [AppSeed.us](https://www.appseed.us/?ref=github) 
 
