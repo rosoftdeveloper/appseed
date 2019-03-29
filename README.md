@@ -2,7 +2,7 @@
 ## UI-ready FullStack Web Apps in React, Vue.js.   
 Provided by [AppSeed.us](https://appseed.us). Free support on [Discord](https://discord.gg/fZC6hup)
 
-### Demo Apps
+## Demo Apps
 - [Vue.js / Express](https://vuejs.appseed.us/): JWT Authentication, Vuex Store, UI Kit: Argon Design (by Creative-Tim)
 - [React / Express](https://react.appseed.us/): JWT Authentication, Redux Store, UI Kit: Material Kit (by Creative-Tim)
 
@@ -14,19 +14,19 @@ Provided by [AppSeed.us](https://appseed.us). Free support on [Discord](https://
 
 <br/>
 
-### Requirements
+## Requirements
 - Basic programming knowledge for: Javascript, Python, Full Stack, Web Development
 - [Node.js](https://nodejs.org/) >= 6.x
 
-### Setting up for development
+## Setting up for development
 * Clone the project: `git clone git@github.com:rosoftdeveloper/appseed.git`
 * Choose a backend: [Express](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/README.md), [Laravel](https://github.com/rosoftdeveloper/appseed/blob/master/starter-laravel/README.md) or [Flask](https://github.com/rosoftdeveloper/appseed/blob/master/starter-flask/README.md). The default `ip/port`, for all servers: `localhost:3000` 
 * Choose a frontend UI KIT: [Vue.js](https://github.com/rosoftdeveloper/appseed/blob/master/starter-vue/argon-design-system/README.md) or [React](https://github.com/rosoftdeveloper/appseed/blob/master/starter-react/material-kit/README.md). All apps will start on `ip/port` is `localhost:8080`
 
-### Support
+## Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
-### MIT License
+## MIT License
 
 Copyright (c) 2018 - present [AppSeed.us](https://www.appseed.us/?ref=github) 
 
