@@ -1,6 +1,6 @@
 
-## UI-ready FullStack Web Apps in React, Vue.js.   
-Provided by [AppSeed.us](https://appseed.us). Free support on [Discord](https://discord.gg/fZC6hup)
+## UI-ready FullStack Apps in React, Vue.js. Finnaly.   
+Free support via [official docs](https://docs.appseed.us), dedicated [Facebook group](https://www.facebook.com/groups/fullstack.apps.generator) and [Discord](https://discordapp.com/invite/fZC6hup)
 
 ## Demo Apps
 - [Vue.js / Express](https://vuejs.appseed.us/): JWT Authentication, Vuex Store, UI Kit: Argon Design (by Creative-Tim)
