@@ -25,7 +25,16 @@ Content-Type: application/json
 
 ### Signup: `/api/users/signup`
 ```
-WIP - to be updated soon
+POST api/users/signup
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "email": "demo@appseed.us",
+    "password": "demo",
+    "name": "George",
+    "surname": "Clooney"
+}
 ```
 
 ## Setting up for development

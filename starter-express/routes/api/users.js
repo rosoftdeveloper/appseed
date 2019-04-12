@@ -6,52 +6,69 @@
  * @link https://github.com/rosoftdeveloper/appseed
  *
  */
-
+const Joi         = require('joi');
 const passport    = require('passport');
 const router      = require('express').Router();
 const auth        = require('../auth');
 const generateJWT = require('../../utils/generateJWT');
+const User        = require('../../models').User;
+
+const userSchema = Joi.object().keys({
+	username: Joi.string().alphanum().min(3).max(30).optional(),
+	password: Joi.string().required(),
+	email: Joi.string().email({ minDomainAtoms: 2 }).required(),
+	name: Joi.string().alphanum().min(2).max(100).optional(),
+	surname: Joi.string().alphanum().min(2).max(100).optional()
+});
 
 /* POST login route */
 router.post('/login', auth.optional, (req, res, next) => {
-    const { body: { user } } = req;
+	const { body: { user } } = req;
+	const result = Joi.validate(user, userSchema);
+    
+	if(result.error){
+		return res.status(422).json({
+			errors: result.error
+		});
+	}
+
+	return passport.authenticate('local', { session: false }, (err, passportUser, info) => {
+		if(err) {
+			return next(err);
+		}
+
+		if(passportUser) {
+			const user = {
+				_id: passportUser.id,
+				email: passportUser.email,
+				name: passportUser.name,
+				surname: passportUser.surname,
+				token: generateJWT(passportUser)
+			};
+
+			return res.json({ user });
+		}
         
-    if(!user.email) {
-        return res.status(422).json({
-            errors: {
-                email: 'is required',
-            },
-        });
-    }
-
-    if(!user.password) {
-        return res.status(422).json({
-            errors: {
-                password: 'is required',
-            },
-        });
-    }
-
-    return passport.authenticate('local', { session: false }, (err, passportUser, info) => {
-        if(err) {
-            return next(err);
-        }
-
-        if(passportUser) {
-            const user = {
-                _id: passportUser.id,
-                email: passportUser.email,
-                name: passportUser.name,
-                surname: passportUser.surname,
-                token: generateJWT(passportUser)
-            };
-
-            return res.json({ user });
-        }
-        
-        return res.status(400).send(info);
-    })(req, res, next);
+		return res.status(400).send(info);
+	})(req, res, next);
 });
 
+router.post('/signup', auth.optional, async (req, res /*, next*/) => {
+	const { body: { user } } = req;
+	const result = Joi.validate(user, userSchema);
+	if(result.error){
+		return res.status(422).json({
+			errors: result.error
+		});
+    }
+    try{
+        const newUser = await User.create(req.body);
+        return res.json(newUser);
+    }catch(e){
+        return res.status(500).json({
+			errors: e
+		});
+    }
+});
 
 module.exports = router;

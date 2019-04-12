@@ -7,14 +7,14 @@
  *
  */
 
-const express    = require("express");
-const path       = require("path");
-const bodyParser = require("body-parser");
-const session    = require("express-session");
-const cors       = require("cors");
+const express    = require('express');
+const bodyParser = require('body-parser');
+const session    = require('express-session');
+const cors       = require('cors');
+const models     = require('./models');
 
 /* Make all variables from our .env file available in our process */
-require('dotenv').config()
+require('dotenv').config();
 
 /* Init express */
 const app = express();
@@ -30,7 +30,12 @@ require('./config/passport');
 /* Here we define the api routes */
 app.use(require('./routes'));
 
-const port = process.env.PORT || 8080;
-const interface = process.env.SERVER_ADDRESS || '127.0.0.1';
+const port = process.env.PORT || 3000;
+const address = process.env.SERVER_ADDRESS || '127.0.0.1';
 
-app.listen( port, interface, () => console.log(`Server running on http://${interface}:${port}`));
+/* Create everything automatically with sequelize ORM */
+models.sequelize.sync().then(function () {
+	app.listen( port, address, () => console.log(`Server running on http://${address}:${port}`));
+});
+
+module.exports = app;

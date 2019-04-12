@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/index.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Lab Test",
+            "program": "${workspaceRoot}/node_modules/lab/bin/lab",
+            "stopOnEntry": false,
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": null,
+            "args": [
+                "-M 1000000",
+                "-m 1000000",
+                "--verbose"
+            ],
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
