@@ -10,32 +10,23 @@
 const passport         = require('passport');
 const LocalStrategy    = require('passport-local');
 const validatePassword = require('../utils/validatePassword');
-const Users            = require('../config/users');
+const User            = require('../models').User;
 
 passport.use(new LocalStrategy({
-    usernameField: 'user[email]',
-    passwordField: 'user[password]',
-}, (email, password, done) => {
+	usernameField: 'user[email]',
+	passwordField: 'user[password]',
+}, async (email, password, done) => {
+	// Recover the user
+	let user = await User.findOne({where: {email}});
 
-    /** 
-    * Here we introduce the logic in order to query 
-    * for the user and check for it's credentials
-    * THIS IS TEMPORARY AND NEEDS TO BE REPLACED WITH AN ACTUAL QUERY IN THE CHOSEN DB
-    */
+	if(!user){
+		return done(null, false, {errors: {'account': 'Invalid account'}});
+	}
 
-    // Check user is registerred 
-    if ( ! ( email in Users ) ) {
+	// Validate password
+	if ( !validatePassword(password, user.password) ) {
+		return done(null, false, { errors: { 'password': 'Password is invalid'}});
+	}
 
-        return done(null, false, { errors: { 'email': `User or email doesn't exist`}})
-    }
-    
-    // Recover the user
-    var user = Users[ email ] 
-
-    // Validate password
-    if ( !validatePassword(password, user.password) ) {
-        return done(null, false, { errors: { 'password': `Password is invalid`}})
-    }
-
-    return done(null, user);
+	return done(null, user);
 }));
