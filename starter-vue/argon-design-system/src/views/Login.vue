@@ -38,6 +38,7 @@
                                 <small>Or sign in with credentials</small>
                             </div>
                             <form role="form">
+
                                 <base-input v-model="email.value"
                                             alternative
                                             :class="email.errors.length && 'input-error'"
@@ -65,7 +66,6 @@
                                         {{error}}
                                     </li>
                                 </ul>
-                                
 
                                 <base-checkbox>
                                     Remember me
@@ -102,7 +102,7 @@ import router from '../router.js'
 export default {
     data: () => ({
         email: {
-            value: null,
+            value: Cookies.read( 'new_user' ),
             errors: []
         },
         password: {

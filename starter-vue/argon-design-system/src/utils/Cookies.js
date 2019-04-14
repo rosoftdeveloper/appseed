@@ -23,7 +23,7 @@ export default {
             return value;
         }
 
-        return false;
+        return null;
     },
 
     remove(name){
