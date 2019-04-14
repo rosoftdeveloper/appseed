@@ -62,8 +62,8 @@ router.post('/signup', auth.optional, async (req, res /*, next*/) => {
 		});
     }
     try{
-        const newUser = await User.create(req.body);
-        return res.json(newUser);
+        const user = await User.create(req.body);
+        return res.json({ user });
     }catch(e){
         return res.status(500).json({
 			errors: e
