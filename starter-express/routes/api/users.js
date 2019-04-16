@@ -71,4 +71,17 @@ router.post('/signup', auth.optional, async (req, res /*, next*/) => {
     }
 });
 
+/* GET list route */
+router.get('/list', (req, res, next) => {
+
+	User.findAll().then(users => {
+
+		return res.status(200).json(
+			JSON.stringify( users )
+		);
+	})
+
+});
+
+
 module.exports = router;
