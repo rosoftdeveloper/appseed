@@ -1,15 +1,17 @@
 <template>
-    <component :is="tag"
-               class="badge"
-               :class="
-               [`badge-${type}`,
-                rounded ? `badge-pill` : '',
-                circle && 'badge-circle'
-               ]">
-        <slot>
-            <i v-if="icon" :class="icon"></i>
-        </slot>
-    </component>
+  <component
+    :is="tag"
+    class="badge"
+    :class="[
+      `badge-${type}`,
+      rounded ? `badge-pill` : '',
+      circle && 'badge-circle'
+    ]"
+  >
+    <slot>
+      <i v-if="icon" :class="icon"></i>
+    </slot>
+  </component>
 </template>
 <script>
 export default {
@@ -43,5 +45,4 @@ export default {
   }
 };
 </script>
-<style>
-</style>
+<style></style>

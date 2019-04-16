@@ -4,15 +4,17 @@
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve --port 8080",
-    "serve": "vue-cli-service serve --port 8080",
     "build": "vue-cli-service build",
+    "serveme": "node serveme",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
+    "connect": "^3.6.6",
     "flatpickr": "^4.5.1",
     "jwt-decode": "^2.2.0",
     "nouislider": "^11.1.0",
+    "serve-static": "^1.13.2",
     "vue": "^2.5.16",
     "vue-flatpickr-component": "^7.0.4",
     "vue-lazyload": "^1.2.6",
@@ -26,6 +28,7 @@
     "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
     "@vue/cli-service": "^3.0.0-rc.10",
     "@vue/eslint-config-prettier": "^3.0.0-rc.10",
+    "lite-server": "^2.4.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.16"

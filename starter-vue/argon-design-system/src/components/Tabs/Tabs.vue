@@ -2,40 +2,36 @@
   <component :is="layoutComponent">
     <template slot="nav">
       <div class="nav-wrapper">
-        <ul class="nav"
-            role="tablist"
-            :class="
-            [type ? `nav-pills-${type}`: '',
-              pills ? 'nav-pills': 'nav-tabs',
-             {'nav-pills-icons': icons},
-             {'nav-fill': fill},
-             {'nav-pills-circle': circle},
-             {'justify-content-center': centered},
-             tabNavClasses
-            ]">
-
-          <li v-for="tab in tabs"
-              class="nav-item"
-              :key="tab.id || tab.title">
-
-            <a data-toggle="tab"
-               role="tab"
-               class="nav-link"
-               :href="`#${tab.id || tab.title}`"
-               @click.prevent="activateTab(tab)"
-               :aria-selected="tab.active"
-               :class="{active: tab.active}">
-              <tab-item-content :tab="tab">
-              </tab-item-content>
+        <ul
+          class="nav"
+          role="tablist"
+          :class="[
+            type ? `nav-pills-${type}` : '',
+            pills ? 'nav-pills' : 'nav-tabs',
+            { 'nav-pills-icons': icons },
+            { 'nav-fill': fill },
+            { 'nav-pills-circle': circle },
+            { 'justify-content-center': centered },
+            tabNavClasses
+          ]"
+        >
+          <li v-for="tab in tabs" class="nav-item" :key="tab.id || tab.title">
+            <a
+              data-toggle="tab"
+              role="tab"
+              class="nav-link"
+              :href="`#${tab.id || tab.title}`"
+              @click.prevent="activateTab(tab)"
+              :aria-selected="tab.active"
+              :class="{ active: tab.active }"
+            >
+              <tab-item-content :tab="tab"> </tab-item-content>
             </a>
-
           </li>
-
         </ul>
       </div>
     </template>
-    <div slot="content" class="tab-content"
-         :class="[tabContentClasses]">
+    <div slot="content" class="tab-content" :class="[tabContentClasses]">
       <slot v-bind="slotData"></slot>
     </div>
   </component>

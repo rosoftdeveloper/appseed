@@ -3,24 +3,25 @@
     <div :class="`progress-${type}`">
       <div class="progress-label">
         <slot name="label">
-          <span>{{label}}</span>
+          <span>{{ label }}</span>
         </slot>
       </div>
       <div class="progress-percentage">
         <slot>
-          <span>{{value}}%</span>
+          <span>{{ value }}%</span>
         </slot>
       </div>
     </div>
     <div class="progress" :style="`height: ${height}px`">
-      <div class="progress-bar"
-           :class="computedClasses"
-           role="progressbar"
-           :aria-valuenow="value"
-           aria-valuemin="0"
-           aria-valuemax="100"
-           :style="`width: ${value}%;`">
-      </div>
+      <div
+        class="progress-bar"
+        :class="computedClasses"
+        role="progressbar"
+        :aria-valuenow="value"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        :style="`width: ${value}%;`"
+      ></div>
     </div>
   </div>
 </template>
@@ -71,5 +72,4 @@ export default {
   }
 };
 </script>
-<style>
-</style>
+<style></style>

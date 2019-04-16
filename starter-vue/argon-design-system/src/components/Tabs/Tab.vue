@@ -1,8 +1,10 @@
 <template>
-  <div class="tab-pane"
-       v-show="active"
-       :id="id || title"
-       :class="{active: active}">
+  <div
+    class="tab-pane"
+    v-show="active"
+    :id="id || title"
+    :class="{ active: active }"
+  >
     <slot></slot>
   </div>
 </template>
@@ -38,5 +40,4 @@ export default {
   }
 };
 </script>
-<style>
-</style>
+<style></style>

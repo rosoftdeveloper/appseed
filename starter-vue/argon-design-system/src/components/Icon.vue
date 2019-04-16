@@ -1,17 +1,19 @@
 <template>
-    <div class="icon icon-shape"
-         :class="[
-            size && `icon-${size}`,
-            type && `icon-shape-${type}`,
-            gradient && `bg-gradient-${gradient}`,
-            shadow && 'shadow',
-            rounded && 'rounded-circle',
-            color && `text-${color}`
-         ]">
-        <slot>
-            <i :class="name"></i>
-        </slot>
-    </div>
+  <div
+    class="icon icon-shape"
+    :class="[
+      size && `icon-${size}`,
+      type && `icon-shape-${type}`,
+      gradient && `bg-gradient-${gradient}`,
+      shadow && 'shadow',
+      rounded && 'rounded-circle',
+      color && `text-${color}`
+    ]"
+  >
+    <slot>
+      <i :class="name"></i>
+    </slot>
+  </div>
 </template>
 <script>
 export default {

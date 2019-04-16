@@ -1,11 +1,8 @@
 <template>
-    <label class="custom-toggle">
-        <input type="checkbox"
-               v-model="model"
-               v-bind="$attrs"
-               v-on="$listeners">
-        <span class="custom-toggle-slider rounded-circle"></span>
-    </label>
+  <label class="custom-toggle">
+    <input type="checkbox" v-model="model" v-bind="$attrs" v-on="$listeners" />
+    <span class="custom-toggle-slider rounded-circle"></span>
+  </label>
 </template>
 <script>
 export default {
@@ -30,5 +27,4 @@ export default {
   }
 };
 </script>
-<style>
-</style>
+<style></style>
