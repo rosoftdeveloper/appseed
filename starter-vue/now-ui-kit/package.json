@@ -6,12 +6,14 @@
     "start": "vue-cli-service serve --port 8080",
     "serve": "vue-cli-service serve --port 8080",
     "build": "vue-cli-service build",
+    "serveme": "node serveme",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "bootstrap": "^4.3.0",
     "element-ui": "^2.5.4",
     "nouislider": "^11.1.0",
+    "serve-static": "^1.13.2",
     "vue": "^2.6.6",
     "vue-lazy-load": "^0.0.7",
     "vue-lazyload": "^1.2.6",
