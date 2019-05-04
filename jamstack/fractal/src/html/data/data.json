@@ -1,0 +1,14 @@
+{
+    "author"  : "AppSeed.com",
+    "email"   : "support@appseed.us",
+
+    "links" : {
+        "github"    : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/fractal",
+        "facebook"  : "https://facebook.com/webappseed",
+        "twitter"   : "https://twitter.com/webappseed",
+        "instagram" : "https://instagram.com/webappseed",
+        "appseed"   : "https://appseed.us?ref=jamstack-fractal"
+    }, 
+
+    "LAST_KEY" : "NA"
+}
