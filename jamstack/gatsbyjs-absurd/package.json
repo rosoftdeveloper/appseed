@@ -33,6 +33,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build && node deploy",
     "build": "gatsby build",
     "dev": "gatsby develop",
     "start": "npm run dev",
