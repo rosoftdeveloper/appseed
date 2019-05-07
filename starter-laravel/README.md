@@ -8,8 +8,7 @@
 ## Setting up a development environment
 
 * clone repo: git clone git@github.com:rosoftdeveloper/appseed.git
-* change directory to starter-express: cd appseed/starter-laravel
-* CMD ```composer install```
+* change directory to starter-laravel: `cd appseed/starter-laravel`
 * create a file named .env (copy .env.example file) which should contain the following default setup ( you should provide your own values to this variables ):
 ```
 DB_CONNECTION=mysql
@@ -21,12 +20,15 @@ DB_PASSWORD=MY_DB_PASSWORD
 
 JWT_SECRET=RuoxLtY4F3HvH3K0aVTkgLPTZu8IvlhJ
 ```
-* CMD: ```php artisan key:generate```
-* CMD: ```php artisan migrate:fresh --seed``` to create tables and seed with data
+
+* Exec `composer install` This cmd witll install all required dependencies
+* Exec `php artisan key:generate` to trigger laravel setup
+* Exec `php artisan migrate:fresh --seed` to create tables and seed with data
 
 ## Running the app
 
-* Go in the appseed/starter-laravel/public run in CMD ``` php -S localhost:5000 ```
+* Go in the appseed/starter-laravel/public run in 
+* Exec `php -S localhost:3000` to start the server
 * Login route: /api/users/login [post: email, password],
 * Demo credentials email: demo@appseed.us, password: demo & demo2@appseed.us, password: demo
 
