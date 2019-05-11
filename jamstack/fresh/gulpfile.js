@@ -187,6 +187,12 @@ gulp.task('copy-images', function() {
         .pipe(gulp.dest('./_site/assets/images/'));
 });
 
+//Copy images to production site
+gulp.task('copy-icons', function() {
+    gulp.src('assets/css/icons.css')
+        .pipe(gulp.dest('./_site/assets/css/'));
+});
+
 gulp.task('init', ['setupBulma']);
-gulp.task('build', ['clean','copy', 'compile-js', 'compile-css', 'copy-js', 'compile-sass', 'compile-scss', 'compile-html', 'copy-images']);
+gulp.task('build', ['clean','copy', 'compile-js', 'compile-css', 'copy-js', 'compile-sass', 'compile-scss', 'compile-html', 'copy-icons', 'copy-images']);
 gulp.task('default', ['server', 'watch']);
