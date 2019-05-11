@@ -166,6 +166,7 @@ gulp.task('compile-js', function() {
         nodepath + 'waypoints/lib/jquery.waypoints.min.js',
         nodepath + 'waypoints/lib/shortcuts/sticky.min.js',
         nodepath + 'jquery.counterup/jquery.counterup.min.js',
+        nodepath + 'jquery-lazy/jquery.lazy.min.js',
         //Additional static js assets
         assetspath + 'js/ggpopover/ggpopover.min.js',
         assetspath + 'js/ggpopover/ggtooltip.js',

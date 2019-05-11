@@ -39,6 +39,7 @@
     "dependencies": {
         "bulma": "^0.7.4",
         "ftp-deploy": "^2.3.3",
+        "jquery-lazy": "^1.7.10",
         "jquery-waypoints": "^2.0.5",
         "jquery.counterup": "^2.1.0",
         "scrollreveal": "^3.4.0",

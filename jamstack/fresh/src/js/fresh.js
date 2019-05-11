@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    $('.lazy').Lazy();
+
     //Preloader
     $(window).on('load', function () { // makes sure the whole site is loaded
         $('#status').fadeOut(); // will first fade out the loading animation
@@ -66,7 +68,7 @@ $(document).ready(function () {
     //reveal elements on scroll so animations trigger the right way
     var $window = $(window),
         win_height_padded = $window.height() * 1.1,
-        isTouch = Modernizr.touch;
+        isTouch = Modernizr.touch;  
 
     $window.on('scroll', revealOnScroll);
 
