@@ -1,7 +1,7 @@
 ## JamStack [Fresh](https://bulma-css-fresh.appseed.us)
 Designed by HTML5 Up, coded by [AppSeed](https://appseed.us) 
 
-![JamStack Fractal by @AppSeed](https://static.appseed.us/misc/bulma-css-fresh.jpg)
+![JamStack Bulma CSS Fresh Web App by AppSeed App Generator](https://static.appseed.us/misc/jamstack-bulma-css-fresh.jpg)
 
 ## How to use it
 - Clone this repo `git clone https://github.com/rosoftdeveloper/appseed/`

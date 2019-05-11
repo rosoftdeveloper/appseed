@@ -1,0 +1,18 @@
+{
+    "author"  : "AppSeed.com", 
+    "email"   : "support@appseed.us",
+
+    "seo-title" : "Bulma CSS Web App - coded by AppSeed App Generator",
+    "seo-desc" : "JAMStack web app, built on top of Bulma CSS and Panini Static Generator",
+    "seo-keys" : "support@appseed.us",
+
+    "links" : {
+        "github"    : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/fresh",
+        "facebook"  : "https://facebook.com/webappseed",
+        "twitter"   : "https://twitter.com/webappseed",
+        "instagram" : "https://instagram.com/webappseed",
+        "appseed"   : "https://appseed.us?ref=bulma-css-fresh"
+    }, 
+
+    "LAST_KEY" : "NA"
+}

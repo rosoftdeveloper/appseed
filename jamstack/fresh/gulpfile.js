@@ -11,7 +11,7 @@ var panini = require('panini');
 var concat = require('gulp-concat');
 var port = process.env.SERVER_PORT || 8080;
 var nodepath =  'node_modules/';
-var assetspath =  'assets/';
+var assetspath =  'src/assets/';
 
 // Starts a BrowerSync instance
 gulp.task('server', ['build'], function(){
@@ -20,16 +20,16 @@ gulp.task('server', ['build'], function(){
 
 // Watch files for changes
 gulp.task('watch', function() {
-    gulp.watch('scss/**/*', ['compile-scss', browser.reload]);
-    gulp.watch('sass/**/*', ['compile-sass', browser.reload]);
-    gulp.watch('js/**/*', ['copy-js', browser.reload]);
-    gulp.watch('images/**/*', ['copy-images', browser.reload]);
-    gulp.watch('html/pages/**/*', ['compile-html']);
-    gulp.watch(['html/{layouts,includes,helpers,data}/**/*'], ['compile-html:reset','compile-html']);
+    gulp.watch('src/scss/**/*', ['compile-scss', browser.reload]);
+    gulp.watch('src/sass/**/*', ['compile-sass', browser.reload]);
+    gulp.watch('src/js/**/*', ['copy-js', browser.reload]);
+    gulp.watch('src/images/**/*', ['copy-images', browser.reload]);
+    gulp.watch('src/html/pages/**/*', ['compile-html']);
+    gulp.watch(['src/html/{layouts,includes,helpers,data}/**/*'], ['compile-html:reset','compile-html']);
     gulp.watch(['./src/{layouts,partials,helpers,data}/**/*'], [panini.refresh]);
 });
 
-// Erases the dist folder
+// Erases the dist folder ??
 gulp.task('reset', function() {
     rimraf('bulma/*');
     rimraf('scss/*');
@@ -46,14 +46,14 @@ gulp.task('clean', function() {
 // Copy Bulma filed into Bulma development folder
 gulp.task('setupBulma', function() {
     //Get Bulma from node modules
-    gulp.src([nodepath + 'bulma/*.sass']).pipe(gulp.dest('bulma/'));
-    gulp.src([nodepath + 'bulma/**/*.sass']).pipe(gulp.dest('bulma/'));
+    gulp.src([nodepath + 'src/bulma/*.sass']).pipe(gulp.dest('src/bulma/'));
+    gulp.src([nodepath + 'src/bulma/**/*.sass']).pipe(gulp.dest('src/bulma/'));
 });
 
 // Copy static assets
 gulp.task('copy', function() {
     //Copy other external font and data assets
-    gulp.src(['assets/fonts/**/*']).pipe(gulp.dest('_site/assets/fonts/'));
+    gulp.src(['src/assets/fonts/**/*']).pipe(gulp.dest('_site/assets/fonts/'));
     gulp.src([nodepath + 'slick-carousel/slick/fonts/**/*']).pipe(gulp.dest('_site/assets/css/fonts/'));
     gulp.src([nodepath + 'slick-carousel/slick/ajax-loader.gif']).pipe(gulp.dest('_site/assets/css/'));
 });
@@ -69,7 +69,7 @@ var sassOptions = {
 var scssOptions = {
     errLogToConsole: true,
     outputStyle: 'compressed',
-    includePaths: ['./scss/partials']
+    includePaths: ['./src/scss/partials']
 };
 
 // Compile Bulma Sass
@@ -91,7 +91,7 @@ gulp.task('compile-sass', function () {
         //cssnano(),
     ];
     //Watch me get Sassy
-    return gulp.src('./bulma/bulma.sass')
+    return gulp.src('./src/bulma/bulma.sass')
         .pipe(sourcemaps.init())
         .pipe(sass(sassOptions).on('error', sass.logError))
         .pipe(postcss(processors))
@@ -118,7 +118,7 @@ gulp.task('compile-scss', function () {
         //cssnano(),
     ];
     //Watch me get Sassy
-    return gulp.src('./scss/core.scss')
+    return gulp.src('./src/scss/core.scss')
         .pipe(sourcemaps.init())
         .pipe(sass(sassOptions).on('error', sass.logError))
         .pipe(postcss(processors))
@@ -128,13 +128,13 @@ gulp.task('compile-scss', function () {
 
 // Compile Html
 gulp.task('compile-html', function() {
-    gulp.src('html/pages/**/*.html')
+    gulp.src('src/html/pages/**/*.html')
         .pipe(panini({
-        root: 'html/pages/',
-        layouts: 'html/layouts/',
-        partials: 'html/includes/',
-        helpers: 'html/helpers/',
-        data: 'html/data/'
+        root: 'src/html/pages/',
+        layouts: 'src/html/layouts/',
+        partials: 'src/html/includes/',
+        helpers: 'src/html/helpers/',
+        data: 'src/html/data/'
     }))
         .pipe(gulp.dest('_site'))
         .on('finish', browser.reload);
@@ -177,19 +177,19 @@ gulp.task('compile-js', function() {
 
 //Copy Theme js to production site
 gulp.task('copy-js', function() {
-    gulp.src('js/**/*.js')
+    gulp.src('src/js/**/*.js')
         .pipe(gulp.dest('./_site/assets/js/'));
 });
 
 //Copy images to production site
 gulp.task('copy-images', function() {
-    gulp.src('images/**/*')
+    gulp.src('src/images/**/*')
         .pipe(gulp.dest('./_site/assets/images/'));
 });
 
 //Copy images to production site
 gulp.task('copy-icons', function() {
-    gulp.src('assets/css/icons.css')
+    gulp.src('src/assets/css/icons.css')
         .pipe(gulp.dest('./_site/assets/css/'));
 });
 
