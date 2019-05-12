@@ -39,7 +39,7 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/gatsby-absurd">
+                <StyledExternalLink href="https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/gatsbyjs-absurd">
                   Check out source &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
