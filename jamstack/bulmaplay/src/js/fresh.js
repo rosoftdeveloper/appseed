@@ -63,7 +63,7 @@ $(document).ready(function () {
     }
 
     //Init feather icons
-    feather.replace();
+    //feather.replace(); // wtf is this !?
 
     //reveal elements on scroll so animations trigger the right way
     var $window = $(window),
