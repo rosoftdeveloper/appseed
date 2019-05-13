@@ -8,15 +8,13 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>GatsbyJS Web App</h1>
-                <p>Dimension - React / GatsbyJS Web app, designed by HTML5 UP<br />
-                Enhanced by AppSeed
-                <br /><br />
+                <h1>GatsbyJS Web App</h1> 
+                <p>Dimension - React / GatsbyJS Web App</p> 
+                <p>
                 <a target="_blank" href="https://appseed.us/apps/react/gatsbyjs/dimension">Get Code</a> {' '}
-                <br /><br />
-                Enhancements:
-                <br />
-
+                </p>
+                FEATURES:
+                <p>
                 Sitemap generator, FTP deploy Script, LIVE Support via{' '}
                 <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/fZC6hup">Discord</a>
 

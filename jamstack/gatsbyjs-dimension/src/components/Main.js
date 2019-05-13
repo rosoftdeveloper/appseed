@@ -19,7 +19,6 @@ class Main extends React.Component {
             <img src={pic01} alt="GatsbyJS Static App Generator. A few words about it." />
           </span>
           <p>Gatsby is a React-based, GraphQL powered, static site generator. What does that even mean?  Well, it weaves together the best parts of React, webpack, react-router, GraphQL, and other front-end tools in to one very enjoyable developer experience. Don’t get hung up on the moniker ‘static site generator’.</p>
-          <p>It uses powerful preconfiguration to build a website that uses only static files for incredibly fast page loads, service workers, code splitting, server-side rendering, intelligent image loading, asset optimization, and data prefetching. All out of the box.</p>
           <p>Read more about <a href="https://blog.appseed.us/tag/gatsbyjs/">GatsbyJS</a> on the official AppSeed <a href="https://blog.appseed.us">blog</a>.</p>
           {close}
         </article>
