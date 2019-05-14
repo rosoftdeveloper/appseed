@@ -42,7 +42,7 @@ b {
 					/*Start First page*/
 /*---------------------------------------------------------*/
 .hero.is-info {
-	background: url('/static/images/banner.png') no-repeat center center fixed;
+	background: url('../images/banner.png') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -255,7 +255,7 @@ background-color: transparent;
 
 /* sectionsix */
 .sectionsix{
-background: url('/static/images/footerbg.png') no-repeat center center;
+background: url('../images/footerbg.png') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
