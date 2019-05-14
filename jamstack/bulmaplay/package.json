@@ -1,7 +1,7 @@
 {
-    "name": "bulkit-landing-4",
+    "name": "bulmaplay",
     "version": "0.0.1",
-    "description": "Bulkit Landing Kit 4",
+    "description": "BulmaPlay UI Kit",
     "main": "Gruntfile.js",
     "devDependencies": {
         "autoprefixer": "^6.3.6",
@@ -27,15 +27,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/cssninjaStudio/bulkit.git"
+        "url": "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/bulmaplay.git"
     },
     "bugs": {
-        "url": "https://github.com/cssninjaStudio/bulkit/issues",
+        "url": "https://github.com/rosoftdeveloper/appseed/issues",
         "email": "support@cssninja.io"
     },
-    "author": "Css Ninja <hello@cssninja.io> (https://cssninja.io/themes/bulkit)",
-    "license": "Commercial",
-    "private": true,
+    "author": "AppSeed <support@appseed.us> (https://appseed.us/apps/static/panini/bulmaplay)",
+    "license": "MIT",
+    "private": false,
     "dependencies": {
         "bulma": "^0.7.4",
         "ftp-deploy": "^2.3.3",
