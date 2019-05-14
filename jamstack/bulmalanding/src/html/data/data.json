@@ -1,0 +1,20 @@
+{
+    "author"  : "AppSeed.com", 
+    "email"   : "support@appseed.us",
+
+    "seo-title" : "BulmaLanding - JAMStack Bulma CSS Web App",
+    "seo-desc" : "JAMStack web app, built on top of Bulma CSS and Panini Static Generator",
+    "seo-keys" : "support@appseed.us",
+
+    "links" : {
+        "github"    : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/bulmalanding",
+        "facebook"  : "https://facebook.com/webappseed",
+        "twitter"   : "https://twitter.com/webappseed",
+        "instagram" : "https://instagram.com/webappseed",
+        "appseed"   : "https://appseed.us?ref=bulmalanding",
+        "blog"      : "https://blog.appseed.us?ref=bulmalanding",
+        "buy"       : "https://appseed.us/apps/static/panini/bulmalanding" 
+    }, 
+
+    "LAST_KEY" : "NA"
+}
