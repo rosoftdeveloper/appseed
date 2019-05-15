@@ -53,9 +53,20 @@ class HowToUse extends React.Component {
                     <p>
                       <h4>Support</h4>
                       <h3>
-                      <a target="_blank" href="https://github.com/rosoftdeveloper/appseed/issues">Github</a>{', '} 
-                      Live Support via <a target="_blank" href="https://discord.gg/fZC6hup">Discord</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosoftdeveloper/appseed/issues">Github</a>{', '} 
+                      Live Support via <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/fZC6hup">Discord</a>
                       </h3>
+                    </p>
+                  </div>
+
+                  <div className="typography-line">
+                    <p>
+                      <span>Links</span>
+                            <a target="_blank" rel="noopener noreferrer" href="https://blog.appseed.us/react-dashboards">React Dashboards - Blog Article</a>
+                      <br /><a target="_blank" rel="noopener noreferrer" href="https://react-material-dashboard.appseed.us">React Material Dashboard</a>
+                      <br /><a target="_blank" rel="noopener noreferrer" href="https://react-now-ui-dashboard.appseed.us">Now UI React Dashboard</a>
+                      <br /><a target="_blank" rel="noopener noreferrer" href="https://react-paper-dashboard.appseed.us">Paper Dashboard React</a>
+
                     </p>
                   </div>
 
