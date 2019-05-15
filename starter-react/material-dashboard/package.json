@@ -23,6 +23,7 @@
     "react-swipeable-views": "0.13.1"
   },
   "scripts": {
+    "deploy": "yarn build && node deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -43,7 +44,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
   },
-  "homepage": "https://creativetimofficial.github.io/material-dashboard-react/#/dashboard",
+  "homepage": "https://react-material-dashboard.appseed.us",
   "optionalDependencies": {
     "@types/googlemaps": "3.30.16",
     "@types/markerclustererplus": "2.1.33",

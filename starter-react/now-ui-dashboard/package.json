@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "private": true,
   "main": "dist/index.js",
-  "homepage": "https://creativetimofficial.github.io/now-ui-dashboard-react/#/dashboard",
+  "homepage": "https://react-now-ui-dashboard.appseed.us",
   "dependencies": {
     "@types/googlemaps": "3.30.12",
     "@types/markerclustererplus": "2.1.33",
@@ -28,6 +28,7 @@
     "reactstrap": "6.4.0"
   },
   "scripts": {
+    "deploy": "yarn build && node deploy",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",

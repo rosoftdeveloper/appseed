@@ -24,6 +24,7 @@
   },
   "homepage": "https://demos.creative-tim.com/argon-dashboard-react/",
   "scripts": {
+    "deploy": "yarn build && node deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

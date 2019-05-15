@@ -2,7 +2,7 @@
   "name": "black-dashboard-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://creativetimofficial.github.io/black-dashboard-react/#/dashboard",
+  "homepage": "https://react-black-dashboard.appseed.us",
   "dependencies": {
     "@types/react": "16.4.16",
     "bootstrap": "4.1.3",
@@ -23,6 +23,7 @@
     "reactstrap": "6.5.0"
   },
   "scripts": {
+    "deploy": "yarn build && node deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
