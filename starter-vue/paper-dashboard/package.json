@@ -13,6 +13,7 @@
     "bootstrap": "^4.0.0",
     "chartist": "^0.11.0",
     "es6-promise": "^4.2.4",
+    "ftp-deploy": "^2.3.3",
     "vue": "^2.5.13",
     "vue-clickaway": "^2.1.0",
     "vue-notifyjs": "^0.3.0",

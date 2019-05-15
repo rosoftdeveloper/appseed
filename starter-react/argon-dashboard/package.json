@@ -45,6 +45,7 @@
   "dependencies": {
     "chart.js": "2.7.3",
     "classnames": "2.2.6",
+    "ftp-deploy": "^2.3.3",
     "moment": "2.24.0",
     "node-sass": "4.11.0",
     "nouislider": "13.1.1",

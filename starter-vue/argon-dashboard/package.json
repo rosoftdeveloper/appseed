@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "yarn build && node deploy",
     "serve": "vue-cli-service serve",
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -14,6 +15,7 @@
     "chart.js": "2.8.0",
     "core-js": "2.6.5",
     "flatpickr": "4.5.7",
+    "ftp-deploy": "^2.3.3",
     "nouislider": "13.1.4",
     "register-service-worker": "1.6.2",
     "vue": "2.6.6",

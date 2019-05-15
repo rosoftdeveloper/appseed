@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "3.3.7",
     "chartist": "0.10.1",
+    "ftp-deploy": "^2.3.3",
     "node-sass": "4.12.0",
     "react": "16.8.6",
     "react-bootstrap": "0.32.4",
