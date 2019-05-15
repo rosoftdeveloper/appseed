@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "deploy": "yarn build && node deploy",
     "build": "vue-cli-service build",
     "e2e": "node test/e2e/runner.js",
     "lint": "vue-cli-service lint",

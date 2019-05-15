@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "private": true,
   "scripts": {
+    "deploy": "yarn build && node deploy",
     "serve": "vue-cli-service serve --open",
     "dev": "npm run serve",
     "build": "vue-cli-service build",
