@@ -13,26 +13,21 @@ class Footer extends React.Component {
         <Container fluid>
           <Nav>
             <NavItem>
-              <NavLink href="javascript:void(0)">Creative Tim</NavLink>
+              <NavLink target="_blank" href="https://creative-tim.com?ref=appseed">Creative Tim</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="javascript:void(0)">About Us</NavLink>
+              <NavLink target="_blank" href="https://appseed.us?ref=react-black-dashboard">AppSeed</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="javascript:void(0)">Blog</NavLink>
+              <NavLink target="_blank" href="https://blog.appseed.us?ref=react-black-dashboard">Blog</NavLink>
             </NavItem>
           </Nav>
           <div className="copyright">
-            © {new Date().getFullYear()} made with{" "}
-            <i className="tim-icons icon-heart-2" /> by{" "}
-            <a
-              href="javascript:void(0)"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Creative Tim
-            </a>{" "}
-            for a better web.
+            © {new Date().getFullYear()} {" "}
+            Crafted by{" Creative Tim "}. Enhanced by {" "}
+
+            <a target="_blank" href="https://appseed.us?ref=react-black-dashboard">AppSeed</a>
+         
           </div>
         </Container>
       </footer>

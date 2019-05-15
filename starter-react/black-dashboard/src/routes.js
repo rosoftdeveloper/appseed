@@ -5,9 +5,18 @@ import Notifications from "views/Notifications.jsx";
 import Rtl from "views/Rtl.jsx";
 import TableList from "views/TableList.jsx";
 import Typography from "views/Typography.jsx";
+import HowToUse from "views/HowToUse.jsx";
 import UserProfile from "views/UserProfile.jsx";
 
 var routes = [
+  {
+    path: "/howtouse",
+    name: "HowToUse",
+    rtlName: "how to use",
+    icon: "fa fa-info",
+    component: HowToUse,
+    layout: "/admin"
+  },
   {
     path: "/dashboard",
     name: "Dashboard",
