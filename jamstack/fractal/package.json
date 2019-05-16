@@ -25,6 +25,7 @@
         "deploy": "gulp build && gulp zip && node deploy",
         "zip": "gulp zip",
         "start": "gulp",
+        "clean": "gulp clean",
         "build": "gulp build"
     },
     "repository": {
