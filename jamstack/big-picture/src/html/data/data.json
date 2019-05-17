@@ -3,11 +3,17 @@
     "email"   : "support@appseed.us",
 
     "links" : {
-        "github"    : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/big-picture",
-        "facebook"  : "https://facebook.com/webappseed",
-        "twitter"   : "https://twitter.com/webappseed",
-        "instagram" : "https://instagram.com/webappseed",
-        "appseed"   : "https://appseed.us?ref=jamstack-big-picture"
+        "buy"            : "https://appseed.us/apps/static/panini/big-picture-html5up", 
+        "github"         : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/big-picture",
+        "appseed"        : "https://appseed.us?ref=big-picture",
+        "generator"      : "https://appseed.us/app-generator?ref=big-picture",
+        "facebook"       : "https://facebook.com/webappseed",
+        "facebook-group" : "https://www.facebook.com/groups/fullstack.apps.generator/",
+        "twitter"        : "https://twitter.com/webappseed",
+        "instagram"      : "https://instagram.com/webappseed",
+        "discord"        : "https://discord.gg/fZC6hup",
+        "docs"           : "https://docs.appseed.us",
+        "blog"           : "https://blog.appseed.us"
     }, 
 
     "LAST_KEY" : "NA"
