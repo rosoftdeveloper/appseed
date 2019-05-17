@@ -126,13 +126,13 @@ gulp.task('copy-css', function() {
 
 //Copy Theme js to production site
 gulp.task('copy-js', function() {
-    gulp.src('src/assets/js/**/*.js', '!src/assets/js/main.js', '!src/assets/js/util.js')
+    gulp.src('src/assets/js/**/*.js')
         .pipe(gulp.dest('./_site/assets/js/'));
 });
 
 //Copy images to production site
 gulp.task('copy-images', function() {
-    gulp.src('src/images/**/*', '!(*.psd)')
+    gulp.src('src/images/**/*')
         .pipe(gulp.dest('./_site/images/'));
 });
 
