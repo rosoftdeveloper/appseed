@@ -1,0 +1,20 @@
+{
+    "author"  : "AppSeed.com",
+    "email"   : "support@appseed.us",
+
+    "links" : {
+        "buy"            : "https://appseed.us/apps/static/panini/fractal-html5up", 
+        "github"         : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/fractal",
+        "appseed"        : "https://appseed.us?ref=fractal",
+        "generator"      : "https://appseed.us/app-generator?ref=fractal",
+        "facebook"       : "https://facebook.com/webappseed",
+        "facebook-group" : "https://www.facebook.com/groups/fullstack.apps.generator/",
+        "twitter"        : "https://twitter.com/webappseed",
+        "instagram"      : "https://instagram.com/webappseed",
+        "discord"        : "https://discord.gg/fZC6hup",
+        "docs"           : "https://docs.appseed.us",
+        "blog"           : "https://blog.appseed.us"
+    }, 
+
+    "LAST_KEY" : "NA"
+}
