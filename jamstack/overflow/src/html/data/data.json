@@ -3,10 +3,10 @@
     "email"   : "support@appseed.us",
 
     "links" : {
-        "buy"            : "https://appseed.us/apps/static/panini/fractal-html5up", 
-        "github"         : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/fractal",
-        "appseed"        : "https://appseed.us?ref=fractal",
-        "generator"      : "https://appseed.us/app-generator?ref=fractal",
+        "buy"            : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/overflow", 
+        "github"         : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/overflow",
+        "appseed"        : "https://appseed.us?ref=overflow",
+        "generator"      : "https://appseed.us/app-generator?ref=overflow",
         "facebook"       : "https://facebook.com/webappseed",
         "facebook-group" : "https://www.facebook.com/groups/fullstack.apps.generator/",
         "twitter"        : "https://twitter.com/webappseed",
