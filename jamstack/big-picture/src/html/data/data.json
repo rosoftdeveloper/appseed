@@ -3,7 +3,7 @@
     "email"   : "support@appseed.us",
 
     "links" : {
-        "buy"            : "https://appseed.us/apps/static/panini/big-picture-html5up", 
+        "buy"            : "https://appseed.us/apps/static/panini/jamstack-big-picture", 
         "github"         : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/big-picture",
         "appseed"        : "https://appseed.us?ref=big-picture",
         "generator"      : "https://appseed.us/app-generator?ref=big-picture",
