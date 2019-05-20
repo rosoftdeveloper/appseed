@@ -5,6 +5,7 @@
     "links" : {
         "buy"            : "https://appseed.us/apps/static/panini/jamstack-fractal", 
         "github"         : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/fractal",
+        "github-jamstack": "https://github.com/jamstack-apps/jamstack",
         "appseed"        : "https://appseed.us?ref=fractal",
         "generator"      : "https://appseed.us/app-generator?ref=fractal",
         "facebook"       : "https://facebook.com/webappseed",
