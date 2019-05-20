@@ -5,6 +5,7 @@
     "links" : {
         "buy"            : "https://appseed.us/apps/static/panini/jamstack-landed", 
         "github"         : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/landed",
+        "github-jamstack": "https://github.com/jamstack-apps/jamstack",
         "appseed"        : "https://appseed.us?ref=landed",
         "generator"      : "https://appseed.us/app-generator?ref=landed",
         "facebook"       : "https://facebook.com/webappseed",

@@ -5,6 +5,7 @@
     "links" : {
         "buy"            : "https://appseed.us/apps/static/panini/jamstack-big-picture", 
         "github"         : "https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/big-picture",
+        "github-jamstack": "https://github.com/jamstack-apps/jamstack",
         "appseed"        : "https://appseed.us?ref=big-picture",
         "generator"      : "https://appseed.us/app-generator?ref=big-picture",
         "facebook"       : "https://facebook.com/webappseed",
