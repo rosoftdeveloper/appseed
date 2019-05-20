@@ -23,6 +23,11 @@ Free support via [official docs](https://docs.appseed.us), dedicated [Facebook g
 * Choose a backend: [Express](https://github.com/rosoftdeveloper/appseed/blob/master/starter-express/README.md), [Laravel](https://github.com/rosoftdeveloper/appseed/blob/master/starter-laravel/README.md) or [Flask](https://github.com/rosoftdeveloper/appseed/blob/master/starter-flask/README.md). The default `ip/port`, for all servers: `localhost:3000` 
 * Choose a frontend UI KIT: [Vue.js](https://github.com/rosoftdeveloper/appseed/blob/master/starter-vue/argon-design-system/README.md) or [React](https://github.com/rosoftdeveloper/appseed/blob/master/starter-react/material-kit/README.md). All apps will start on `ip/port` is `localhost:8080`
 
+## [JAMstack apps](https://appseed.us/apps/jamstack)
+- [JAMstack App Big Picture](https://appseed.us/apps/static/panini/jamstack-big-picture) - [Sources](https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/big-picture)
+- [JAMstack App Landed](https://appseed.us/apps/static/panini/jamstack-landed) - [Sources](https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/big-picture)
+- [JAMstack Fractal](https://appseed.us/apps/static/panini/jamstack-fractal) - [Sources](https://github.com/rosoftdeveloper/appseed/tree/master/jamstack/fractal)
+
 ## Support
 Open a [new issue](https://github.com/rosoftdeveloper/appseed/issues/new) here. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
