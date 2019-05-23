@@ -1,4 +1,3 @@
-
 # React, Vue.js [App Generator](https://appseed.us/app-generator?ref=github)
 Select **Frontent UI Kit**. Select **Backend**. Your App **IS Ready**. [Build Your App](https://appseed.us?ref=github)
 
@@ -13,7 +12,6 @@ Select **Frontent UI Kit**. Select **Backend**. Your App **IS Ready**. [Build Yo
 - [JAMStack Landed](https://appseed.us/apps/static/panini/jamstack-landed): **JAMstack App** coded on top of **Landed** (design HTML5 Up) - [Demo](https://jamstack-landed.appseed.us/)
 - [BulmaPlay](https://appseed.us/apps/static/panini/bulmaplay): **JAMstack App** coded on top of **Bulma CSS** (design AppSeed) - [Demo](https://bulma-css-bulmaplay.appseed.us/)
 - [JAMStack Fractal](https://appseed.us/apps/static/panini/jamstack-fractal): **JAMstack App** coded on top of **Fractal** (design HTML5 Up) - [Demo](https://jamstack-fractal.appseed.us/)
-
 
 <br/>
 
