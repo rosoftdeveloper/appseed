@@ -2,9 +2,18 @@
 ## React, Vue.js [App Generator](https://appseed.us/app-generator?ref=github)
 Select **Frontent UI Kit**. Select **Backend**. Your App **IS Ready**. [Build Your App](https://appseed.us?ref=github)
 
-## Demo Apps
-- [Vue.js / Express](https://vuejs.appseed.us/): JWT Authentication, Vuex Store, UI Kit: Argon Design (by Creative-Tim)
-- [React / Express](https://react.appseed.us/): JWT Authentication, Redux Store, UI Kit: Material Kit (by Creative-Tim)
+## Demo: [React Apps](https://appseed.us/apps/react)
+- [GatsbyJS Dimension](https://appseed.us/apps/react/gatsbyjs/dimension): Serverless App built in **GatsbyJS** - [Demo](https://jamstack-gatsbyjs-dimension.appseed.us/)
+- [Material Kit in React / Flask](https://appseed.us/apps/react/flask/material-kit-creative-tim): Full-Stack App coded on top of **Material Kit**, React and Flask in the backend - [Demo](https://flask-react-material-kit.appseed.us/)
+
+## Demo: [Vue.js Apps](https://appseed.us/apps/vuejs)
+- [Argon Design in Vue.js / Express](https://appseed.us/apps/vuejs/express/argon-design-system-creative-tim): Full-Stack App coded on top of **Argon Design**, React and Express - [Demo](https://express-vuejs-argon-design.appseed.us/)
+
+## Demo: [JAMstack Apps](https://appseed.us/apps/jamstack)
+- [JAMStack Landed](https://appseed.us/apps/static/panini/jamstack-landed): **JAMstack App** coded on top of **Landed** (design HTML5 Up) - [Demo](https://jamstack-landed.appseed.us/)
+- [BulmaPlay](https://appseed.us/apps/static/panini/bulmaplay): **JAMstack App** coded on top of **Bulma CSS** (design AppSeed) - [Demo](https://bulma-css-bulmaplay.appseed.us/)
+- [JAMStack Fractal](https://appseed.us/apps/static/panini/jamstack-fractal): **JAMstack App** coded on top of **Fractal** (design HTML5 Up) - [Demo](https://jamstack-fractal.appseed.us/)
+
 
 <br/>
 
