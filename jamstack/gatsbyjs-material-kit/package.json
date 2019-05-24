@@ -1,0 +1,57 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "node deploy",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "classnames": "^2.2.6",
+    "core-js": "^2.6.5",
+    "ftp-deploy": "^2.3.3",
+    "gatsby": "^2.1.24",
+    "gatsby-plugin-manifest": "^2.0.22",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.8",
+    "gatsby-plugin-resolve-src": "^2.0.0",
+    "gatsby-plugin-sass": "^2.0.10",
+    "history": "^4.7.2",
+    "node-sass": "^4.11.0",
+    "nouislider": "^13.1.1",
+    "react": "^16.8.4",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "react-icon": "^1.0.0",
+    "react-icons": "^3.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-slick": "^0.23.2",
+    "react-swipeable-views": "^0.13.1",
+    "typeface-roboto": "0.0.54",
+    "typeface-roboto-slab": "0.0.72"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
