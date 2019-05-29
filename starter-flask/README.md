@@ -4,7 +4,7 @@
 
 ## Project Status: 
 
-* Under development, incomplete documentation, active suport
+* Under development, incomplete documentation, active support
 
 
 ## Setting up a development environment
