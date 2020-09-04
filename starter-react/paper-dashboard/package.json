@@ -9,7 +9,7 @@
     "chart.js": "2.7.2",
     "ftp-deploy": "^2.3.3",
     "history": "4.7.2",
-    "node-sass": "4.9.3",
+    "node-sass": "4.13.1",
     "perfect-scrollbar": "1.4.0",
     "react": "16.5.2",
     "react-chartjs-2": "2.7.4",
