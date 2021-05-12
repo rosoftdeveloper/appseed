@@ -44,7 +44,7 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "chart.js": "2.7.3",
+    "chart.js": "2.9.4",
     "classnames": "2.2.6",
     "ftp-deploy": "^2.3.3",
     "moment": "2.24.0",
