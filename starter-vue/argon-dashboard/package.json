@@ -12,7 +12,7 @@
   "dependencies": {
     "bootstrap": "4.3.1",
     "bootstrap-vue": "2.0.0-rc.15",
-    "chart.js": "2.8.0",
+    "chart.js": "2.9.4",
     "core-js": "2.6.5",
     "flatpickr": "4.5.7",
     "ftp-deploy": "^2.3.3",
