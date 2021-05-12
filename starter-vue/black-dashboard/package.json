@@ -14,7 +14,7 @@
     "lint-fix": "vue-cli-service lint --fix"
   },
   "dependencies": {
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "ftp-deploy": "^2.3.3",
     "register-service-worker": "^1.5.2",
     "vue": "^2.6.6",
