@@ -48,7 +48,7 @@
   "optionalDependencies": {
     "@types/googlemaps": "3.30.16",
     "@types/markerclustererplus": "2.1.33",
-    "ajv": "6.9.1"
+    "ajv": "6.12.3"
   },
   "browserslist": [
     ">0.2%",
