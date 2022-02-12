@@ -43,7 +43,7 @@
   "optionalDependencies": {
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "ajv": "6.0.0",
+    "ajv": "6.12.3",
     "@types/googlemaps": "3.30.13",
     "@types/markerclustererplus": "2.1.33",
     "jquery": "3.3.1"
