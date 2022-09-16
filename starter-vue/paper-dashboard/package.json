@@ -11,7 +11,7 @@
     "dev": "vue-cli-service serve --open"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "chartist": "^0.11.0",
     "es6-promise": "^4.2.4",
     "ftp-deploy": "^2.3.3",
