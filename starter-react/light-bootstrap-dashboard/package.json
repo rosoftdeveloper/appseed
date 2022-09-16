@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://react-light-bootstrap-dashboard.appseed.us",
   "dependencies": {
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "chartist": "0.10.1",
     "ftp-deploy": "^2.3.3",
     "node-sass": "4.12.0",
